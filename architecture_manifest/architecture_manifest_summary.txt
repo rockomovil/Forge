@@ -1,0 +1,6 @@
+Architecture Manifest
+-----------------------
+artifact_count 6
+locked True
+immutable True
+status ARC0008_ARCHITECTURE_MANIFEST_READY

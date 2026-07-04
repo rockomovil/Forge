@@ -1,0 +1,7 @@
+Configuration Finalization
+----------------------------
+configuration_finalized True
+release_ready True
+locked True
+immutable True
+status CFG0010_CONFIGURATION_FINALIZATION_READY

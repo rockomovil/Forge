@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-04T05:04:19.797297+00:00",
+  "specifications": [
+    {
+      "id": "MOD-0001",
+      "name": "Example Capability",
+      "type": "capability",
+      "architecture": "Hybrid",
+      "dependencies": [
+        "KRN-0001",
+        "BLD-0002"
+      ],
+      "status": "PARSED"
+    }
+  ]
+}

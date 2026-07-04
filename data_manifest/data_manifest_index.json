@@ -1,0 +1,14 @@
+{
+  "module": "DAT-0008",
+  "artifact_count": 7,
+  "artifacts": [
+    "data_manifest.json",
+    "data_manifest.schema.json",
+    "data_manifest_index.json",
+    "data_manifest_manifest.json",
+    "data_manifest_ledger.jsonl",
+    "data_manifest_summary.txt",
+    "data_manifest_version.json"
+  ],
+  "manifest_hash": "aad77f03130dd736ea1272531569c3f79de665055b376cc69eaa479b141f84ab"
+}

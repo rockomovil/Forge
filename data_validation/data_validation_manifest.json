@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0004",
+  "status": "DAT0004_DATA_VALIDATION_READY",
+  "generated_files": [
+    "data_validation.json",
+    "data_validation.schema.json",
+    "data_validation_manifest.json",
+    "data_validation_ledger.jsonl",
+    "data_validation_summary.txt",
+    "data_validation_version.json"
+  ]
+}

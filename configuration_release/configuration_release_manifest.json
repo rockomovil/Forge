@@ -1,0 +1,12 @@
+{
+  "module": "CFG-0009",
+  "status": "CFG0009_CONFIGURATION_RELEASE_READY",
+  "generated_files": [
+    "configuration_release.json",
+    "configuration_release.schema.json",
+    "configuration_release_manifest.json",
+    "configuration_release_ledger.jsonl",
+    "configuration_release_summary.txt",
+    "configuration_release_version.json"
+  ]
+}

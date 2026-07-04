@@ -1,0 +1,12 @@
+{
+  "module": "CFG-0006",
+  "status": "CFG0006_CONFIGURATION_CERTIFICATION_READY",
+  "generated_files": [
+    "configuration_certification.json",
+    "configuration_certification.schema.json",
+    "configuration_certification_manifest.json",
+    "configuration_certification_ledger.jsonl",
+    "configuration_certification_summary.txt",
+    "configuration_certification_version.json"
+  ]
+}

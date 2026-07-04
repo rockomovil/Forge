@@ -1,0 +1,6 @@
+Data Dependency Graph
+----------------------
+graph_ready True
+node_count 1
+edge_count 0
+status DAT0003_DATA_DEPENDENCY_GRAPH_READY

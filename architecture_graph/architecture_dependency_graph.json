@@ -1,0 +1,31 @@
+{
+  "all_checks_passed": true,
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_registry/architecture_registry.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_graph/architecture_dependency_graph.json",
+  "cycle_count": 0,
+  "cycles": [],
+  "delete_allowed": false,
+  "edge_count": 0,
+  "edges": [],
+  "generated_at": "2026-07-04T04:27:02.394896+00:00",
+  "graph_hash": "71323288b99c1bcf3515fa0caf9632931a1c08545264a6573e3a6d36ee14414b",
+  "input_hash": "c44a09076431dddeab059251fbe6c46515cff889e841fe68e616af5651e0f2f0",
+  "missing_dependencies": [],
+  "missing_dependency_count": 0,
+  "module": "ARC-0003",
+  "mutation_allowed": false,
+  "name": "Architecture Dependency Graph",
+  "node_count": 1,
+  "nodes": [
+    {
+      "id": "architecture_root",
+      "name": "Architecture Root",
+      "type": "root"
+    }
+  ],
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "ARC0003_ARCHITECTURE_DEPENDENCY_GRAPH_READY",
+  "topological_order": [
+    "architecture_root"
+  ]
+}

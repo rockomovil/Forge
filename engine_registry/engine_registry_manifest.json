@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0002",
+  "status": "ENG0002_ENGINE_REGISTRY_READY",
+  "generated_files": [
+    "engine_registry.json",
+    "engine_registry.schema.json",
+    "engine_registry_manifest.json",
+    "engine_registry_ledger.jsonl",
+    "engine_registry_summary.txt",
+    "engine_registry_version.json"
+  ]
+}

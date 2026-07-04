@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+import json
+import sys
+
+CONFIG = Path.home() / "Documentos" / "EngineeringWorkspace" / "Forge" / "runtime" / "config" / "workspace.json"
+
+if not CONFIG.exists():
+    print("ERROR: workspace.json not found")
+    sys.exit(1)
+
+cfg = json.loads(CONFIG.read_text())
+
+FORGE = Path(cfg["forge_root"])
+
+CAPABILITIES = FORGE / "runtime" / "capabilities" / "registry.json"
+SERVICES     = FORGE / "runtime" / "services" / "registry.json"
+CONTEXT      = FORGE / "runtime" / "context" / "runtime_context.json"
+CONFIG_FILE  = FORGE / "runtime" / "config" / "forge_config.json"
+EVENTS       = FORGE / "runtime" / "events" / "events.jsonl"
+
+def doctor():
+
+    print()
+    print("========================================")
+    print(" Forge Doctor")
+    print("========================================")
+    print()
+
+    checks = [
+        ("Workspace", CONFIG),
+        ("Capabilities", CAPABILITIES),
+        ("Services", SERVICES),
+        ("Runtime", CONTEXT),
+        ("Configuration", CONFIG_FILE),
+        ("Events", EVENTS),
+    ]
+
+    ok = 0
+
+    for name, file in checks:
+
+        if file.exists():
+            print(f"{name:<18} OK")
+            ok += 1
+        else:
+            print(f"{name:<18} MISSING")
+
+    print()
+    print(f"Kernel Health : {ok}/{len(checks)}")
+
+def capabilities():
+
+    if not CAPABILITIES.exists():
+        print("Capability Registry missing.")
+        return
+
+    data = json.loads(CAPABILITIES.read_text())
+
+    print()
+    print("Capabilities")
+    print("------------")
+
+    for c in data:
+        print(f'{c["id"]:<8} {c["name"]}')
+
+    print()
+    print("Total:", len(data))
+
+def services():
+
+    if not SERVICES.exists():
+        print("Service Registry missing.")
+        return
+
+    data = json.loads(SERVICES.read_text())
+
+    print()
+    print("Services")
+    print("--------")
+
+    for s in data:
+        print(f'{s["id"]:<8} {s["name"]}')
+
+    print()
+    print("Total:", len(data))
+
+COMMANDS = {
+    "doctor": doctor,
+    "capabilities": capabilities,
+    "services": services
+}
+
+cmd = sys.argv[1] if len(sys.argv) > 1 else "doctor"
+
+if cmd not in COMMANDS:
+    print("Unknown command:", cmd)
+    sys.exit(1)
+
+COMMANDS[cmd]()

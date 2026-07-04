@@ -1,0 +1,13 @@
+{
+  "module": "ENG-0003",
+  "status": "ENG0003_ENGINE_DEPENDENCY_GRAPH_READY",
+  "generated_files": [
+    "engine_dependency_graph.json",
+    "engine_dependency_graph.schema.json",
+    "engine_dependency_index.json",
+    "engine_graph_manifest.json",
+    "engine_graph_ledger.jsonl",
+    "engine_graph_summary.txt",
+    "engine_graph_version.json"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "module": "CFG-0003",
+  "status": "CFG0003_CONFIGURATION_DEPENDENCY_GRAPH_READY",
+  "generated_files": [
+    "configuration_dependency_graph.json",
+    "configuration_dependency_graph.schema.json",
+    "configuration_dependency_index.json",
+    "configuration_graph_manifest.json",
+    "configuration_graph_ledger.jsonl",
+    "configuration_graph_summary.txt",
+    "configuration_graph_version.json"
+  ]
+}

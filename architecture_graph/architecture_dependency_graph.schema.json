@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "all_checks_passed": {
+      "type": "boolean"
+    },
+    "edge_count": {
+      "type": "integer"
+    },
+    "edges": {
+      "type": "array"
+    },
+    "graph_hash": {
+      "type": "string"
+    },
+    "module": {
+      "const": "ARC-0003"
+    },
+    "node_count": {
+      "type": "integer"
+    },
+    "nodes": {
+      "type": "array"
+    },
+    "status": {
+      "type": "string"
+    },
+    "topological_order": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "module",
+    "status",
+    "canonical_input",
+    "canonical_output",
+    "node_count",
+    "edge_count",
+    "all_checks_passed",
+    "nodes",
+    "edges",
+    "topological_order",
+    "graph_hash"
+  ],
+  "title": "Forge ARC-0003 Architecture Dependency Graph",
+  "type": "object"
+}

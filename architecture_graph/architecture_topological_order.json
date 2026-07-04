@@ -1,0 +1,9 @@
+{
+  "count": 1,
+  "hash": "9f82df584ba9b736789637db9f4c18b476075f0a99e36360d0377cc90e7c1b09",
+  "module": "ARC-0003",
+  "topological_order": [
+    "architecture_root"
+  ],
+  "valid": true
+}

@@ -1,0 +1,9 @@
+{
+    "bootstrap_version": "0.1",
+    "status": "ACTIVE",
+    "stage": "Foundation",
+    "completed": [
+        "B0001",
+        "B0002"
+    ]
+}

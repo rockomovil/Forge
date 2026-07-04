@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-07-04T00:43:30.510340+00:00",
+  "architecture": {
+    "style": "Hybrid",
+    "layers": [
+      {
+        "name": "Meta Layer",
+        "purpose": "Self evaluation, self optimization and architecture intelligence."
+      },
+      {
+        "name": "Application Layer",
+        "style": "Clean Architecture",
+        "purpose": "Use cases and orchestration."
+      },
+      {
+        "name": "Domain Layer",
+        "style": "Onion Architecture",
+        "purpose": "Business rules and domain model."
+      },
+      {
+        "name": "Ports",
+        "style": "Hexagonal",
+        "purpose": "Interfaces exposed by the domain."
+      },
+      {
+        "name": "Adapters",
+        "style": "Hexagonal",
+        "purpose": "External implementations."
+      },
+      {
+        "name": "Infrastructure",
+        "purpose": "Filesystem, databases, APIs, Git, Docker, LLMs."
+      }
+    ],
+    "principles": [
+      "SOLID",
+      "Dependency Inversion",
+      "Separation of Concerns",
+      "Domain First",
+      "Ports and Adapters",
+      "Self Inspection",
+      "Self Refactoring"
+    ]
+  }
+}

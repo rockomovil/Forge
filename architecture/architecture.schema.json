@@ -1,0 +1,11 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Forge Architecture",
+    "type": "object",
+    "required": [
+        "framework",
+        "architecture_version",
+        "phase",
+        "status"
+    ]
+}

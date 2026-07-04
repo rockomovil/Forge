@@ -1,0 +1,7 @@
+Data Finalization
+-------------------
+data_finalized True
+release_ready True
+locked True
+immutable True
+status DAT0010_DATA_FINALIZATION_READY

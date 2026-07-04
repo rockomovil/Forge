@@ -1,0 +1,14 @@
+{
+  "module": "CFG-0008",
+  "artifact_count": 7,
+  "artifacts": [
+    "configuration_manifest.json",
+    "configuration_manifest.schema.json",
+    "configuration_manifest_index.json",
+    "configuration_manifest_manifest.json",
+    "configuration_manifest_ledger.jsonl",
+    "configuration_manifest_summary.txt",
+    "configuration_manifest_version.json"
+  ],
+  "manifest_hash": "625b3055b56798285d908e35a98cfd02dee5cd08d0598fa70092e304ff0392a2"
+}

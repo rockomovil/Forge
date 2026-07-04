@@ -1,0 +1,12 @@
+{
+  "module": "CFG-0005",
+  "status": "CFG0005_CONFIGURATION_INTEGRITY_AUDIT_READY",
+  "generated_files": [
+    "configuration_audit.json",
+    "configuration_audit.schema.json",
+    "configuration_audit_manifest.json",
+    "configuration_audit_ledger.jsonl",
+    "configuration_audit_summary.txt",
+    "configuration_audit_version.json"
+  ]
+}

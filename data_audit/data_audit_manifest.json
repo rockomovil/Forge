@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0005",
+  "status": "DAT0005_DATA_INTEGRITY_AUDIT_READY",
+  "generated_files": [
+    "data_audit.json",
+    "data_audit.schema.json",
+    "data_audit_manifest.json",
+    "data_audit_ledger.jsonl",
+    "data_audit_summary.txt",
+    "data_audit_version.json"
+  ]
+}

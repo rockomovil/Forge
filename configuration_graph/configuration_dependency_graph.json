@@ -1,0 +1,16 @@
+{
+  "module": "CFG-0003",
+  "name": "Configuration Dependency Graph",
+  "status": "CFG0003_CONFIGURATION_DEPENDENCY_GRAPH_READY",
+  "registry_ready": true,
+  "graph_ready": true,
+  "nodes": [
+    "configuration"
+  ],
+  "edges": [],
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/configuration_registry/configuration_registry.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/configuration_graph/configuration_dependency_graph.json",
+  "generated_at": "2026-07-04T04:30:35.484071+00:00",
+  "graph_hash": "9516149678f9f7055bcb319831277dc3012bb3567566d999bed5c633386ef001"
+}

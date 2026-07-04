@@ -1,0 +1,12 @@
+{
+  "module": "ARC-0005",
+  "status": "ARC0005_ARCHITECTURE_INTEGRITY_AUDIT_READY",
+  "generated_files": [
+    "architecture_audit.json",
+    "architecture_audit.schema.json",
+    "architecture_audit_manifest.json",
+    "architecture_audit_ledger.jsonl",
+    "architecture_audit_summary.txt",
+    "architecture_audit_version.json"
+  ]
+}

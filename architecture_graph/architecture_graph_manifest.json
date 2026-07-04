@@ -1,0 +1,19 @@
+{
+  "all_checks_passed": true,
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_registry/architecture_registry.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_graph/architecture_dependency_graph.json",
+  "generated_files": [
+    "architecture_dependency_graph.json",
+    "architecture_dependency_graph.schema.json",
+    "architecture_dependency_index.json",
+    "architecture_topological_order.json",
+    "architecture_graph_manifest.json",
+    "architecture_graph_ledger.jsonl",
+    "architecture_graph_summary.txt",
+    "architecture_graph_version.json"
+  ],
+  "hash": "47a319181732ca80b3e1ff9d705fdce6e92d6692494c4d4718f0bf712755b5f7",
+  "module": "ARC-0003",
+  "name": "Architecture Dependency Graph",
+  "status": "ARC0003_ARCHITECTURE_DEPENDENCY_GRAPH_READY"
+}

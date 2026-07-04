@@ -1,0 +1,13 @@
+{
+  "module": "ARC-0008",
+  "artifact_count": 6,
+  "artifacts": [
+    "architecture_manifest.json",
+    "architecture_manifest.schema.json",
+    "architecture_manifest_index.json",
+    "architecture_manifest_ledger.jsonl",
+    "architecture_manifest_summary.txt",
+    "architecture_manifest_version.json"
+  ],
+  "manifest_hash": "a52b76115cf3a6a38066090b65f45cde4a43afc8dd6b6d470b610af88a5453fb"
+}

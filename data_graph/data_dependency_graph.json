@@ -1,0 +1,16 @@
+{
+  "module": "DAT-0003",
+  "name": "Data Dependency Graph",
+  "status": "DAT0003_DATA_DEPENDENCY_GRAPH_READY",
+  "registry_ready": true,
+  "graph_ready": true,
+  "nodes": [
+    "data"
+  ],
+  "edges": [],
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data_registry/data_registry.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data_graph/data_dependency_graph.json",
+  "generated_at": "2026-07-04T04:35:51.490626+00:00",
+  "graph_hash": "06a2c8391146d2dd5dee3d5113ef70e359dfa450f74885647801a7df00ebd723"
+}

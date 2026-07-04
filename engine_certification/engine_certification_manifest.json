@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0006",
+  "status": "ENG0006_ENGINE_CERTIFICATION_READY",
+  "generated_files": [
+    "engine_certification.json",
+    "engine_certification.schema.json",
+    "engine_certification_manifest.json",
+    "engine_certification_ledger.jsonl",
+    "engine_certification_summary.txt",
+    "engine_certification_version.json"
+  ]
+}

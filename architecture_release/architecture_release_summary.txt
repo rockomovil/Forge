@@ -1,0 +1,6 @@
+Architecture Release
+----------------------
+release_ready True
+locked True
+immutable True
+status ARC0009_ARCHITECTURE_RELEASE_READY

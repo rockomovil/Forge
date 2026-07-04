@@ -1,0 +1,22 @@
+{
+  "forge": {
+    "name": "Forge",
+    "version": "0.1",
+    "mode": "BOOTSTRAP"
+  },
+  "kernel": {
+    "autoload_services": true,
+    "autoload_capabilities": true,
+    "event_bus_enabled": true
+  },
+  "workspace": {
+    "auto_discovery": true
+  },
+  "security": {
+    "human_control_required": true,
+    "autonomous_execution": false
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}

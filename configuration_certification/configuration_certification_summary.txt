@@ -1,0 +1,5 @@
+Configuration Certification
+-----------------------------
+certified True
+audit_score 1.0
+status CFG0006_CONFIGURATION_CERTIFICATION_READY

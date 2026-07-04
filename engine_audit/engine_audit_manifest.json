@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0005",
+  "status": "ENG0005_ENGINE_INTEGRITY_AUDIT_READY",
+  "generated_files": [
+    "engine_audit.json",
+    "engine_audit.schema.json",
+    "engine_audit_manifest.json",
+    "engine_audit_ledger.jsonl",
+    "engine_audit_summary.txt",
+    "engine_audit_version.json"
+  ]
+}

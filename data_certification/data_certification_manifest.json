@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0006",
+  "status": "DAT0006_DATA_CERTIFICATION_READY",
+  "generated_files": [
+    "data_certification.json",
+    "data_certification.schema.json",
+    "data_certification_manifest.json",
+    "data_certification_ledger.jsonl",
+    "data_certification_summary.txt",
+    "data_certification_version.json"
+  ]
+}

@@ -1,0 +1,5 @@
+Data Certification
+--------------------
+certified True
+audit_score 1.0
+status DAT0006_DATA_CERTIFICATION_READY

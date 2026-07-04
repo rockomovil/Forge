@@ -1,0 +1,6 @@
+Configuration Release
+-----------------------
+release_ready True
+locked True
+immutable True
+status CFG0009_CONFIGURATION_RELEASE_READY

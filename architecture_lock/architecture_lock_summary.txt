@@ -1,0 +1,6 @@
+Architecture Lock
+-----------------
+locked True
+immutable True
+mutation_allowed False
+status ARC0007_ARCHITECTURE_LOCK_READY

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-04T05:06:44.177415+00:00",
+  "planner": "BLD-0002",
+  "orders": [
+    {
+      "step": 1,
+      "order_id": "WO-000001",
+      "title": "Create Module Generator",
+      "status": "PLANNED",
+      "depends_on": [],
+      "estimated_phase": "GENERATOR"
+    }
+  ]
+}

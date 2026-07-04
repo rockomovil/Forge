@@ -1,0 +1,28 @@
+{
+    "generated": "2026-07-04T05:03:59.824350+00:00",
+    "runtime_version": "1.0.0",
+    "runtime_ready": true,
+    "checks": [
+        {
+            "component": "installation",
+            "path": "generated/install/installation_manifest.json",
+            "exists": true
+        },
+        {
+            "component": "registry",
+            "path": "generated/registry/forge_registry.json",
+            "exists": true
+        },
+        {
+            "component": "metadata",
+            "path": "generated/metadata/forge_metadata.json",
+            "exists": true
+        },
+        {
+            "component": "artifact_index",
+            "path": "generated/index/artifact_index.json",
+            "exists": true
+        }
+    ],
+    "sha256": "b0bbd3140a5dc2b7c58ed4c20e6a8bf58c80acca851ebc71bd35fbed44d05c2b"
+}

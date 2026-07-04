@@ -1,0 +1,7 @@
+{
+    "kernel_name": "Forge Bootstrap Kernel",
+    "version": "0.1",
+    "mode": "BOOTSTRAP",
+    "autonomous": false,
+    "human_control": true
+}

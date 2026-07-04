@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-07-04T05:04:56.122118+00:00",
+  "fir_version": "1.0",
+  "name": "Forge Intermediate Representation",
+  "description": "Canonical engineering representation used internally by Forge.",
+  "pipeline": [
+    "Specification",
+    "Parser",
+    "Architecture Validator",
+    "FIR",
+    "Generators",
+    "Validation",
+    "Release"
+  ],
+  "required_sections": [
+    "identity",
+    "classification",
+    "architecture",
+    "dependencies",
+    "capabilities",
+    "interfaces",
+    "artifacts",
+    "quality",
+    "metadata"
+  ],
+  "artifact_targets": [
+    "python",
+    "tests",
+    "documentation",
+    "capability_registry",
+    "command_center",
+    "release",
+    "metrics"
+  ],
+  "future_targets": [
+    "rust",
+    "go",
+    "cpp",
+    "web",
+    "api",
+    "docker",
+    "terraform"
+  ],
+  "design_principles": [
+    "Single Source of Truth",
+    "Deterministic Generation",
+    "Architecture First",
+    "Language Independent",
+    "Extensible",
+    "Reproducible"
+  ]
+}

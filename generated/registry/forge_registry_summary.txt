@@ -1,0 +1,8 @@
+FORGE REGISTRY
+
+Artifacts   : 13
+Categories  : 8
+Dependencies: 13
+
+Generated   : 2026-07-04T05:11:32.403131+00:00
+SHA256      : f067b513bbcb99a44dd08dd19d97f7dcad2456c32f3cda5c55a2a8240cc4ed9c

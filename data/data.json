@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0001",
+  "name": "Data Charter",
+  "status": "DAT0001_DATA_CHARTER_READY",
+  "configuration_finalized": true,
+  "data_ready": true,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/configuration_finalization/configuration_finalization.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data/data.json",
+  "generated_at": "2026-07-04T04:34:55.836905+00:00",
+  "data_hash": "b7c44511f63ad76f702d0df408150d6d368f57b3bc3e790c6b51913f99f4d098"
+}

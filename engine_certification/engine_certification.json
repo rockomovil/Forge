@@ -1,0 +1,13 @@
+{
+  "module": "ENG-0006",
+  "name": "Engine Certification",
+  "status": "ENG0006_ENGINE_CERTIFICATION_READY",
+  "certified": true,
+  "all_checks_passed": true,
+  "audit_score": 1.0,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/engine_audit/engine_audit.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/engine_certification/engine_certification.json",
+  "generated_at": "2026-07-04T04:42:30.705652+00:00",
+  "certification_hash": "df1206c15da79c5a78353654891682658d257b8759a165e5ce7dc349b3baf437"
+}

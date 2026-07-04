@@ -1,0 +1,5 @@
+Configuration Charter
+-----------------------
+configuration_ready True
+architecture_finalized True
+status CFG0001_CONFIGURATION_CHARTER_READY

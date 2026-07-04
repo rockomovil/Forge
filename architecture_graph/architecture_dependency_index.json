@@ -1,0 +1,15 @@
+{
+  "component_count": 1,
+  "components": {
+    "architecture_root": {
+      "id": "architecture_root",
+      "name": "Architecture Root",
+      "type": "root"
+    }
+  },
+  "dependencies": [],
+  "dependency_count": 0,
+  "hash": "8a1620e7743e953089678146276ef84b940b6c4d666e44b22f855a0c25542bd9",
+  "index_name": "architecture_dependency_index",
+  "module": "ARC-0003"
+}

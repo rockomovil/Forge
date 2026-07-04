@@ -1,0 +1,6 @@
+{"timestamp": "2026-07-03T23:46:53.994268+00:00", "event": "SYSTEM_BOOT", "source": "F0003", "payload": {"kernel": "Forge", "version": "0.1"}}
+{"timestamp": "2026-07-03T23:46:53.994428+00:00", "event": "SERVICE_STARTED", "source": "F0002", "payload": {"service": "Service Registry"}}
+{"timestamp": "2026-07-03T23:46:53.994498+00:00", "event": "CAPABILITY_READY", "source": "F0001", "payload": {"capability": "Capability Registry"}}
+{"timestamp": "2026-07-04T05:09:06.416327+00:00", "event": "SYSTEM_BOOT", "source": "F0003", "payload": {"kernel": "Forge", "version": "0.1"}}
+{"timestamp": "2026-07-04T05:09:06.416450+00:00", "event": "SERVICE_STARTED", "source": "F0002", "payload": {"service": "Service Registry"}}
+{"timestamp": "2026-07-04T05:09:06.416522+00:00", "event": "CAPABILITY_READY", "source": "F0001", "payload": {"capability": "Capability Registry"}}

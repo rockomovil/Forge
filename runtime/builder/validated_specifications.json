@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-07-04T05:04:37.435979+00:00",
+  "validator": "BLD-0004",
+  "specifications": [
+    {
+      "id": "MOD-0001",
+      "name": "Example Capability",
+      "status": "VALID",
+      "checks": {
+        "id_present": true,
+        "name_present": true,
+        "type_present": true,
+        "architecture_allowed": true,
+        "dependencies_declared": true,
+        "dependencies_known_or_external": true,
+        "no_self_dependency": true
+      },
+      "passed": 7,
+      "total": 7,
+      "score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Configuration Lock
+------------------
+locked True
+immutable True
+mutation_allowed False
+status CFG0007_CONFIGURATION_LOCK_READY

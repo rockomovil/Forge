@@ -1,0 +1,21 @@
+{
+  "module": "DAT-0008",
+  "name": "Data Manifest",
+  "status": "DAT0008_DATA_MANIFEST_READY",
+  "locked": true,
+  "immutable": true,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data_lock/data_lock.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data_manifest/data_manifest.json",
+  "generated_at": "2026-07-04T04:37:55.315147+00:00",
+  "artifacts": [
+    "data_manifest.json",
+    "data_manifest.schema.json",
+    "data_manifest_index.json",
+    "data_manifest_manifest.json",
+    "data_manifest_ledger.jsonl",
+    "data_manifest_summary.txt",
+    "data_manifest_version.json"
+  ],
+  "manifest_hash": "aad77f03130dd736ea1272531569c3f79de665055b376cc69eaa479b141f84ab"
+}

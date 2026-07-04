@@ -1,0 +1,12 @@
+{
+  "module": "CFG-0001",
+  "status": "CFG0001_CONFIGURATION_CHARTER_READY",
+  "generated_files": [
+    "configuration.json",
+    "configuration.schema.json",
+    "configuration_manifest.json",
+    "configuration_ledger.jsonl",
+    "configuration_summary.txt",
+    "configuration_version.json"
+  ]
+}

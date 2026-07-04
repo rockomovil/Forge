@@ -1,0 +1,5 @@
+Configuration Registry
+------------------------
+configuration_ready True
+registry_ready True
+status CFG0002_CONFIGURATION_REGISTRY_READY

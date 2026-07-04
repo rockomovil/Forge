@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0001",
+  "status": "DAT0001_DATA_CHARTER_READY",
+  "generated_files": [
+    "data.json",
+    "data.schema.json",
+    "data_manifest.json",
+    "data_ledger.jsonl",
+    "data_summary.txt",
+    "data_version.json"
+  ]
+}

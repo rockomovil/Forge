@@ -1,0 +1,20 @@
+{
+  "module": "ARC-0008",
+  "name": "Architecture Manifest",
+  "status": "ARC0008_ARCHITECTURE_MANIFEST_READY",
+  "locked": true,
+  "immutable": true,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_lock/architecture_lock.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/architecture_manifest/architecture_manifest.json",
+  "generated_at": "2026-07-04T04:28:51.107048+00:00",
+  "artifacts": [
+    "architecture_manifest.json",
+    "architecture_manifest.schema.json",
+    "architecture_manifest_index.json",
+    "architecture_manifest_ledger.jsonl",
+    "architecture_manifest_summary.txt",
+    "architecture_manifest_version.json"
+  ],
+  "manifest_hash": "a52b76115cf3a6a38066090b65f45cde4a43afc8dd6b6d470b610af88a5453fb"
+}

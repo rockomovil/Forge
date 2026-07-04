@@ -1,0 +1,12 @@
+{
+  "module": "ARC-0009",
+  "status": "ARC0009_ARCHITECTURE_RELEASE_READY",
+  "generated_files": [
+    "architecture_release.json",
+    "architecture_release.schema.json",
+    "architecture_release_manifest.json",
+    "architecture_release_ledger.jsonl",
+    "architecture_release_summary.txt",
+    "architecture_release_version.json"
+  ]
+}

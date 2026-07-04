@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0009",
+  "status": "ENG0009_ENGINE_RELEASE_READY",
+  "generated_files": [
+    "engine_release.json",
+    "engine_release.schema.json",
+    "engine_release_manifest.json",
+    "engine_release_ledger.jsonl",
+    "engine_release_summary.txt",
+    "engine_release_version.json"
+  ]
+}

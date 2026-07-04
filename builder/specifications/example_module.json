@@ -1,0 +1,14 @@
+{
+    "id":"MOD-0001",
+    "type":"capability",
+    "name":"Example Capability",
+    "category":"Builder",
+    "architecture":"Hybrid",
+    "dependencies":[
+        "KRN-0001",
+        "BLD-0002"
+    ],
+    "generate_tests":true,
+    "generate_docs":true,
+    "register_capability":true
+}

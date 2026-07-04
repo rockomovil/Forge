@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0001",
+  "status": "ENG0001_ENGINE_CHARTER_READY",
+  "generated_files": [
+    "engine.json",
+    "engine.schema.json",
+    "engine_manifest.json",
+    "engine_ledger.jsonl",
+    "engine_summary.txt",
+    "engine_version.json"
+  ]
+}

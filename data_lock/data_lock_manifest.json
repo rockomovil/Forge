@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0007",
+  "status": "DAT0007_DATA_LOCK_READY",
+  "generated_files": [
+    "data_lock.json",
+    "data_lock.schema.json",
+    "data_lock_manifest.json",
+    "data_lock_ledger.jsonl",
+    "data_lock_summary.txt",
+    "data_lock_version.json"
+  ]
+}

@@ -1,0 +1,6 @@
+Data Release
+------------
+release_ready True
+locked True
+immutable True
+status DAT0009_DATA_RELEASE_READY

@@ -1,0 +1,6 @@
+Data Manifest
+-------------
+artifact_count 7
+locked True
+immutable True
+status DAT0008_DATA_MANIFEST_READY

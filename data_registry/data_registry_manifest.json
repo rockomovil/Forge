@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0002",
+  "status": "DAT0002_DATA_REGISTRY_READY",
+  "generated_files": [
+    "data_registry.json",
+    "data_registry.schema.json",
+    "data_registry_manifest.json",
+    "data_registry_ledger.jsonl",
+    "data_registry_summary.txt",
+    "data_registry_version.json"
+  ]
+}

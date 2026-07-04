@@ -1,0 +1,13 @@
+{
+  "module": "CFG-0008",
+  "status": "CFG0008_CONFIGURATION_MANIFEST_READY",
+  "generated_files": [
+    "configuration_manifest.json",
+    "configuration_manifest.schema.json",
+    "configuration_manifest_index.json",
+    "configuration_manifest_manifest.json",
+    "configuration_manifest_ledger.jsonl",
+    "configuration_manifest_summary.txt",
+    "configuration_manifest_version.json"
+  ]
+}

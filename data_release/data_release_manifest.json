@@ -1,0 +1,12 @@
+{
+  "module": "DAT-0009",
+  "status": "DAT0009_DATA_RELEASE_READY",
+  "generated_files": [
+    "data_release.json",
+    "data_release.schema.json",
+    "data_release_manifest.json",
+    "data_release_ledger.jsonl",
+    "data_release_summary.txt",
+    "data_release_version.json"
+  ]
+}

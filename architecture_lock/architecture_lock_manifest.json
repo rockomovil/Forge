@@ -1,0 +1,12 @@
+{
+  "module": "ARC-0007",
+  "status": "ARC0007_ARCHITECTURE_LOCK_READY",
+  "generated_files": [
+    "architecture_lock.json",
+    "architecture_lock.schema.json",
+    "architecture_lock_manifest.json",
+    "architecture_lock_ledger.jsonl",
+    "architecture_lock_summary.txt",
+    "architecture_lock_version.json"
+  ]
+}

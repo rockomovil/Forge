@@ -1,0 +1,5 @@
+Architecture Certification
+----------------------------
+certified True
+audit_score 1.0
+status ARC0006_ARCHITECTURE_CERTIFICATION_READY

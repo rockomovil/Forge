@@ -1,0 +1,5 @@
+Data Charter
+-------------
+data_ready True
+configuration_finalized True
+status DAT0001_DATA_CHARTER_READY

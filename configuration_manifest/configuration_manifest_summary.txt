@@ -1,0 +1,6 @@
+Configuration Manifest
+------------------------
+artifact_count 7
+locked True
+immutable True
+status CFG0008_CONFIGURATION_MANIFEST_READY

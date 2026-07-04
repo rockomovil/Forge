@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0008",
+  "status": "ENG0008_ENGINE_LOCK_READY",
+  "generated_files": [
+    "engine_lock.json",
+    "engine_lock.schema.json",
+    "engine_lock_manifest.json",
+    "engine_lock_ledger.jsonl",
+    "engine_lock_summary.txt",
+    "engine_lock_version.json"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0007",
+  "status": "ENG0007_ENGINE_SEAL_READY",
+  "generated_files": [
+    "engine_seal.json",
+    "engine_seal.schema.json",
+    "engine_seal_manifest.json",
+    "engine_seal_ledger.jsonl",
+    "engine_seal_summary.txt",
+    "engine_seal_version.json"
+  ]
+}

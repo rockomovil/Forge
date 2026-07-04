@@ -1,0 +1,12 @@
+{
+  "module": "CFG-0007",
+  "status": "CFG0007_CONFIGURATION_LOCK_READY",
+  "generated_files": [
+    "configuration_lock.json",
+    "configuration_lock.schema.json",
+    "configuration_lock_manifest.json",
+    "configuration_lock_ledger.jsonl",
+    "configuration_lock_summary.txt",
+    "configuration_lock_version.json"
+  ]
+}

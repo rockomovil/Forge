@@ -1,0 +1,12 @@
+{
+  "module": "ARC-0006",
+  "status": "ARC0006_ARCHITECTURE_CERTIFICATION_READY",
+  "generated_files": [
+    "architecture_certification.json",
+    "architecture_certification.schema.json",
+    "architecture_certification_manifest.json",
+    "architecture_certification_ledger.jsonl",
+    "architecture_certification_summary.txt",
+    "architecture_certification_version.json"
+  ]
+}

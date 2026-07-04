@@ -1,0 +1,13 @@
+{
+  "module": "DAT-0003",
+  "status": "DAT0003_DATA_DEPENDENCY_GRAPH_READY",
+  "generated_files": [
+    "data_dependency_graph.json",
+    "data_dependency_graph.schema.json",
+    "data_dependency_index.json",
+    "data_graph_manifest.json",
+    "data_graph_ledger.jsonl",
+    "data_graph_summary.txt",
+    "data_graph_version.json"
+  ]
+}

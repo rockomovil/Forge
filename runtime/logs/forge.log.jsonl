@@ -1,0 +1,12 @@
+{"timestamp": "2026-07-04T00:01:03.232104+00:00", "level": "INFO", "source": "F0006", "message": "Kernel Logger initialized"}
+{"timestamp": "2026-07-04T00:01:03.232262+00:00", "level": "INFO", "source": "Kernel", "message": "Capability Registry available"}
+{"timestamp": "2026-07-04T00:01:03.232328+00:00", "level": "INFO", "source": "Kernel", "message": "Service Registry available"}
+{"timestamp": "2026-07-04T00:01:03.232389+00:00", "level": "INFO", "source": "Kernel", "message": "Event Bus available"}
+{"timestamp": "2026-07-04T00:01:03.232435+00:00", "level": "INFO", "source": "Kernel", "message": "Runtime Context available"}
+{"timestamp": "2026-07-04T00:01:03.232479+00:00", "level": "INFO", "source": "Kernel", "message": "Configuration Manager available"}
+{"timestamp": "2026-07-04T05:09:46.921353+00:00", "level": "INFO", "source": "F0006", "message": "Kernel Logger initialized"}
+{"timestamp": "2026-07-04T05:09:46.921475+00:00", "level": "INFO", "source": "Kernel", "message": "Capability Registry available"}
+{"timestamp": "2026-07-04T05:09:46.921543+00:00", "level": "INFO", "source": "Kernel", "message": "Service Registry available"}
+{"timestamp": "2026-07-04T05:09:46.921597+00:00", "level": "INFO", "source": "Kernel", "message": "Event Bus available"}
+{"timestamp": "2026-07-04T05:09:46.921652+00:00", "level": "INFO", "source": "Kernel", "message": "Runtime Context available"}
+{"timestamp": "2026-07-04T05:09:46.921699+00:00", "level": "INFO", "source": "Kernel", "message": "Configuration Manager available"}

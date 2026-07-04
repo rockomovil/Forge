@@ -1,0 +1,8 @@
+Architecture Dependency Graph
+-----------------------------
+nodes               1
+edges               0
+missing_dependencies 0
+cycles              0
+all_checks_passed   True
+status              ARC0003_ARCHITECTURE_DEPENDENCY_GRAPH_READY

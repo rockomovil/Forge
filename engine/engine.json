@@ -1,0 +1,12 @@
+{
+  "module": "ENG-0001",
+  "name": "Engine Charter",
+  "status": "ENG0001_ENGINE_CHARTER_READY",
+  "data_finalized": true,
+  "engine_ready": true,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "canonical_input": "/home/esteban/Documentos/EngineeringWorkspace/Forge/data_finalization/data_finalization.json",
+  "canonical_output": "/home/esteban/Documentos/EngineeringWorkspace/Forge/engine/engine.json",
+  "generated_at": "2026-07-04T04:40:01.500538+00:00",
+  "engine_hash": "84d2f578acd2526eaf3b07075eefb47384ab3cbe65f9459c3bfb480eb5987bdb"
+}

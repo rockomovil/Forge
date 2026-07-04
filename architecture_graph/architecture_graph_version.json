@@ -1,0 +1,7 @@
+{
+  "canonical_input_hash": "c44a09076431dddeab059251fbe6c46515cff889e841fe68e616af5651e0f2f0",
+  "canonical_output_hash": "71323288b99c1bcf3515fa0caf9632931a1c08545264a6573e3a6d36ee14414b",
+  "module": "ARC-0003",
+  "status": "ARC0003_ARCHITECTURE_DEPENDENCY_GRAPH_READY",
+  "version": "1.0.0"
+}

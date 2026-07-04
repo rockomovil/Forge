@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-04T05:07:54.797679+00:00",
+  "forge_root": "/home/esteban/Documentos/EngineeringWorkspace/Forge",
+  "workspace": "/home/esteban/Documentos/EngineeringWorkspace",
+  "platform": "Linux",
+  "platform_release": "6.12.94+deb13-amd64",
+  "python": "3.12.13",
+  "kernel": "Forge Kernel",
+  "kernel_version": "0.1",
+  "boot_mode": "BOOTSTRAP",
+  "human_control": true,
+  "autonomous_mode": false
+}
