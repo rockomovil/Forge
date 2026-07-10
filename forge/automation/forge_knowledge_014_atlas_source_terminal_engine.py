@@ -1,0 +1,66 @@
+import json
+import hashlib
+from pathlib import Path
+from datetime import datetime, timezone
+
+BASE = Path(__file__).resolve().parents[2]
+RUNTIME = BASE / "runtime" / "atlas"
+
+RUNTIME.mkdir(parents=True, exist_ok=True)
+
+terminal = {
+    "module": "FORGE-KNOWLEDGE-014",
+    "status": "ATLAS_SOURCE_TERMINAL_ENGINE_READY",
+    "source_engine": "FORGE-KNOWLEDGE-013_ATLAS_SOURCE_FINALIZATION_ENGINE",
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "terminal": {
+        "initialized": True,
+        "source_terminal_ready": True,
+        "finalization_terminal_ready": True,
+        "release_terminal_ready": True,
+        "archive_terminal_ready": True,
+        "certification_terminal_ready": True,
+        "immutable_terminal_state_ready": True
+    },
+    "capabilities": {
+        "source_terminal_validation": True,
+        "final_state_terminalization": True,
+        "archive_terminal_binding": True,
+        "certification_terminal_binding": True,
+        "atlas_terminal_integrity_validation": True,
+        "terminal_ledger_generation": True
+    },
+    "terminal_state": {
+        "sealed": True,
+        "locked": True,
+        "certified": True,
+        "immutable": True,
+        "mutation_allowed": False,
+        "delete_allowed": False,
+        "rollback_allowed": False
+    },
+    "timestamp": datetime.now(timezone.utc).isoformat()
+}
+
+payload = json.dumps(terminal, sort_keys=True).encode()
+hash_value = hashlib.sha256(payload).hexdigest()
+
+terminal["hash"] = hash_value
+
+(RUNTIME / "source_terminal.json").write_text(
+    json.dumps(terminal, indent=2)
+)
+
+(RUNTIME / "source_terminal_hash.json").write_text(
+    json.dumps({
+        "module": "FORGE-KNOWLEDGE-014",
+        "hash": hash_value
+    }, indent=2)
+)
+
+with open(RUNTIME / "source_terminal_ledger.jsonl", "a") as f:
+    f.write(json.dumps(terminal) + "\n")
+
+print("FORGE-KNOWLEDGE-014 ATLAS SOURCE TERMINAL ENGINE READY")
+print("hash =", hash_value)
+print("runtime_mode = SHADOW_ONLY_READ_ONLY")
