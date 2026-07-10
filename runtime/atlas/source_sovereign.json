@@ -1,23 +1,27 @@
 {
-  "module": "FORGE-KNOWLEDGE-015",
+  "module": "FORGE-KNOWLEDGE-035",
   "status": "ATLAS_SOURCE_SOVEREIGN_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-014_ATLAS_SOURCE_TERMINAL_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-034_ATLAS_SOURCE_TERMINAL_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "sovereign_state": {
     "initialized": true,
     "source_sovereign_ready": true,
     "terminal_sovereign_ready": true,
-    "archive_sovereign_ready": true,
+    "finalization_sovereign_ready": true,
     "release_sovereign_ready": true,
+    "archive_sovereign_ready": true,
     "certification_sovereign_ready": true,
+    "knowledge_sovereign_ready": true,
     "immutable_sovereign_state_ready": true
   },
   "capabilities": {
     "source_sovereign_validation": true,
     "terminal_state_protection": true,
-    "archive_sovereign_binding": true,
-    "certification_sovereign_binding": true,
-    "atlas_sovereign_integrity_validation": true,
+    "release_state_protection": true,
+    "archive_state_protection": true,
+    "certification_state_protection": true,
+    "knowledge_state_protection": true,
+    "atlas_sovereign_generation": true,
     "sovereign_ledger_generation": true
   },
   "terminal_state": {
@@ -29,6 +33,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-10T20:37:50.925697+00:00",
-  "hash": "fe1df3f19bb3ab0dff8deab29aca6b8d8da5527965d9d98b4b93cbee06ee9119"
+  "timestamp": "2026-07-10T22:03:18.943924+00:00",
+  "hash": "2d4b843d20022777ec28463d73a875c6612b5a10ebcf2a1af529271f5305f3fe"
 }
