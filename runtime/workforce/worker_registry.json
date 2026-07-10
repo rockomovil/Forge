@@ -1,0 +1,73 @@
+{
+  "module": "FORGE-WORKFORCE-001",
+  "status": "WORKER_REGISTRY_EXPANSION_ENGINE_READY",
+  "timestamp": "2026-07-10T19:51:48.244794+00:00",
+  "workers": [
+    {
+      "id": "WORKER-ATLAS",
+      "role": "KNOWLEDGE_ACQUISITION",
+      "domain": "FINANCIAL_KNOWLEDGE",
+      "permissions": [
+        "source_ingestion",
+        "knowledge_processing",
+        "semantic_indexing"
+      ]
+    },
+    {
+      "id": "WORKER-MATH",
+      "role": "MATHEMATICAL_ENGINEERING",
+      "domain": "QUANTITATIVE_MODELS",
+      "permissions": [
+        "mathematical_analysis",
+        "simulation",
+        "optimization"
+      ]
+    },
+    {
+      "id": "WORKER-FINANCE",
+      "role": "FINANCIAL_ENGINEERING",
+      "domain": "CAPITAL_INTELLIGENCE",
+      "permissions": [
+        "portfolio_analysis",
+        "risk_models",
+        "valuation"
+      ]
+    },
+    {
+      "id": "WORKER-MARKET",
+      "role": "MARKET_INTELLIGENCE",
+      "domain": "MARKET_ANALYSIS",
+      "permissions": [
+        "market_data_processing",
+        "event_analysis",
+        "correlation_analysis"
+      ]
+    },
+    {
+      "id": "WORKER-LEARNING",
+      "role": "ADAPTIVE_LEARNING",
+      "domain": "EXPERIENCE_ENGINE",
+      "permissions": [
+        "experience_analysis",
+        "model_evaluation",
+        "pattern_detection"
+      ]
+    },
+    {
+      "id": "WORKER-AUDITOR",
+      "role": "VALIDATION_CERTIFICATION",
+      "domain": "SYSTEM_GOVERNANCE",
+      "permissions": [
+        "integrity_validation",
+        "regression_validation",
+        "certification"
+      ]
+    }
+  ],
+  "governance": {
+    "human_direction_required": true,
+    "worker_autonomous_creation": false,
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "mutation_allowed": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "FORGE": [
+    "WORKER-ATLAS",
+    "WORKER-MATH",
+    "WORKER-FINANCE",
+    "WORKER-MARKET",
+    "WORKER-LEARNING",
+    "WORKER-AUDITOR"
+  ]
+}

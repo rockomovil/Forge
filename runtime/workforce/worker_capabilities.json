@@ -1,0 +1,34 @@
+{
+  "workers": [
+    {
+      "id": "WORKER-ATLAS",
+      "role": "KNOWLEDGE_ACQUISITION",
+      "domain": "FINANCIAL_KNOWLEDGE"
+    },
+    {
+      "id": "WORKER-MATH",
+      "role": "MATHEMATICAL_ENGINEERING",
+      "domain": "QUANTITATIVE_MODELS"
+    },
+    {
+      "id": "WORKER-FINANCE",
+      "role": "FINANCIAL_ENGINEERING",
+      "domain": "CAPITAL_INTELLIGENCE"
+    },
+    {
+      "id": "WORKER-MARKET",
+      "role": "MARKET_INTELLIGENCE",
+      "domain": "MARKET_ANALYSIS"
+    },
+    {
+      "id": "WORKER-LEARNING",
+      "role": "ADAPTIVE_LEARNING",
+      "domain": "EXPERIENCE_ENGINE"
+    },
+    {
+      "id": "WORKER-AUDITOR",
+      "role": "VALIDATION_CERTIFICATION",
+      "domain": "SYSTEM_GOVERNANCE"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "permission_boundary_enforced": true,
+  "workers": [
+    {
+      "id": "WORKER-ATLAS",
+      "permissions": [
+        "source_ingestion",
+        "knowledge_processing",
+        "semantic_indexing"
+      ]
+    },
+    {
+      "id": "WORKER-MATH",
+      "permissions": [
+        "mathematical_analysis",
+        "simulation",
+        "optimization"
+      ]
+    },
+    {
+      "id": "WORKER-FINANCE",
+      "permissions": [
+        "portfolio_analysis",
+        "risk_models",
+        "valuation"
+      ]
+    },
+    {
+      "id": "WORKER-MARKET",
+      "permissions": [
+        "market_data_processing",
+        "event_analysis",
+        "correlation_analysis"
+      ]
+    },
+    {
+      "id": "WORKER-LEARNING",
+      "permissions": [
+        "experience_analysis",
+        "model_evaluation",
+        "pattern_detection"
+      ]
+    },
+    {
+      "id": "WORKER-AUDITOR",
+      "permissions": [
+        "integrity_validation",
+        "regression_validation",
+        "certification"
+      ]
+    }
+  ]
+}
