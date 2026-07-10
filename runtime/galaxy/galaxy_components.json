@@ -1,0 +1,36 @@
+{
+  "AETHER": {
+    "role": "COMMUNICATION_LAYER"
+  },
+  "CHRONOS": {
+    "role": "TEMPORAL_EVOLUTION_LAYER"
+  },
+  "HESTIA": {
+    "role": "INFRASTRUCTURE_CONTINUITY_LAYER"
+  },
+  "HERMES": {
+    "role": "COORDINATION_STRATEGY_LAYER"
+  },
+  "ATLAS": {
+    "role": "KNOWLEDGE_ACQUISITION_LAYER"
+  },
+  "ATHENA": {
+    "role": "FINANCIAL_INTELLIGENCE_LAYER"
+  },
+  "FORGE": {
+    "role": "SYSTEM_CONSTRUCTION_LAYER"
+  },
+  "ARGUS": {
+    "role": "GOVERNANCE_RISK_LAYER"
+  },
+  "CERBERUS": {
+    "role": "SECURITY_PROTECTION_LAYER"
+  },
+  "PROMETHEUS": {
+    "role": "TECHNOLOGICAL_EVOLUTION_LAYER"
+  },
+  "SR_ANDERSON": {
+    "role": "FINANCIAL_AUTONOMOUS_RUNTIME",
+    "objective": "MAXIMIZE_RISK_ADJUSTED_CAPITAL"
+  }
+}
