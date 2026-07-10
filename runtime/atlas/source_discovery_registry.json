@@ -1,0 +1,41 @@
+{
+  "module": "FORGE-KNOWLEDGE-002",
+  "status": "ATLAS_SOURCE_DISCOVERY_ENGINE_READY",
+  "timestamp": "2026-07-10T20:22:16.581569+00:00",
+  "engine": {
+    "source_discovery": true,
+    "source_classification": true,
+    "metadata_extraction": true,
+    "quality_tracking": true,
+    "priority_ranking": true,
+    "discovery_trace_generation": true
+  },
+  "source_types": [
+    "BOOKS",
+    "ACADEMIC_PAPERS",
+    "FINANCIAL_REPORTS",
+    "ECONOMIC_DATA",
+    "MARKET_DATA",
+    "RESEARCH_DOCUMENTS",
+    "TECHNICAL_DOCUMENTATION"
+  ],
+  "evaluation": {
+    "criteria": [
+      "AUTHORITY",
+      "REPUTATION",
+      "METHODOLOGY",
+      "RECENCY",
+      "CITATION_VALUE",
+      "CONSISTENCY"
+    ],
+    "quality_scoring": true,
+    "source_ranking": true
+  },
+  "governance": {
+    "human_direction_required": true,
+    "automatic_source_promotion": false,
+    "source_validation_required": true,
+    "mutation_allowed": false,
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY"
+  }
+}
