@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-013",
+  "module": "FORGE-KNOWLEDGE-033",
   "status": "ATLAS_SOURCE_FINALIZATION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-012_ATLAS_SOURCE_RELEASE_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-032_ATLAS_SOURCE_RELEASE_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "finalization": {
     "initialized": true,
@@ -11,16 +11,29 @@
     "lock_finalization_ready": true,
     "seal_finalization_ready": true,
     "certification_finalization_ready": true,
+    "validation_finalization_ready": true,
+    "execution_finalization_ready": true,
+    "knowledge_finalization_ready": true,
     "immutable_final_state_ready": true
   },
   "capabilities": {
-    "source_finalization_generation": true,
+    "source_finalization_validation": true,
     "release_state_finalization": true,
     "archive_state_finalization": true,
-    "atlas_final_state_validation": true,
-    "finalization_trace_generation": true,
+    "certified_state_finalization": true,
+    "knowledge_state_finalization": true,
+    "atlas_finalization_generation": true,
     "finalization_ledger_generation": true
   },
-  "timestamp": "2026-07-10T20:37:03.558623+00:00",
-  "hash": "1349491e10e929329e4c703c9b21c1289818668c6a4763b40a4144140ecf4bfd"
+  "terminal_state": {
+    "sealed": true,
+    "locked": true,
+    "certified": true,
+    "immutable": true,
+    "mutation_allowed": false,
+    "delete_allowed": false,
+    "rollback_allowed": false
+  },
+  "timestamp": "2026-07-10T20:56:07.436356+00:00",
+  "hash": "96002587d513fa0d4f7242228aac7c5a191c652b0924e4aeec5389e42dddb7e6"
 }
