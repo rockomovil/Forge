@@ -1,0 +1,9 @@
+{
+  "precheck_enabled": true,
+  "checks": [
+    "capability",
+    "permission",
+    "dependency",
+    "domain"
+  ]
+}
