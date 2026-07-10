@@ -1,0 +1,11 @@
+{
+  "workers": [
+    "WORKER-ATLAS",
+    "WORKER-MATH",
+    "WORKER-FINANCE",
+    "WORKER-MARKET",
+    "WORKER-LEARNING",
+    "WORKER-AUDITOR"
+  ],
+  "coordination_enabled": true
+}
