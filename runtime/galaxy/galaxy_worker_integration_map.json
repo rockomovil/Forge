@@ -1,0 +1,6 @@
+{
+  "worker_registry": "FORGE-WORKFORCE-001",
+  "task_distribution": "FORGE-WORKFORCE-002",
+  "parallel_controller": "FORGE-WORKFORCE-003",
+  "capability_validation": "FORGE-WORKFORCE-004"
+}
