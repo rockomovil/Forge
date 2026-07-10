@@ -1,0 +1,9 @@
+{
+  "authority": true,
+  "reputation": true,
+  "methodology": true,
+  "recency": true,
+  "evidence_quality": true,
+  "consistency": true,
+  "bias_analysis": true
+}

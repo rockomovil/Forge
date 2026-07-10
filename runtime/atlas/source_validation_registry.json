@@ -1,0 +1,38 @@
+{
+  "module": "FORGE-KNOWLEDGE-003",
+  "status": "ATLAS_SOURCE_VALIDATION_ENGINE_READY",
+  "timestamp": "2026-07-10T20:30:10.444307+00:00",
+  "engine": {
+    "source_validation": true,
+    "quality_scoring": true,
+    "reputation_analysis": true,
+    "methodology_check": true,
+    "bias_detection": true,
+    "validation_trace_generation": true
+  },
+  "validation_rules": {
+    "authority": true,
+    "reputation": true,
+    "methodology": true,
+    "recency": true,
+    "evidence_quality": true,
+    "consistency": true,
+    "bias_analysis": true
+  },
+  "decision_pipeline": {
+    "states": [
+      "CANDIDATE",
+      "VALIDATING",
+      "ACCEPTED",
+      "REJECTED",
+      "REVIEW_REQUIRED"
+    ]
+  },
+  "governance": {
+    "human_direction_required": true,
+    "automatic_source_promotion": false,
+    "knowledge_integration_requires_validation": true,
+    "mutation_allowed": false,
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY"
+  }
+}
