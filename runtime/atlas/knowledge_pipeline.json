@@ -1,0 +1,10 @@
+{
+  "pipeline": [
+    "SOURCE_DISCOVERY",
+    "SOURCE_VALIDATION",
+    "INGESTION",
+    "EXTRACTION",
+    "CLASSIFICATION",
+    "MEMORY_STORAGE"
+  ]
+}

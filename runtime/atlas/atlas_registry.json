@@ -1,0 +1,36 @@
+{
+  "module": "FORGE-KNOWLEDGE-001",
+  "status": "ATLAS_FOUNDATION_ENGINE_READY",
+  "timestamp": "2026-07-10T20:18:54.362415+00:00",
+  "purpose": {
+    "system": "ATLAS",
+    "role": "KNOWLEDGE_ACQUISITION_LAYER",
+    "objective": "BUILD_FINANCIAL_KNOWLEDGE_FOUNDATION"
+  },
+  "capabilities": {
+    "source_registry": true,
+    "knowledge_domain_management": true,
+    "metadata_management": true,
+    "ingestion_pipeline_definition": true,
+    "validation_interface": true,
+    "memory_interface": true
+  },
+  "knowledge_domains": [
+    "FINANCE",
+    "MATHEMATICS",
+    "FINANCIAL_MATHEMATICS",
+    "ECONOMICS",
+    "ACCOUNTING",
+    "MARKETS",
+    "RISK_MANAGEMENT",
+    "MACHINE_LEARNING",
+    "TRADING_SYSTEMS"
+  ],
+  "governance": {
+    "human_direction_required": true,
+    "automatic_knowledge_promotion": false,
+    "source_validation_required": true,
+    "mutation_allowed": false,
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY"
+  }
+}
