@@ -1,5 +1,4 @@
 {
-  "algorithm": "SHA256",
-  "hash": "f6eeb4251b8cc27b7ab4cdb7b3015305b4ace296bf910e31ebf8aecfbc7b2262",
-  "verified": true
+  "module": "FORGE-KNOWLEDGE-027",
+  "hash": "00512cabe156be50a54bf6e0d16bd3c8ecb832dc44554b13dc4dfa396eb4de0e"
 }
