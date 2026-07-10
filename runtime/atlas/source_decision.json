@@ -1,23 +1,30 @@
 {
-  "module": "FORGE-KNOWLEDGE-025",
+  "module": "FORGE-KNOWLEDGE-045",
   "status": "ATLAS_SOURCE_DECISION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-024_ATLAS_SOURCE_REASONING_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-044_ATLAS_SOURCE_REASONING_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "decision": {
     "initialized": true,
     "source_decision_ready": true,
     "reasoning_decision_ready": true,
     "semantic_decision_ready": true,
-    "knowledge_decision_ready": true,
-    "context_decision_ready": true,
-    "decision_trace_ready": true
+    "memory_decision_ready": true,
+    "learning_decision_ready": true,
+    "adaptation_decision_ready": true,
+    "response_decision_ready": true,
+    "monitoring_decision_ready": true,
+    "governance_decision_ready": true,
+    "sovereign_decision_ready": true,
+    "terminal_decision_ready": true,
+    "knowledge_decision_ready": true
   },
   "capabilities": {
     "knowledge_based_decision": true,
     "semantic_decision_mapping": true,
     "reasoning_chain_selection": true,
-    "source_priority_evaluation": true,
-    "atlas_decision_validation": true,
+    "memory_context_evaluation": true,
+    "adaptive_decision_tracking": true,
+    "atlas_decision_generation": true,
     "decision_ledger_generation": true
   },
   "terminal_state": {
@@ -29,6 +36,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-10T20:45:33.096612+00:00",
-  "hash": "cf0a08296d53387f2f1291751f24b78fc73f96fb02b863732fd8b48d19634ed2"
+  "timestamp": "2026-07-10T22:24:16.219741+00:00",
+  "hash": "f7c3923d7a912e9645f47ccd58b601259a18ec79f46e4f4464c32d081f509032"
 }
