@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-081",
+  "module": "FORGE-KNOWLEDGE-101",
   "status": "ATLAS_SOURCE_LEARNING_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-080_ATLAS_SOURCE_ADAPTATION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-100_ATLAS_SOURCE_ADAPTATION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "learning": {
     "initialized": true,
@@ -30,9 +30,9 @@
   },
   "capabilities": {
     "source_pattern_learning": true,
-    "state_transition_learning": true,
-    "knowledge_lineage_learning": true,
-    "historical_state_learning": true,
+    "knowledge_state_learning": true,
+    "historical_learning": true,
+    "lineage_learning": true,
     "integrity_learning": true,
     "certified_state_learning": true,
     "immutable_state_learning": true,
@@ -48,6 +48,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:06:21.155190+00:00",
-  "hash": "b3ac0dcb444462cf9f4f5a2abb79d97a56eb7d341fa3ba49f3fe7ebbb9e65e96"
+  "timestamp": "2026-07-11T13:26:02.257515+00:00",
+  "hash": "c0f0333a83e45f929d0284600683e2fc70f0931fbc3d1f9532bcc60aed68d3ec"
 }
