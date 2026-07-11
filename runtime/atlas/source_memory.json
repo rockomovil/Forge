@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-082",
+  "module": "FORGE-KNOWLEDGE-102",
   "status": "ATLAS_SOURCE_MEMORY_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-081_ATLAS_SOURCE_LEARNING_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-101_ATLAS_SOURCE_LEARNING_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "memory": {
     "initialized": true,
@@ -29,10 +29,10 @@
     "immutable_memory_state_ready": true
   },
   "capabilities": {
-    "source_knowledge_memory": true,
-    "state_history_memory": true,
+    "source_context_memory": true,
+    "knowledge_embedding_memory": true,
+    "historical_memory": true,
     "lineage_memory": true,
-    "historical_context_memory": true,
     "integrity_memory": true,
     "certified_state_memory": true,
     "immutable_state_memory": true,
@@ -48,6 +48,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:07:10.574057+00:00",
-  "hash": "4b5251c184994953f2bf8a6c42c82dea18eda0619d077fc28a97d7cd681db81f"
+  "timestamp": "2026-07-11T13:26:45.931214+00:00",
+  "hash": "4a5d228dbb0f62b27649d7ae91b6d464e2ba5f5bd30605f4ec5defe2f262e732"
 }
