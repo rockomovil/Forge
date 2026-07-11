@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-074",
+  "module": "FORGE-KNOWLEDGE-094",
   "status": "ATLAS_SOURCE_TERMINAL_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-073_ATLAS_SOURCE_FINALIZATION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-093_ATLAS_SOURCE_FINALIZATION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "terminal": {
     "initialized": true,
@@ -29,14 +29,17 @@
     "immutable_terminal_state_ready": true
   },
   "capabilities": {
-    "source_terminal_validation": true,
-    "final_state_terminalization": true,
-    "release_state_terminalization": true,
-    "archive_state_terminalization": true,
-    "locked_state_terminalization": true,
-    "sealed_state_terminalization": true,
-    "certified_state_terminalization": true,
-    "knowledge_state_terminalization": true,
+    "source_terminal_state": true,
+    "final_terminal_state": true,
+    "release_terminal_state": true,
+    "archive_terminal_state": true,
+    "sealed_terminal_state": true,
+    "locked_terminal_state": true,
+    "certified_terminal_state": true,
+    "integrity_terminal_validation": true,
+    "lineage_terminal_validation": true,
+    "historical_terminal_validation": true,
+    "immutable_terminal_validation": true,
     "atlas_terminal_generation": true,
     "terminal_ledger_generation": true
   },
@@ -49,6 +52,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:01:35.596609+00:00",
-  "hash": "1b920fa5a4397f79e833b69d3a05682ad79c27a16601358e8bdff0211f95cbf0"
+  "timestamp": "2026-07-11T13:17:26.309940+00:00",
+  "hash": "6168db03d5e8a9685c4efad9d7492e00fd639aebbe908a2a749c13bfc57dd419"
 }
