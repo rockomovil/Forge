@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-098",
+  "module": "FORGE-KNOWLEDGE-118",
   "status": "ATLAS_SOURCE_ALERT_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-097_ATLAS_SOURCE_MONITORING_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-117_ATLAS_SOURCE_MONITORING_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "alert": {
     "initialized": true,
@@ -29,12 +29,13 @@
     "immutable_alert_state_ready": true
   },
   "capabilities": {
-    "source_anomaly_detection": true,
-    "state_change_alerting": true,
-    "integrity_alerting": true,
-    "lineage_alerting": true,
-    "certified_state_alerting": true,
-    "immutable_state_alerting": true,
+    "source_event_detection": true,
+    "state_change_detection": true,
+    "integrity_alert_generation": true,
+    "lineage_alert_generation": true,
+    "governance_alert_generation": true,
+    "certified_state_alerts": true,
+    "immutable_state_alerts": true,
     "atlas_alert_generation": true,
     "alert_ledger_generation": true
   },
@@ -47,6 +48,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:20:46.741814+00:00",
-  "hash": "3923ce1f30a53e1035010a9a325bd5f688f4f9e8cb4c850315903ace491f5d8a"
+  "timestamp": "2026-07-11T13:39:07.228472+00:00",
+  "hash": "155bae9c4dcc5fa96cc55ebe0252af92a286ef4fa893b42ff881251b440724cd"
 }
