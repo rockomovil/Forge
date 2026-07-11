@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-063",
+  "module": "FORGE-KNOWLEDGE-083",
   "status": "ATLAS_SOURCE_SEMANTIC_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-062_ATLAS_SOURCE_MEMORY_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-082_ATLAS_SOURCE_MEMORY_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "semantic": {
     "initialized": true,
@@ -25,14 +25,17 @@
     "execution_semantic_ready": true,
     "decision_semantic_ready": true,
     "reasoning_semantic_ready": true,
-    "knowledge_semantic_ready": true
+    "knowledge_semantic_ready": true,
+    "immutable_semantic_state_ready": true
   },
   "capabilities": {
-    "semantic_source_mapping": true,
-    "knowledge_relationship_analysis": true,
-    "memory_relationship_mapping": true,
-    "adaptive_context_mapping": true,
+    "source_context_semantics": true,
+    "knowledge_relationship_mapping": true,
+    "lineage_semantic_mapping": true,
     "historical_semantic_mapping": true,
+    "integrity_semantic_mapping": true,
+    "certified_state_semantics": true,
+    "immutable_state_semantics": true,
     "atlas_semantic_generation": true,
     "semantic_ledger_generation": true
   },
@@ -45,6 +48,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T01:43:12.354979+00:00",
-  "hash": "7f7612e93c0f3e639bda5c5482da188e2ca878c65dde471a746e9f3a969b3b3e"
+  "timestamp": "2026-07-11T13:07:45.086647+00:00",
+  "hash": "acd45ab1bda2006d1762592cff18b0170b68187ee368be9b8982cc61aa69a9aa"
 }
