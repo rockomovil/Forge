@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-051",
+  "module": "FORGE-KNOWLEDGE-071",
   "status": "ATLAS_SOURCE_ARCHIVE_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-050_ATLAS_SOURCE_LOCK_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-070_ATLAS_SOURCE_LOCK_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "archive": {
     "initialized": true,
@@ -18,6 +18,7 @@
     "learning_archive_ready": true,
     "adaptation_archive_ready": true,
     "response_archive_ready": true,
+    "alert_archive_ready": true,
     "monitoring_archive_ready": true,
     "governance_archive_ready": true,
     "sovereign_archive_ready": true,
@@ -28,6 +29,7 @@
   "capabilities": {
     "source_archive_validation": true,
     "locked_state_archiving": true,
+    "sealed_state_archiving": true,
     "certified_state_archiving": true,
     "knowledge_state_preservation": true,
     "historical_state_preservation": true,
@@ -43,6 +45,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-10T23:04:02.757658+00:00",
-  "hash": "ad2009e6c20cb5488edb77beaeaa4dd522df96d2c4f7152446341d5fc87164f2"
+  "timestamp": "2026-07-11T13:00:05.455037+00:00",
+  "hash": "72a7fbb074c2136a8a6f5e0921b205d0ba938036540c58e25213744d9a2b77f9"
 }
