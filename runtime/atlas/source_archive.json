@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-091",
+  "module": "FORGE-KNOWLEDGE-111",
   "status": "ATLAS_SOURCE_ARCHIVE_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-090_ATLAS_SOURCE_LOCK_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-110_ATLAS_SOURCE_LOCK_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "archive": {
     "initialized": true,
@@ -49,6 +49,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:15:02.748828+00:00",
-  "hash": "455558d58e81203cb40cc8950286f7a10aa6aeb04f8976aeac6c620080ac9fe4"
+  "timestamp": "2026-07-11T13:33:46.931376+00:00",
+  "hash": "f1b10a6d3bc2e06ff019695a163ac0e922a16e67005c8e2d984264556ae16e5a"
 }
