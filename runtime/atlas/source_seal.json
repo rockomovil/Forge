@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-049",
+  "module": "FORGE-KNOWLEDGE-069",
   "status": "ATLAS_SOURCE_SEAL_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-048_ATLAS_SOURCE_CERTIFICATION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-068_ATLAS_SOURCE_CERTIFICATION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "seal": {
     "initialized": true,
@@ -16,6 +16,7 @@
     "learning_seal_ready": true,
     "adaptation_seal_ready": true,
     "response_seal_ready": true,
+    "alert_seal_ready": true,
     "monitoring_seal_ready": true,
     "governance_seal_ready": true,
     "sovereign_seal_ready": true,
@@ -23,11 +24,11 @@
     "knowledge_seal_ready": true
   },
   "capabilities": {
-    "source_trust_seal": true,
-    "certification_chain_seal": true,
-    "validation_state_seal": true,
+    "source_integrity_seal": true,
+    "certified_state_seal": true,
+    "validated_state_seal": true,
     "execution_state_seal": true,
-    "knowledge_integrity_seal": true,
+    "knowledge_state_seal": true,
     "atlas_seal_generation": true,
     "seal_ledger_generation": true
   },
@@ -40,6 +41,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-10T22:53:13.381734+00:00",
-  "hash": "863df205cc98401890488419ab4fe7632d7114839acf5344471fc5e2dfbec165"
+  "timestamp": "2026-07-11T12:56:22.085596+00:00",
+  "hash": "46d4a9cdc7b6e85e3ae5007c745d309eb9e4aa4418fa89ecb15680363e98d79b"
 }
