@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-087",
+  "module": "FORGE-KNOWLEDGE-107",
   "status": "ATLAS_SOURCE_VALIDATION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-086_ATLAS_SOURCE_EXECUTION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-106_ATLAS_SOURCE_EXECUTION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "validation": {
     "initialized": true,
@@ -30,11 +30,9 @@
   },
   "capabilities": {
     "source_integrity_validation": true,
-    "execution_path_validation": true,
-    "decision_state_validation": true,
-    "reasoning_state_validation": true,
-    "semantic_state_validation": true,
-    "knowledge_consistency_validation": true,
+    "execution_integrity_validation": true,
+    "decision_integrity_validation": true,
+    "state_consistency_validation": true,
     "lineage_validation": true,
     "historical_validation": true,
     "certified_state_validation": true,
@@ -51,6 +49,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:10:36.655101+00:00",
-  "hash": "8d7e04cd9e4c265014704cac8f1df32a78958e644fa8d6eba17bb2973e2e5a2f"
+  "timestamp": "2026-07-11T13:30:27.684521+00:00",
+  "hash": "d384c5a9cd99a58d2d26601c71eaa30e4cff7c19f1360aae4a3c036a4fe2ca29"
 }
