@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-072",
+  "module": "FORGE-KNOWLEDGE-092",
   "status": "ATLAS_SOURCE_RELEASE_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-071_ATLAS_SOURCE_ARCHIVE_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-091_ATLAS_SOURCE_ARCHIVE_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "release": {
     "initialized": true,
@@ -24,16 +24,20 @@
     "governance_release_ready": true,
     "sovereign_release_ready": true,
     "terminal_release_ready": true,
+    "finalization_release_ready": true,
     "knowledge_release_ready": true,
     "immutable_release_state_ready": true
   },
   "capabilities": {
-    "source_release_validation": true,
-    "archive_state_release": true,
-    "locked_state_release": true,
-    "sealed_state_release": true,
-    "certified_state_release": true,
-    "knowledge_state_release": true,
+    "source_release_management": true,
+    "archive_release_management": true,
+    "sealed_release_management": true,
+    "locked_release_management": true,
+    "certified_release_management": true,
+    "integrity_release_management": true,
+    "lineage_release_management": true,
+    "historical_release_management": true,
+    "immutable_release_management": true,
     "atlas_release_generation": true,
     "release_ledger_generation": true
   },
@@ -46,6 +50,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:00:46.532149+00:00",
-  "hash": "cd512401f9e7139d768e1367acc61d70efc30af38e6744676a8f540eba5cb9b2"
+  "timestamp": "2026-07-11T13:15:52.492009+00:00",
+  "hash": "4ae6bcc81b1b391eb55a28847a162f77f01dc7cafa4cad8deccf52d33760c5d2"
 }
