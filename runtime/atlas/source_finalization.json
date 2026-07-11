@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-093",
+  "module": "FORGE-KNOWLEDGE-113",
   "status": "ATLAS_SOURCE_FINALIZATION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-092_ATLAS_SOURCE_RELEASE_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-112_ATLAS_SOURCE_RELEASE_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "finalization": {
     "initialized": true,
@@ -35,10 +35,9 @@
     "sealed_final_state_generation": true,
     "locked_final_state_generation": true,
     "certified_final_state_generation": true,
-    "integrity_finalization": true,
-    "lineage_finalization": true,
-    "historical_finalization": true,
-    "immutable_finalization": true,
+    "integrity_final_state_generation": true,
+    "lineage_final_state_generation": true,
+    "immutable_final_state_generation": true,
     "atlas_finalization_generation": true,
     "finalization_ledger_generation": true
   },
@@ -51,6 +50,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:16:43.391909+00:00",
-  "hash": "cfa21334d119264e8d11223e704d952f27b2788594506e8a39574c965a5550fb"
+  "timestamp": "2026-07-11T13:35:15.267614+00:00",
+  "hash": "65e3535ab750f2cf19fc4e5a06e3d780cccd8b6bfce6b405586bd9b2bf09669b"
 }
