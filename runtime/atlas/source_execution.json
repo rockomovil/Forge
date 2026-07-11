@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-086",
+  "module": "FORGE-KNOWLEDGE-106",
   "status": "ATLAS_SOURCE_EXECUTION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-085_ATLAS_SOURCE_DECISION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-105_ATLAS_SOURCE_DECISION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "execution": {
     "initialized": true,
@@ -29,13 +29,12 @@
     "immutable_execution_state_ready": true
   },
   "capabilities": {
-    "source_action_execution": true,
-    "decision_path_execution": true,
-    "reasoning_path_execution": true,
-    "knowledge_flow_execution": true,
-    "lineage_execution": true,
-    "historical_state_execution": true,
-    "integrity_execution": true,
+    "source_execution_control": true,
+    "decision_execution_control": true,
+    "state_transition_execution": true,
+    "historical_execution_tracking": true,
+    "lineage_execution_tracking": true,
+    "integrity_execution_tracking": true,
     "certified_state_execution": true,
     "immutable_state_execution": true,
     "atlas_execution_generation": true,
@@ -50,6 +49,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:10:01.960956+00:00",
-  "hash": "c784b4f0da1dc1c43389f271550ec6a0e7910baaedf87996ad89702ea98e2735"
+  "timestamp": "2026-07-11T13:29:41.436213+00:00",
+  "hash": "0607ef36194c1c1e1f5a153992d7900b5cf8137fef82ff353dde455b41f87b66"
 }
