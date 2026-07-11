@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-073",
+  "module": "FORGE-KNOWLEDGE-093",
   "status": "ATLAS_SOURCE_FINALIZATION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-072_ATLAS_SOURCE_RELEASE_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-092_ATLAS_SOURCE_RELEASE_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "finalization": {
     "initialized": true,
@@ -26,16 +26,19 @@
     "sovereign_finalization_ready": true,
     "terminal_finalization_ready": true,
     "knowledge_finalization_ready": true,
-    "immutable_final_state_ready": true
+    "immutable_finalization_state_ready": true
   },
   "capabilities": {
-    "source_finalization_validation": true,
-    "release_state_finalization": true,
-    "archive_state_finalization": true,
-    "locked_state_finalization": true,
-    "sealed_state_finalization": true,
-    "certified_state_finalization": true,
-    "knowledge_state_finalization": true,
+    "source_final_state_generation": true,
+    "release_final_state_generation": true,
+    "archive_final_state_generation": true,
+    "sealed_final_state_generation": true,
+    "locked_final_state_generation": true,
+    "certified_final_state_generation": true,
+    "integrity_finalization": true,
+    "lineage_finalization": true,
+    "historical_finalization": true,
+    "immutable_finalization": true,
     "atlas_finalization_generation": true,
     "finalization_ledger_generation": true
   },
@@ -48,6 +51,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:01:09.002667+00:00",
-  "hash": "cc291f6826b6c2af9dd7c10453105d0dd0a4c79e260774d409309cd7cb31ad03"
+  "timestamp": "2026-07-11T13:16:43.391909+00:00",
+  "hash": "cfa21334d119264e8d11223e704d952f27b2788594506e8a39574c965a5550fb"
 }
