@@ -41,7 +41,7 @@ semantic = {
         "semantic_source_mapping": True,
         "knowledge_relationship_analysis": True,
         "memory_relationship_mapping": True,
-        adaptive_context_mapping": True,
+        "adaptive_context_mapping": True,
         "historical_semantic_mapping": True,
         "atlas_semantic_generation": True,
         "semantic_ledger_generation": True
