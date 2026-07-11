@@ -1,20 +1,30 @@
 {
-  "module": "FORGE-KNOWLEDGE-041",
+  "module": "FORGE-KNOWLEDGE-061",
   "status": "ATLAS_SOURCE_LEARNING_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-040_ATLAS_SOURCE_ADAPTATION_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-060_ATLAS_SOURCE_ADAPTATION_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "learning": {
     "initialized": true,
     "source_learning_ready": true,
     "adaptation_learning_ready": true,
     "response_learning_ready": true,
+    "alert_learning_ready": true,
     "monitoring_learning_ready": true,
     "governance_learning_ready": true,
     "sovereign_learning_ready": true,
     "terminal_learning_ready": true,
+    "finalization_learning_ready": true,
     "release_learning_ready": true,
     "archive_learning_ready": true,
+    "lock_learning_ready": true,
+    "seal_learning_ready": true,
     "certification_learning_ready": true,
+    "validation_learning_ready": true,
+    "execution_learning_ready": true,
+    "decision_learning_ready": true,
+    "reasoning_learning_ready": true,
+    "semantic_learning_ready": true,
+    "memory_learning_ready": true,
     "knowledge_learning_ready": true
   },
   "capabilities": {
@@ -23,6 +33,7 @@
     "event_learning": true,
     "state_learning": true,
     "governance_learning": true,
+    "semantic_learning": true,
     "atlas_learning_generation": true,
     "learning_ledger_generation": true
   },
@@ -35,6 +46,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-10T22:09:51.355123+00:00",
-  "hash": "a3c9c6e9c2119fae759a2f98c6d6ca369e3b646cf056076cd87928073469035c"
+  "timestamp": "2026-07-11T01:26:46.896756+00:00",
+  "hash": "13e33aacc09a7838c4ecf3cc661a5f4abbf3160b6f2cfaa3ed94a36a9aa9da13"
 }
