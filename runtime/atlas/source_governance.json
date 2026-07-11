@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-056",
+  "module": "FORGE-KNOWLEDGE-076",
   "status": "ATLAS_SOURCE_GOVERNANCE_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-055_ATLAS_SOURCE_SOVEREIGN_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-075_ATLAS_SOURCE_SOVEREIGN_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "governance": {
     "initialized": true,
@@ -23,17 +23,17 @@
     "learning_governance_ready": true,
     "adaptation_governance_ready": true,
     "response_governance_ready": true,
+    "alert_governance_ready": true,
     "monitoring_governance_ready": true,
     "knowledge_governance_ready": true,
     "immutable_governance_state_ready": true
   },
   "capabilities": {
-    "source_policy_enforcement": true,
-    "sovereign_state_governance": true,
-    "terminal_lifecycle_control": true,
-    "archive_lifecycle_control": true,
-    "certification_policy_control": true,
-    "knowledge_policy_control": true,
+    "source_policy_governance": true,
+    "state_lifecycle_governance": true,
+    "certified_state_control": true,
+    "immutable_state_control": true,
+    "knowledge_lineage_governance": true,
     "atlas_governance_generation": true,
     "governance_ledger_generation": true
   },
@@ -46,6 +46,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T00:12:58.886731+00:00",
-  "hash": "06335dbb0cfb52f96d2a5fb5cb44fe911cb2d229f2a15ffc7a25a146c4c92760"
+  "timestamp": "2026-07-11T13:02:25.885923+00:00",
+  "hash": "adf47fe41a3338eb7baf2075729440ffbc0b7994c8181e825b82f1d947a9837c"
 }
