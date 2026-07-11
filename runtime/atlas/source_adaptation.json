@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-100",
+  "module": "FORGE-KNOWLEDGE-120",
   "status": "ATLAS_SOURCE_ADAPTATION_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-099_ATLAS_SOURCE_RESPONSE_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-119_ATLAS_SOURCE_RESPONSE_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "adaptation": {
     "initialized": true,
@@ -48,6 +48,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T13:25:07.836544+00:00",
-  "hash": "5bc02d0b83a1f77440a1d0dba0469fd3b25146dc3fad062fb4d7d001f28810ba"
+  "timestamp": "2026-07-11T13:41:23.633365+00:00",
+  "hash": "dd19bdd7045a20d8be069bf81f5da2e4b45e4c3cefba8fa1cc426baf6c82d6e7"
 }
