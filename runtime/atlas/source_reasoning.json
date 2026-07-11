@@ -1,7 +1,7 @@
 {
-  "module": "FORGE-KNOWLEDGE-064",
+  "module": "FORGE-KNOWLEDGE-084",
   "status": "ATLAS_SOURCE_REASONING_ENGINE_READY",
-  "source_engine": "FORGE-KNOWLEDGE-063_ATLAS_SOURCE_SEMANTIC_ENGINE",
+  "source_engine": "FORGE-KNOWLEDGE-083_ATLAS_SOURCE_SEMANTIC_ENGINE",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
   "reasoning": {
     "initialized": true,
@@ -25,14 +25,18 @@
     "validation_reasoning_ready": true,
     "execution_reasoning_ready": true,
     "decision_reasoning_ready": true,
-    "knowledge_reasoning_ready": true
+    "knowledge_reasoning_ready": true,
+    "immutable_reasoning_state_ready": true
   },
   "capabilities": {
     "source_context_reasoning": true,
-    "semantic_relationship_reasoning": true,
-    "knowledge_inference_reasoning": true,
-    "historical_state_reasoning": true,
-    "adaptive_context_reasoning": true,
+    "semantic_inference_reasoning": true,
+    "knowledge_relationship_reasoning": true,
+    "lineage_reasoning": true,
+    "historical_reasoning": true,
+    "integrity_reasoning": true,
+    "certified_state_reasoning": true,
+    "immutable_state_reasoning": true,
     "atlas_reasoning_generation": true,
     "reasoning_ledger_generation": true
   },
@@ -45,6 +49,6 @@
     "delete_allowed": false,
     "rollback_allowed": false
   },
-  "timestamp": "2026-07-11T01:48:34.794277+00:00",
-  "hash": "7510cfae3d97b5cc24de18f9f969247396081af1504eeabcac982955b419d6e0"
+  "timestamp": "2026-07-11T13:08:55.043645+00:00",
+  "hash": "b301d9a6204f3cfe497e373e9ef6f8f1b52d311f221f2ecd4c8f839588c498a7"
 }
