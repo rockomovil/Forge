@@ -1,0 +1,49 @@
+{
+  "module": "FORGE-KNOWLEDGE-138",
+  "status": "ATLAS_SFTP_ARCHIVE_TRANSFER_ENGINE_READY",
+  "source_engine": "FORGE-KNOWLEDGE-137_ATLAS_SSH_ADMINISTRATION_ENGINE",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "sftp_archive_transfer": {
+    "initialized": true,
+    "secure_archive_transfer_ready": true,
+    "encrypted_file_transfer_ready": true,
+    "artifact_transfer_ready": true,
+    "runtime_snapshot_transfer_ready": true,
+    "ledger_transfer_ready": true,
+    "hash_transfer_ready": true,
+    "backup_transfer_ready": true,
+    "restore_transfer_ready": true,
+    "archive_distribution_ready": true,
+    "certificate_transfer_ready": true,
+    "manifest_transfer_ready": true,
+    "audit_transfer_ready": true,
+    "integrity_verification_ready": true,
+    "shadow_runtime_ready": true,
+    "immutable_transfer_state_ready": true
+  },
+  "capabilities": {
+    "sftp_protocol": true,
+    "encrypted_transport": true,
+    "archive_synchronization": true,
+    "checksum_validation": true,
+    "incremental_transfer": true,
+    "transfer_audit": true,
+    "transfer_lineage": true,
+    "transfer_ledger_generation": true,
+    "atlas_transfer_generation": true
+  },
+  "runtime_constraints": {
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false,
+    "mutation_allowed": false
+  },
+  "terminal_state": {
+    "sealed": true,
+    "locked": true,
+    "certified": true,
+    "immutable": true
+  },
+  "timestamp": "2026-07-12T04:21:32.051683+00:00",
+  "hash": "5296d8e7ca275c4d31644fd4af231f72a9810c7f3e75eb30b2d38f26a9ddcbd4"
+}
