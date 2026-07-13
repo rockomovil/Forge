@@ -5,30 +5,37 @@ import subprocess
 import yaml
 import sys
 
-ROOT = Path(__file__).resolve().parents[2]
+# ROOT = repositorio Forge
+ROOT = Path(__file__).resolve().parents[3]
 
-MASTER = ROOT / "forge/meta/master/forge_master.yaml"
+MASTER = ROOT / "forge" / "meta" / "master" / "forge_master.yaml"
 
-cfg = yaml.safe_load(MASTER.read_text())
+if not MASTER.exists():
+    raise SystemExit(f"MASTER_CATALOG_NOT_FOUND: {MASTER}")
 
-families = cfg["families"]
+cfg = yaml.safe_load(MASTER.read_text(encoding="utf-8"))
+
+families = cfg.get("families", [])
 
 print()
 print("FORGE MASTER BUILDER")
 print("--------------------")
-print()
-
-print("Families :", len(families))
+print(f"Families : {len(families)}")
 print()
 
 for catalog in families:
 
-    print("BUILD :", catalog)
+    catalog_path = ROOT / catalog
+
+    if not catalog_path.exists():
+        raise SystemExit(f"CATALOG_NOT_FOUND: {catalog_path}")
+
+    print(f"BUILD -> {catalog}")
 
     subprocess.run(
         [
-            "python3",
-            str(ROOT/"forge/meta/forge_meta_builder.py"),
+            sys.executable,
+            str(ROOT / "forge" / "meta" / "forge_meta_builder.py"),
             "--catalog",
             catalog,
             "--resume",
