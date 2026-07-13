@@ -1,0 +1,4555 @@
+{
+  "directories": [
+    {
+      "bytes": 19894,
+      "files": 3,
+      "path": ".forge_backup"
+    },
+    {
+      "bytes": 530,
+      "files": 3,
+      "path": ".pytest_cache"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": ".pytest_cache/v"
+    },
+    {
+      "bytes": 216,
+      "files": 1,
+      "path": ".pytest_cache/v/cache"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "agents"
+    },
+    {
+      "bytes": 1678,
+      "files": 7,
+      "path": "architecture"
+    },
+    {
+      "bytes": 2099,
+      "files": 6,
+      "path": "architecture_audit"
+    },
+    {
+      "bytes": 1687,
+      "files": 6,
+      "path": "architecture_certification"
+    },
+    {
+      "bytes": 2037,
+      "files": 6,
+      "path": "architecture_finalization"
+    },
+    {
+      "bytes": 4363,
+      "files": 8,
+      "path": "architecture_graph"
+    },
+    {
+      "bytes": 1791,
+      "files": 6,
+      "path": "architecture_lock"
+    },
+    {
+      "bytes": 2339,
+      "files": 6,
+      "path": "architecture_manifest"
+    },
+    {
+      "bytes": 1117,
+      "files": 1,
+      "path": "architecture_registry"
+    },
+    {
+      "bytes": 1842,
+      "files": 6,
+      "path": "architecture_release"
+    },
+    {
+      "bytes": 2469,
+      "files": 6,
+      "path": "architecture_validation"
+    },
+    {
+      "bytes": 2211,
+      "files": 1,
+      "path": "bin"
+    },
+    {
+      "bytes": 1080,
+      "files": 1,
+      "path": "bootstrap"
+    },
+    {
+      "bytes": 35979,
+      "files": 21,
+      "path": "builder"
+    },
+    {
+      "bytes": 289,
+      "files": 1,
+      "path": "builder/specifications"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "capabilities"
+    },
+    {
+      "bytes": 135716,
+      "files": 21,
+      "path": "codebase-memory-mcp"
+    },
+    {
+      "bytes": 4696,
+      "files": 5,
+      "path": "codebase-memory-mcp/.github"
+    },
+    {
+      "bytes": 5664,
+      "files": 3,
+      "path": "codebase-memory-mcp/.github/ISSUE_TEMPLATE"
+    },
+    {
+      "bytes": 87514,
+      "files": 21,
+      "path": "codebase-memory-mcp/.github/workflows"
+    },
+    {
+      "bytes": 375811,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal"
+    },
+    {
+      "bytes": 12105,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/.github"
+    },
+    {
+      "bytes": 4211,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/.github/ISSUE_TEMPLATE"
+    },
+    {
+      "bytes": 2175,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/.github/PULL_REQUEST_TEMPLATE"
+    },
+    {
+      "bytes": 7405,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/.github/scripts"
+    },
+    {
+      "bytes": 199709,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/.github/workflows"
+    },
+    {
+      "bytes": 130701,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/docs"
+    },
+    {
+      "bytes": 1394,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/docs/adr"
+    },
+    {
+      "bytes": 127382,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/docs/translations"
+    },
+    {
+      "bytes": 592875,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt"
+    },
+    {
+      "bytes": 6241,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/cmake"
+    },
+    {
+      "bytes": 1670,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/cmake/patches"
+    },
+    {
+      "bytes": 47398,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/docs"
+    },
+    {
+      "bytes": 4069,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/docs/agentic-research"
+    },
+    {
+      "bytes": 7143,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/docs/agents"
+    },
+    {
+      "bytes": 75015,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/docs/datahub-phases"
+    },
+    {
+      "bytes": 13383,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/docs/translations"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging"
+    },
+    {
+      "bytes": 8112,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/flatpak"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer"
+    },
+    {
+      "bytes": 4625,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/config"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.core"
+    },
+    {
+      "bytes": 0,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.core/data"
+    },
+    {
+      "bytes": 33497,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.core/meta"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.scripts"
+    },
+    {
+      "bytes": 0,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.scripts/data"
+    },
+    {
+      "bytes": 0,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/installer/packages/com.fincept.terminal.scripts/meta"
+    },
+    {
+      "bytes": 6031,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/packaging/linux"
+    },
+    {
+      "bytes": 734442,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources"
+    },
+    {
+      "bytes": 22315,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources/charts"
+    },
+    {
+      "bytes": 205095,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources/charts/vendor"
+    },
+    {
+      "bytes": 146126,
+      "files": 13,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources/notebooks"
+    },
+    {
+      "bytes": 29580,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources/wallet"
+    },
+    {
+      "bytes": 461811,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/resources/wallet/vendor"
+    },
+    {
+      "bytes": 4543464,
+      "files": 350,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts"
+    },
+    {
+      "bytes": 179820,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics"
+    },
+    {
+      "bytes": 684076,
+      "files": 29,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/alternateInvestment"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting"
+    },
+    {
+      "bytes": 158897,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/backtestingpy"
+    },
+    {
+      "bytes": 37332,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/base"
+    },
+    {
+      "bytes": 124748,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/bt"
+    },
+    {
+      "bytes": 172811,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/fasttrade"
+    },
+    {
+      "bytes": 25884,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/fincept"
+    },
+    {
+      "bytes": 358437,
+      "files": 15,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/vectorbt"
+    },
+    {
+      "bytes": 216428,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/backtesting/zipline"
+    },
+    {
+      "bytes": 2441,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance"
+    },
+    {
+      "bytes": 34415,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/advanced_analytics"
+    },
+    {
+      "bytes": 25385,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/deal_comparison"
+    },
+    {
+      "bytes": 92916,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/deal_database"
+    },
+    {
+      "bytes": 71507,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/deal_structure"
+    },
+    {
+      "bytes": 53011,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/fairness_opinion"
+    },
+    {
+      "bytes": 74581,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/industry_metrics"
+    },
+    {
+      "bytes": 46098,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/lbo"
+    },
+    {
+      "bytes": 47389,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/merger_models"
+    },
+    {
+      "bytes": 62540,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/startup_valuation"
+    },
+    {
+      "bytes": 69022,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/synergies"
+    },
+    {
+      "bytes": 109476,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/corporateFinance/valuation"
+    },
+    {
+      "bytes": 203324,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/derivatives"
+    },
+    {
+      "bytes": 439259,
+      "files": 15,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/economics"
+    },
+    {
+      "bytes": 1328,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment"
+    },
+    {
+      "bytes": 53093,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment/base"
+    },
+    {
+      "bytes": 103615,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment/company_analysis"
+    },
+    {
+      "bytes": 164695,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment/equity_valuation"
+    },
+    {
+      "bytes": 126259,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment/market_analysis"
+    },
+    {
+      "bytes": 24671,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/equityInvestment/utils"
+    },
+    {
+      "bytes": 94264,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/ffn_wrapper"
+    },
+    {
+      "bytes": 2170,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/finanicalanalysis"
+    },
+    {
+      "bytes": 47359,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/finanicalanalysis/core"
+    },
+    {
+      "bytes": 460289,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/finanicalanalysis/specialized_analysis"
+    },
+    {
+      "bytes": 177696,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/finanicalanalysis/statement_analyzers"
+    },
+    {
+      "bytes": 137680,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/finrl"
+    },
+    {
+      "bytes": 317080,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/fixedIncome"
+    },
+    {
+      "bytes": 148255,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/fortitudo_tech_wrapper"
+    },
+    {
+      "bytes": 282114,
+      "files": 18,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/functime_wrapper"
+    },
+    {
+      "bytes": 49255,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/gluonts_wrapper"
+    },
+    {
+      "bytes": 309183,
+      "files": 14,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/gs_quant_wrapper"
+    },
+    {
+      "bytes": 69487,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/options"
+    },
+    {
+      "bytes": 27327,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/pmdarima_wrapper"
+    },
+    {
+      "bytes": 376612,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/portfolioManagement"
+    },
+    {
+      "bytes": 20091,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/py_vollib_wrapper"
+    },
+    {
+      "bytes": 14224,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/pypme_wrapper"
+    },
+    {
+      "bytes": 85235,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/pyportfolioopt_wrapper"
+    },
+    {
+      "bytes": 398901,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/python_skfolio_lib"
+    },
+    {
+      "bytes": 112423,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/quant"
+    },
+    {
+      "bytes": 172932,
+      "files": 15,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/statsmodels_wrapper"
+    },
+    {
+      "bytes": 9432,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/technical_analysis"
+    },
+    {
+      "bytes": 17730,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/tsmoothie_wrapper"
+    },
+    {
+      "bytes": 26002,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/Analytics/vnpy_wrapper"
+    },
+    {
+      "bytes": 8314,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/EconomicAgents"
+    },
+    {
+      "bytes": 18777,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/EconomicAgents/configs"
+    },
+    {
+      "bytes": 10723,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/GeopoliticsAgents"
+    },
+    {
+      "bytes": 9714,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/GeopoliticsAgents/GrandChessboardAgents"
+    },
+    {
+      "bytes": 8744,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/GeopoliticsAgents/PrisonersOfGeographyAgents"
+    },
+    {
+      "bytes": 77902,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/GeopoliticsAgents/configs"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/TraderInvestorsAgent"
+    },
+    {
+      "bytes": 49595,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/TraderInvestorsAgent/configs"
+    },
+    {
+      "bytes": 120689,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/_tools"
+    },
+    {
+      "bytes": 62233,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/deepagents"
+    },
+    {
+      "bytes": 288393,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core"
+    },
+    {
+      "bytes": 111356,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/agentic"
+    },
+    {
+      "bytes": 52354,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/configs"
+    },
+    {
+      "bytes": 203401,
+      "files": 13,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/modules"
+    },
+    {
+      "bytes": 78469,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/registries"
+    },
+    {
+      "bytes": 22812,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/tests"
+    },
+    {
+      "bytes": 21856,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/finagent_core/tools"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents"
+    },
+    {
+      "bytes": 605,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/configs"
+    },
+    {
+      "bytes": 32582,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent"
+    },
+    {
+      "bytes": 38401,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/agents"
+    },
+    {
+      "bytes": 61711,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/agents/tools"
+    },
+    {
+      "bytes": 60360,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/evaluation"
+    },
+    {
+      "bytes": 69798,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/guardrails"
+    },
+    {
+      "bytes": 78333,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/knowledge"
+    },
+    {
+      "bytes": 84652,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/memory"
+    },
+    {
+      "bytes": 17516,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/models"
+    },
+    {
+      "bytes": 68437,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/organization"
+    },
+    {
+      "bytes": 70078,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/reasoning"
+    },
+    {
+      "bytes": 52806,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/schemas"
+    },
+    {
+      "bytes": 78539,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/strategies"
+    },
+    {
+      "bytes": 22051,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/teams"
+    },
+    {
+      "bytes": 32654,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/tests"
+    },
+    {
+      "bytes": 46514,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/tracing"
+    },
+    {
+      "bytes": 43277,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/utils"
+    },
+    {
+      "bytes": 89200,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/hedgeFundAgents/renaissance_technologies_hedge_fund_agent/workflows"
+    },
+    {
+      "bytes": 96545,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/rdagents"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/tests"
+    },
+    {
+      "bytes": 17155,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agents/tests/agentic"
+    },
+    {
+      "bytes": 1072,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading"
+    },
+    {
+      "bytes": 577,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/agents"
+    },
+    {
+      "bytes": 23952,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/config"
+    },
+    {
+      "bytes": 82243,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/core"
+    },
+    {
+      "bytes": 35864,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/db"
+    },
+    {
+      "bytes": 65994,
+      "files": 13,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/framework"
+    },
+    {
+      "bytes": 33800,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/tools"
+    },
+    {
+      "bytes": 14350,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/agno_trading/utils"
+    },
+    {
+      "bytes": 360908,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/ai_quant_lab"
+    },
+    {
+      "bytes": 117484,
+      "files": 27,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/exchange"
+    },
+    {
+      "bytes": 7321,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/i18n"
+    },
+    {
+      "bytes": 180,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/mcp"
+    },
+    {
+      "bytes": 97155,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/mcp/edgar"
+    },
+    {
+      "bytes": 52511,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/technicals"
+    },
+    {
+      "bytes": 58041,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/vision_quant"
+    },
+    {
+      "bytes": 17031,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/vision_quant/models"
+    },
+    {
+      "bytes": 36898,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/scripts/voice"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src"
+    },
+    {
+      "bytes": 227065,
+      "files": 28,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/algo_engine"
+    },
+    {
+      "bytes": 61578,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/algo_engine/fno"
+    },
+    {
+      "bytes": 323840,
+      "files": 21,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/app"
+    },
+    {
+      "bytes": 104349,
+      "files": 17,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/auth"
+    },
+    {
+      "bytes": 10221,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/auth/lock"
+    },
+    {
+      "bytes": 10932,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core"
+    },
+    {
+      "bytes": 54722,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/actions"
+    },
+    {
+      "bytes": 9258,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/components"
+    },
+    {
+      "bytes": 18838,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/config"
+    },
+    {
+      "bytes": 8953,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/crash"
+    },
+    {
+      "bytes": 6734,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/currency"
+    },
+    {
+      "bytes": 5753,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/debug"
+    },
+    {
+      "bytes": 4693,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/events"
+    },
+    {
+      "bytes": 8563,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/i18n"
+    },
+    {
+      "bytes": 3867,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/identity"
+    },
+    {
+      "bytes": 25899,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/keys"
+    },
+    {
+      "bytes": 70730,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/layout"
+    },
+    {
+      "bytes": 17374,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/logging"
+    },
+    {
+      "bytes": 1186,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/market"
+    },
+    {
+      "bytes": 8803,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/net"
+    },
+    {
+      "bytes": 20205,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/panel"
+    },
+    {
+      "bytes": 5061,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/profile"
+    },
+    {
+      "bytes": 7962,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/report"
+    },
+    {
+      "bytes": 1674,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/result"
+    },
+    {
+      "bytes": 9400,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/screen"
+    },
+    {
+      "bytes": 2559,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/services"
+    },
+    {
+      "bytes": 34520,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/session"
+    },
+    {
+      "bytes": 40206,
+      "files": 11,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/symbol"
+    },
+    {
+      "bytes": 21196,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/telemetry"
+    },
+    {
+      "bytes": 3432,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/core/window"
+    },
+    {
+      "bytes": 79165,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/datahub"
+    },
+    {
+      "bytes": 200678,
+      "files": 22,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/mcp"
+    },
+    {
+      "bytes": 932418,
+      "files": 81,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/mcp/tools"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/network"
+    },
+    {
+      "bytes": 6893,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/network/cloud"
+    },
+    {
+      "bytes": 6746,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/network/http"
+    },
+    {
+      "bytes": 10040,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/network/websocket"
+    },
+    {
+      "bytes": 132685,
+      "files": 11,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/python"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens"
+    },
+    {
+      "bytes": 24587,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/about"
+    },
+    {
+      "bytes": 23498,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/action_center"
+    },
+    {
+      "bytes": 409674,
+      "files": 22,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/agent_config"
+    },
+    {
+      "bytes": 140653,
+      "files": 11,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/ai_chat"
+    },
+    {
+      "bytes": 827317,
+      "files": 28,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/ai_quant_lab"
+    },
+    {
+      "bytes": 40174,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/akshare"
+    },
+    {
+      "bytes": 220043,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/algo_trading"
+    },
+    {
+      "bytes": 72883,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/alpha_arena"
+    },
+    {
+      "bytes": 10186,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/alpha_arena/panels"
+    },
+    {
+      "bytes": 80228,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/alt_investments"
+    },
+    {
+      "bytes": 36888,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/asia_markets"
+    },
+    {
+      "bytes": 137238,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/auth"
+    },
+    {
+      "bytes": 165841,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/backtesting"
+    },
+    {
+      "bytes": 184383,
+      "files": 13,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/chat_mode"
+    },
+    {
+      "bytes": 97802,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/code_editor"
+    },
+    {
+      "bytes": 21445,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/common"
+    },
+    {
+      "bytes": 36489,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/common/feeds"
+    },
+    {
+      "bytes": 57863,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/crypto_center"
+    },
+    {
+      "bytes": 217473,
+      "files": 20,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/crypto_center/panels"
+    },
+    {
+      "bytes": 80649,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/crypto_center/tabs"
+    },
+    {
+      "bytes": 283821,
+      "files": 24,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/crypto_trading"
+    },
+    {
+      "bytes": 106140,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/dashboard"
+    },
+    {
+      "bytes": 103165,
+      "files": 15,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/dashboard/canvas"
+    },
+    {
+      "bytes": 418321,
+      "files": 72,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/dashboard/widgets"
+    },
+    {
+      "bytes": 92784,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/data_mapping"
+    },
+    {
+      "bytes": 164043,
+      "files": 17,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/data_sources"
+    },
+    {
+      "bytes": 67788,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/data_sources/connectors"
+    },
+    {
+      "bytes": 121507,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/dbnomics"
+    },
+    {
+      "bytes": 54573,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/derivatives"
+    },
+    {
+      "bytes": 5116,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/devtools"
+    },
+    {
+      "bytes": 117060,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/docs"
+    },
+    {
+      "bytes": 15522,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/economics"
+    },
+    {
+      "bytes": 302160,
+      "files": 65,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/economics/panels"
+    },
+    {
+      "bytes": 270818,
+      "files": 19,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/equity_research"
+    },
+    {
+      "bytes": 573925,
+      "files": 31,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/equity_trading"
+    },
+    {
+      "bytes": 49214,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/excel"
+    },
+    {
+      "bytes": 51929,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/file_manager"
+    },
+    {
+      "bytes": 291290,
+      "files": 46,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/fno"
+    },
+    {
+      "bytes": 175273,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/forum"
+    },
+    {
+      "bytes": 140829,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/geopolitics"
+    },
+    {
+      "bytes": 228523,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/gov_data"
+    },
+    {
+      "bytes": 64583,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/info"
+    },
+    {
+      "bytes": 38645,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/launchpad"
+    },
+    {
+      "bytes": 149287,
+      "files": 12,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/ma_analytics"
+    },
+    {
+      "bytes": 104851,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/maritime"
+    },
+    {
+      "bytes": 79283,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/markets"
+    },
+    {
+      "bytes": 70460,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/mcp_servers"
+    },
+    {
+      "bytes": 200445,
+      "files": 16,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/news"
+    },
+    {
+      "bytes": 30678,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/news/dialogs"
+    },
+    {
+      "bytes": 58666,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/node_editor"
+    },
+    {
+      "bytes": 51938,
+      "files": 14,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/node_editor/canvas"
+    },
+    {
+      "bytes": 11207,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/node_editor/palette"
+    },
+    {
+      "bytes": 62339,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/node_editor/properties"
+    },
+    {
+      "bytes": 20470,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/node_editor/toolbar"
+    },
+    {
+      "bytes": 41065,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/notes"
+    },
+    {
+      "bytes": 242197,
+      "files": 26,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/polymarket"
+    },
+    {
+      "bytes": 424033,
+      "files": 34,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/portfolio"
+    },
+    {
+      "bytes": 345633,
+      "files": 18,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/portfolio/views"
+    },
+    {
+      "bytes": 29244,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/portfolio_monitor"
+    },
+    {
+      "bytes": 47023,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/profile"
+    },
+    {
+      "bytes": 69283,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/quantlib"
+    },
+    {
+      "bytes": 26961,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/recovery"
+    },
+    {
+      "bytes": 85479,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/relationship_map"
+    },
+    {
+      "bytes": 160542,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/report_builder"
+    },
+    {
+      "bytes": 402825,
+      "files": 38,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/settings"
+    },
+    {
+      "bytes": 32315,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/setup"
+    },
+    {
+      "bytes": 68096,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/support"
+    },
+    {
+      "bytes": 252520,
+      "files": 23,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/surface_analytics"
+    },
+    {
+      "bytes": 31426,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/trade_viz"
+    },
+    {
+      "bytes": 40264,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/screens/watchlist"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services"
+    },
+    {
+      "bytes": 124793,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/agents"
+    },
+    {
+      "bytes": 54492,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/ai_quant_lab"
+    },
+    {
+      "bytes": 5748,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/akshare"
+    },
+    {
+      "bytes": 46899,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/algo_trading"
+    },
+    {
+      "bytes": 167996,
+      "files": 28,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/alpha_arena"
+    },
+    {
+      "bytes": 6564,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/asia_markets"
+    },
+    {
+      "bytes": 32653,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/backtesting"
+    },
+    {
+      "bytes": 18400,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/billing"
+    },
+    {
+      "bytes": 138954,
+      "files": 25,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/cloud"
+    },
+    {
+      "bytes": 2199,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/common"
+    },
+    {
+      "bytes": 3149,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/crypto"
+    },
+    {
+      "bytes": 20536,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/data_normalization"
+    },
+    {
+      "bytes": 48296,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/databento"
+    },
+    {
+      "bytes": 22278,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/dbnomics"
+    },
+    {
+      "bytes": 16938,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/economics"
+    },
+    {
+      "bytes": 87778,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/equity"
+    },
+    {
+      "bytes": 54431,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/feeds"
+    },
+    {
+      "bytes": 11538,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/file_manager"
+    },
+    {
+      "bytes": 21703,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/forum"
+    },
+    {
+      "bytes": 35924,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/geopolitics"
+    },
+    {
+      "bytes": 12674,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/gov_data"
+    },
+    {
+      "bytes": 169026,
+      "files": 14,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/llm"
+    },
+    {
+      "bytes": 29206,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/ma_analytics"
+    },
+    {
+      "bytes": 67280,
+      "files": 9,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/maritime"
+    },
+    {
+      "bytes": 52635,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/markets"
+    },
+    {
+      "bytes": 130427,
+      "files": 14,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/news"
+    },
+    {
+      "bytes": 10247,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/notebooks"
+    },
+    {
+      "bytes": 12069,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/notifications"
+    },
+    {
+      "bytes": 41507,
+      "files": 31,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/notifications/providers"
+    },
+    {
+      "bytes": 136770,
+      "files": 14,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/options"
+    },
+    {
+      "bytes": 53461,
+      "files": 5,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/polymarket"
+    },
+    {
+      "bytes": 85049,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/portfolio"
+    },
+    {
+      "bytes": 24546,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/prediction"
+    },
+    {
+      "bytes": 22684,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/prediction/fincept_internal"
+    },
+    {
+      "bytes": 92137,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/prediction/kalshi"
+    },
+    {
+      "bytes": 36587,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/prediction/polymarket"
+    },
+    {
+      "bytes": 3461,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/pushpins"
+    },
+    {
+      "bytes": 3820,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/python_cli"
+    },
+    {
+      "bytes": 11329,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/quantlib"
+    },
+    {
+      "bytes": 22933,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/relationship_map"
+    },
+    {
+      "bytes": 60860,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/report_builder"
+    },
+    {
+      "bytes": 8786,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/sectors"
+    },
+    {
+      "bytes": 23999,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/stt"
+    },
+    {
+      "bytes": 20166,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/tts"
+    },
+    {
+      "bytes": 23129,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/updater"
+    },
+    {
+      "bytes": 11643,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/voice_trigger"
+    },
+    {
+      "bytes": 233279,
+      "files": 34,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/wallet"
+    },
+    {
+      "bytes": 108322,
+      "files": 22,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/workflow"
+    },
+    {
+      "bytes": 113373,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/workflow/adapters"
+    },
+    {
+      "bytes": 239933,
+      "files": 29,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/services/workflow/nodes"
+    },
+    {
+      "bytes": 45055,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage"
+    },
+    {
+      "bytes": 16627,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/cache"
+    },
+    {
+      "bytes": 216794,
+      "files": 65,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/repositories"
+    },
+    {
+      "bytes": 13012,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/secure"
+    },
+    {
+      "bytes": 17268,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/sqlite"
+    },
+    {
+      "bytes": 178457,
+      "files": 52,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/sqlite/migrations"
+    },
+    {
+      "bytes": 15048,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/sync"
+    },
+    {
+      "bytes": 34271,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/storage/workspace"
+    },
+    {
+      "bytes": 532268,
+      "files": 52,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading"
+    },
+    {
+      "bytes": 2807,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/adapter"
+    },
+    {
+      "bytes": 5415,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/auth"
+    },
+    {
+      "bytes": 14959,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers"
+    },
+    {
+      "bytes": 29563,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/aliceblue"
+    },
+    {
+      "bytes": 77835,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/alpaca"
+    },
+    {
+      "bytes": 65422,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/angelone"
+    },
+    {
+      "bytes": 50633,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/dhan"
+    },
+    {
+      "bytes": 32844,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/fivepaisa"
+    },
+    {
+      "bytes": 34206,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/flattrade"
+    },
+    {
+      "bytes": 56162,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/fyers"
+    },
+    {
+      "bytes": 70161,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/groww"
+    },
+    {
+      "bytes": 31931,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/ibkr"
+    },
+    {
+      "bytes": 30121,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/icicidirect"
+    },
+    {
+      "bytes": 34248,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/iifl"
+    },
+    {
+      "bytes": 45793,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/kotak"
+    },
+    {
+      "bytes": 43350,
+      "files": 3,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/metaapi"
+    },
+    {
+      "bytes": 33797,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/motilal"
+    },
+    {
+      "bytes": 35672,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/paytm"
+    },
+    {
+      "bytes": 30722,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/samco"
+    },
+    {
+      "bytes": 33786,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/saxo"
+    },
+    {
+      "bytes": 35967,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/shoonya"
+    },
+    {
+      "bytes": 33336,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/tradejini"
+    },
+    {
+      "bytes": 36228,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/tradier"
+    },
+    {
+      "bytes": 40007,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/upstox"
+    },
+    {
+      "bytes": 66244,
+      "files": 6,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/brokers/zerodha"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/exchanges"
+    },
+    {
+      "bytes": 36549,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/exchanges/hyperliquid"
+    },
+    {
+      "bytes": 143191,
+      "files": 26,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/instruments"
+    },
+    {
+      "bytes": 72356,
+      "files": 25,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/instruments/parsers"
+    },
+    {
+      "bytes": 16492,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/replication"
+    },
+    {
+      "bytes": 274222,
+      "files": 31,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/trading/websocket"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui"
+    },
+    {
+      "bytes": 52885,
+      "files": 19,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/charts"
+    },
+    {
+      "bytes": 13295,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/charts/layers"
+    },
+    {
+      "bytes": 20799,
+      "files": 8,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/command"
+    },
+    {
+      "bytes": 16467,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/components"
+    },
+    {
+      "bytes": 5255,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/debug"
+    },
+    {
+      "bytes": 4811,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/error"
+    },
+    {
+      "bytes": 542,
+      "files": 1,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/formatting"
+    },
+    {
+      "bytes": 4389,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/markdown"
+    },
+    {
+      "bytes": 115954,
+      "files": 18,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/navigation"
+    },
+    {
+      "bytes": 9877,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/notifications"
+    },
+    {
+      "bytes": 8642,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/pushpins"
+    },
+    {
+      "bytes": 3374,
+      "files": 2,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/tables"
+    },
+    {
+      "bytes": 91175,
+      "files": 7,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/theme"
+    },
+    {
+      "bytes": 114283,
+      "files": 30,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/widgets"
+    },
+    {
+      "bytes": 97371,
+      "files": 18,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/widgets/algo"
+    },
+    {
+      "bytes": 5874,
+      "files": 4,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/src/ui/workspace"
+    },
+    {
+      "bytes": 15394232,
+      "files": 11,
+      "path": "codebase-memory-mcp/FinceptTerminal/fincept-qt/translations"
+    },
+    {
+      "bytes": 4435228,
+      "files": 10,
+      "path": "codebase-memory-mcp/FinceptTerminal/images"
+    },
+    {
+      "bytes": 1793,
+      "files": 1,
+      "path": "codebase-memory-mcp/Formula"
+    },
+    {
+      "bytes": 2256553,
+      "files": 10,
+      "path": "codebase-memory-mcp/docs"
+    },
+    {
+      "bytes": 230873,
+      "files": 7,
+      "path": "codebase-memory-mcp/graph-ui"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/graph-ui/@"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/graph-ui/@/components"
+    },
+    {
+      "bytes": 10636,
+      "files": 7,
+      "path": "codebase-memory-mcp/graph-ui/@/components/ui"
+    },
+    {
+      "bytes": 3319,
+      "files": 3,
+      "path": "codebase-memory-mcp/graph-ui/src"
+    },
+    {
+      "bytes": 1093,
+      "files": 1,
+      "path": "codebase-memory-mcp/graph-ui/src/api"
+    },
+    {
+      "bytes": 109213,
+      "files": 19,
+      "path": "codebase-memory-mcp/graph-ui/src/components"
+    },
+    {
+      "bytes": 10636,
+      "files": 7,
+      "path": "codebase-memory-mcp/graph-ui/src/components/ui"
+    },
+    {
+      "bytes": 4178,
+      "files": 3,
+      "path": "codebase-memory-mcp/graph-ui/src/hooks"
+    },
+    {
+      "bytes": 9387,
+      "files": 5,
+      "path": "codebase-memory-mcp/graph-ui/src/lib"
+    },
+    {
+      "bytes": 1109,
+      "files": 1,
+      "path": "codebase-memory-mcp/graph-ui/src/styles"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/internal"
+    },
+    {
+      "bytes": 1106138,
+      "files": 192,
+      "path": "codebase-memory-mcp/internal/cbm"
+    },
+    {
+      "bytes": 1938947,
+      "files": 32,
+      "path": "codebase-memory-mcp/internal/cbm/lsp"
+    },
+    {
+      "bytes": 2458347,
+      "files": 10,
+      "path": "codebase-memory-mcp/internal/cbm/lsp/generated"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/internal/cbm/vendored"
+    },
+    {
+      "bytes": 76373,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/common"
+    },
+    {
+      "bytes": 22958,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/common/tree_sitter"
+    },
+    {
+      "bytes": 23132,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars"
+    },
+    {
+      "bytes": 2370385,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ada"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ada/tree_sitter"
+    },
+    {
+      "bytes": 16120612,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/agda"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/agda/tree_sitter"
+    },
+    {
+      "bytes": 7493885,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/apex"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/apex/tree_sitter"
+    },
+    {
+      "bytes": 137953,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/assembly"
+    },
+    {
+      "bytes": 18366,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/assembly/tree_sitter"
+    },
+    {
+      "bytes": 148936,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/astro"
+    },
+    {
+      "bytes": 16909,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/astro/tree_sitter"
+    },
+    {
+      "bytes": 5481327,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/awk"
+    },
+    {
+      "bytes": 16850,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/awk/tree_sitter"
+    },
+    {
+      "bytes": 9958934,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bash"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bash/tree_sitter"
+    },
+    {
+      "bytes": 519665,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/beancount"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/beancount/tree_sitter"
+    },
+    {
+      "bytes": 52310,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bibtex"
+    },
+    {
+      "bytes": 19091,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bibtex/tree_sitter"
+    },
+    {
+      "bytes": 1129689,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bicep"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bicep/tree_sitter"
+    },
+    {
+      "bytes": 3346958,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bitbake"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/bitbake/tree_sitter"
+    },
+    {
+      "bytes": 18142052,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/blade"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/blade/tree_sitter"
+    },
+    {
+      "bytes": 3873142,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/c"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/c/tree_sitter"
+    },
+    {
+      "bytes": 29307511,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/c_sharp"
+    },
+    {
+      "bytes": 22326,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/c_sharp/tree_sitter"
+    },
+    {
+      "bytes": 2218442,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cairo"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cairo/tree_sitter"
+    },
+    {
+      "bytes": 370523,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/capnp"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/capnp/tree_sitter"
+    },
+    {
+      "bytes": 11187011,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cfml"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cfml/tree_sitter"
+    },
+    {
+      "bytes": 12923842,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cfscript"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cfscript/tree_sitter"
+    },
+    {
+      "bytes": 832126,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/clojure"
+    },
+    {
+      "bytes": 5533,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/clojure/tree_sitter"
+    },
+    {
+      "bytes": 545187,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cmake"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cmake/tree_sitter"
+    },
+    {
+      "bytes": 30667555,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cobol"
+    },
+    {
+      "bytes": 5534,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cobol/tree_sitter"
+    },
+    {
+      "bytes": 5879368,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/commonlisp"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/commonlisp/tree_sitter"
+    },
+    {
+      "bytes": 25863456,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cpp"
+    },
+    {
+      "bytes": 22326,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cpp/tree_sitter"
+    },
+    {
+      "bytes": 45283680,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/crystal"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/crystal/tree_sitter"
+    },
+    {
+      "bytes": 508809,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/css"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/css/tree_sitter"
+    },
+    {
+      "bytes": 25962,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/csv"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/csv/tree_sitter"
+    },
+    {
+      "bytes": 20129768,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cuda"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/cuda/tree_sitter"
+    },
+    {
+      "bytes": 23070256,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/d"
+    },
+    {
+      "bytes": 18414,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/d/tree_sitter"
+    },
+    {
+      "bytes": 6238031,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dart"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dart/tree_sitter"
+    },
+    {
+      "bytes": 1004893,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/devicetree"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/devicetree/tree_sitter"
+    },
+    {
+      "bytes": 97308,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/diff"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/diff/tree_sitter"
+    },
+    {
+      "bytes": 270644,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dockerfile"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dockerfile/tree_sitter"
+    },
+    {
+      "bytes": 33210,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dotenv"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/dotenv/tree_sitter"
+    },
+    {
+      "bytes": 221961,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elisp"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elisp/tree_sitter"
+    },
+    {
+      "bytes": 12876139,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elixir"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elixir/tree_sitter"
+    },
+    {
+      "bytes": 1200261,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elm"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/elm/tree_sitter"
+    },
+    {
+      "bytes": 1991392,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/erlang"
+    },
+    {
+      "bytes": 18459,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/erlang/tree_sitter"
+    },
+    {
+      "bytes": 653069,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fennel"
+    },
+    {
+      "bytes": 5378,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fennel/tree_sitter"
+    },
+    {
+      "bytes": 478729,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fish"
+    },
+    {
+      "bytes": 5377,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fish/tree_sitter"
+    },
+    {
+      "bytes": 721138,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/form"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/form/tree_sitter"
+    },
+    {
+      "bytes": 36379483,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fortran"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fortran/tree_sitter"
+    },
+    {
+      "bytes": 32062798,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fsharp"
+    },
+    {
+      "bytes": 22302,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fsharp/common"
+    },
+    {
+      "bytes": 19094,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fsharp/common/tree_sitter"
+    },
+    {
+      "bytes": 19094,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/fsharp/tree_sitter"
+    },
+    {
+      "bytes": 548416,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/func"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/func/tree_sitter"
+    },
+    {
+      "bytes": 2106783,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gdscript"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gdscript/tree_sitter"
+    },
+    {
+      "bytes": 106144,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gitattributes"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gitattributes/tree_sitter"
+    },
+    {
+      "bytes": 62742,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gitignore"
+    },
+    {
+      "bytes": 5339,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gitignore/tree_sitter"
+    },
+    {
+      "bytes": 2930709,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gleam"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gleam/tree_sitter"
+    },
+    {
+      "bytes": 5516178,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/glsl"
+    },
+    {
+      "bytes": 21530,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/glsl/tree_sitter"
+    },
+    {
+      "bytes": 193605,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gn"
+    },
+    {
+      "bytes": 5409,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gn/tree_sitter"
+    },
+    {
+      "bytes": 1573764,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/go"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/go/tree_sitter"
+    },
+    {
+      "bytes": 118903,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gomod"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gomod/tree_sitter"
+    },
+    {
+      "bytes": 319161,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gotemplate"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/gotemplate/tree_sitter"
+    },
+    {
+      "bytes": 282267,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/graphql"
+    },
+    {
+      "bytes": 5325,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/graphql/tree_sitter"
+    },
+    {
+      "bytes": 6267977,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/groovy"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/groovy/tree_sitter"
+    },
+    {
+      "bytes": 894063,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hare"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hare/tree_sitter"
+    },
+    {
+      "bytes": 20088144,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/haskell"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/haskell/tree_sitter"
+    },
+    {
+      "bytes": 638538,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hcl"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hcl/tree_sitter"
+    },
+    {
+      "bytes": 20847952,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hlsl"
+    },
+    {
+      "bytes": 21530,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hlsl/tree_sitter"
+    },
+    {
+      "bytes": 86728,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/html"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/html/tree_sitter"
+    },
+    {
+      "bytes": 143933,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hyprlang"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/hyprlang/tree_sitter"
+    },
+    {
+      "bytes": 36505,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ini"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ini/tree_sitter"
+    },
+    {
+      "bytes": 8616556,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ispc"
+    },
+    {
+      "bytes": 5409,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ispc/tree_sitter"
+    },
+    {
+      "bytes": 115714,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/janet"
+    },
+    {
+      "bytes": 19094,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/janet/tree_sitter"
+    },
+    {
+      "bytes": 2562334,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/java"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/java/tree_sitter"
+    },
+    {
+      "bytes": 2867588,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/javascript"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/javascript/tree_sitter"
+    },
+    {
+      "bytes": 72580,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jinja2"
+    },
+    {
+      "bytes": 5378,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jinja2/tree_sitter"
+    },
+    {
+      "bytes": 124615,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jsdoc"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jsdoc/tree_sitter"
+    },
+    {
+      "bytes": 28747,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/json"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/json/tree_sitter"
+    },
+    {
+      "bytes": 57153,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/json5"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/json5/tree_sitter"
+    },
+    {
+      "bytes": 434575,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jsonnet"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/jsonnet/tree_sitter"
+    },
+    {
+      "bytes": 24083697,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/julia"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/julia/tree_sitter"
+    },
+    {
+      "bytes": 288034,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/just"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/just/tree_sitter"
+    },
+    {
+      "bytes": 367647,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kconfig"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kconfig/tree_sitter"
+    },
+    {
+      "bytes": 368630,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kdl"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kdl/tree_sitter"
+    },
+    {
+      "bytes": 29590538,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kotlin"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/kotlin/tree_sitter"
+    },
+    {
+      "bytes": 104439341,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/lean"
+    },
+    {
+      "bytes": 5378,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/lean/tree_sitter"
+    },
+    {
+      "bytes": 522442,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/linkerscript"
+    },
+    {
+      "bytes": 5409,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/linkerscript/tree_sitter"
+    },
+    {
+      "bytes": 937292,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/liquid"
+    },
+    {
+      "bytes": 22326,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/liquid/tree_sitter"
+    },
+    {
+      "bytes": 6019517,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/llvm"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/llvm/tree_sitter"
+    },
+    {
+      "bytes": 362015,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/lua"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/lua/tree_sitter"
+    },
+    {
+      "bytes": 681212,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/luau"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/luau/tree_sitter"
+    },
+    {
+      "bytes": 666687,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/magma"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/magma/tree_sitter"
+    },
+    {
+      "bytes": 947051,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/make"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/make/tree_sitter"
+    },
+    {
+      "bytes": 2129720,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/markdown"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/markdown/tree_sitter"
+    },
+    {
+      "bytes": 3244562,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/matlab"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/matlab/tree_sitter"
+    },
+    {
+      "bytes": 941433,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/mermaid"
+    },
+    {
+      "bytes": 16909,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/mermaid/tree_sitter"
+    },
+    {
+      "bytes": 786159,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/meson"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/meson/tree_sitter"
+    },
+    {
+      "bytes": 24381403,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/mojo"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/mojo/tree_sitter"
+    },
+    {
+      "bytes": 407069,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/move"
+    },
+    {
+      "bytes": 5378,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/move/tree_sitter"
+    },
+    {
+      "bytes": 5206067,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nasm"
+    },
+    {
+      "bytes": 16753,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nasm/tree_sitter"
+    },
+    {
+      "bytes": 1301643,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nickel"
+    },
+    {
+      "bytes": 19091,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nickel/tree_sitter"
+    },
+    {
+      "bytes": 596529,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nix"
+    },
+    {
+      "bytes": 5533,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/nix/tree_sitter"
+    },
+    {
+      "bytes": 28243703,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objc"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objc/tree_sitter"
+    },
+    {
+      "bytes": 38029688,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objectscript_routine"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objectscript_routine/tree_sitter"
+    },
+    {
+      "bytes": 38653270,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objectscript_udl"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/objectscript_udl/tree_sitter"
+    },
+    {
+      "bytes": 36118617,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ocaml"
+    },
+    {
+      "bytes": 18455,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ocaml/tree_sitter"
+    },
+    {
+      "bytes": 14841364,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/odin"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/odin/tree_sitter"
+    },
+    {
+      "bytes": 3532752,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pascal"
+    },
+    {
+      "bytes": 7038,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pascal/tree_sitter"
+    },
+    {
+      "bytes": 18128111,
+      "files": 5,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/perl"
+    },
+    {
+      "bytes": 18455,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/perl/tree_sitter"
+    },
+    {
+      "bytes": 6834916,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/php"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/php/tree_sitter"
+    },
+    {
+      "bytes": 1193926,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pine"
+    },
+    {
+      "bytes": 18366,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pine/tree_sitter"
+    },
+    {
+      "bytes": 1757708,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pkl"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pkl/tree_sitter"
+    },
+    {
+      "bytes": 59154,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/po"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/po/tree_sitter"
+    },
+    {
+      "bytes": 4699268,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pony"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/pony/tree_sitter"
+    },
+    {
+      "bytes": 4685766,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/powershell"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/powershell/tree_sitter"
+    },
+    {
+      "bytes": 231351,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/prisma"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/prisma/tree_sitter"
+    },
+    {
+      "bytes": 61313,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/properties"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/properties/tree_sitter"
+    },
+    {
+      "bytes": 227564,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/protobuf"
+    },
+    {
+      "bytes": 5340,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/protobuf/tree_sitter"
+    },
+    {
+      "bytes": 657958,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/puppet"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/puppet/tree_sitter"
+    },
+    {
+      "bytes": 8477961,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/purescript"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/purescript/tree_sitter"
+    },
+    {
+      "bytes": 3456194,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/python"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/python/tree_sitter"
+    },
+    {
+      "bytes": 9857185,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/qml"
+    },
+    {
+      "bytes": 18455,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/qml/tree_sitter"
+    },
+    {
+      "bytes": 4048921,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/r"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/r/tree_sitter"
+    },
+    {
+      "bytes": 516332,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/racket"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/racket/tree_sitter"
+    },
+    {
+      "bytes": 155868,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/regex"
+    },
+    {
+      "bytes": 22115,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/regex/tree_sitter"
+    },
+    {
+      "bytes": 187588,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/requirements"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/requirements/tree_sitter"
+    },
+    {
+      "bytes": 5462837,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rescript"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rescript/tree_sitter"
+    },
+    {
+      "bytes": 103158,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ron"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ron/tree_sitter"
+    },
+    {
+      "bytes": 324338,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rst"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rst/tree_sitter"
+    },
+    {
+      "bytes": 70171,
+      "files": 8,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rst/tree_sitter_rst"
+    },
+    {
+      "bytes": 15316264,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ruby"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/ruby/tree_sitter"
+    },
+    {
+      "bytes": 6519176,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rust"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/rust/tree_sitter"
+    },
+    {
+      "bytes": 28500856,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scala"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scala/tree_sitter"
+    },
+    {
+      "bytes": 309318,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scheme"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scheme/tree_sitter"
+    },
+    {
+      "bytes": 563151,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scss"
+    },
+    {
+      "bytes": 16703,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/scss/tree_sitter"
+    },
+    {
+      "bytes": 26976258,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/slang"
+    },
+    {
+      "bytes": 22115,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/slang/tree_sitter"
+    },
+    {
+      "bytes": 1637422,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/smali"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/smali/tree_sitter"
+    },
+    {
+      "bytes": 318489,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/smithy"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/smithy/tree_sitter"
+    },
+    {
+      "bytes": 2568116,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/solidity"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/solidity/tree_sitter"
+    },
+    {
+      "bytes": 700311,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/soql"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/soql/tree_sitter"
+    },
+    {
+      "bytes": 774841,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sosl"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sosl/tree_sitter"
+    },
+    {
+      "bytes": 41608008,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sql"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sql/tree_sitter"
+    },
+    {
+      "bytes": 3137891,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/squirrel"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/squirrel/tree_sitter"
+    },
+    {
+      "bytes": 895756,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sshconfig"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sshconfig/tree_sitter"
+    },
+    {
+      "bytes": 2506497,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/starlark"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/starlark/tree_sitter"
+    },
+    {
+      "bytes": 274514,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/svelte"
+    },
+    {
+      "bytes": 18414,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/svelte/tree_sitter"
+    },
+    {
+      "bytes": 3240322,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sway"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/sway/tree_sitter"
+    },
+    {
+      "bytes": 18250450,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/swift"
+    },
+    {
+      "bytes": 18455,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/swift/tree_sitter"
+    },
+    {
+      "bytes": 62157015,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/systemverilog"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/systemverilog/tree_sitter"
+    },
+    {
+      "bytes": 467532,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tablegen"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tablegen/tree_sitter"
+    },
+    {
+      "bytes": 456492,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tcl"
+    },
+    {
+      "bytes": 19091,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tcl/tree_sitter"
+    },
+    {
+      "bytes": 793020,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/teal"
+    },
+    {
+      "bytes": 19091,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/teal/tree_sitter"
+    },
+    {
+      "bytes": 2597765,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/templ"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/templ/tree_sitter"
+    },
+    {
+      "bytes": 732553,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/thrift"
+    },
+    {
+      "bytes": 18363,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/thrift/tree_sitter"
+    },
+    {
+      "bytes": 37116634,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tlaplus"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tlaplus/tree_sitter"
+    },
+    {
+      "bytes": 137683,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/toml"
+    },
+    {
+      "bytes": 18441,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/toml/tree_sitter"
+    },
+    {
+      "bytes": 8781580,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tsx"
+    },
+    {
+      "bytes": 18444,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/tsx/tree_sitter"
+    },
+    {
+      "bytes": 8757639,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/typescript"
+    },
+    {
+      "bytes": 18444,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/typescript/tree_sitter"
+    },
+    {
+      "bytes": 5050628,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/typst"
+    },
+    {
+      "bytes": 18452,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/typst/tree_sitter"
+    },
+    {
+      "bytes": 46043969,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/verilog"
+    },
+    {
+      "bytes": 16782,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/verilog/tree_sitter"
+    },
+    {
+      "bytes": 10094766,
+      "files": 9,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vhdl"
+    },
+    {
+      "bytes": 21878,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vhdl/tree_sitter"
+    },
+    {
+      "bytes": 4722463,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vim"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vim/tree_sitter"
+    },
+    {
+      "bytes": 150251,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vue"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/vue/tree_sitter"
+    },
+    {
+      "bytes": 413379,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wgsl"
+    },
+    {
+      "bytes": 5377,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wgsl/tree_sitter"
+    },
+    {
+      "bytes": 311922,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wit"
+    },
+    {
+      "bytes": 21875,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wit/tree_sitter"
+    },
+    {
+      "bytes": 4381342,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wolfram"
+    },
+    {
+      "bytes": 5378,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/wolfram/tree_sitter"
+    },
+    {
+      "bytes": 253462,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/xml"
+    },
+    {
+      "bytes": 19040,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/xml/tree_sitter"
+    },
+    {
+      "bytes": 1369977,
+      "files": 6,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/yaml"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/yaml/tree_sitter"
+    },
+    {
+      "bytes": 5818304,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/zig"
+    },
+    {
+      "bytes": 19037,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/zig/tree_sitter"
+    },
+    {
+      "bytes": 9768481,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/zsh"
+    },
+    {
+      "bytes": 5410,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/grammars/zsh/tree_sitter"
+    },
+    {
+      "bytes": 279907,
+      "files": 5,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/lz4"
+    },
+    {
+      "bytes": 174317,
+      "files": 3,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/simplecpp"
+    },
+    {
+      "bytes": 1080,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime/include"
+    },
+    {
+      "bytes": 46181,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime/include/tree_sitter"
+    },
+    {
+      "bytes": 516638,
+      "files": 34,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime/src"
+    },
+    {
+      "bytes": 6884,
+      "files": 1,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime/src/portable"
+    },
+    {
+      "bytes": 70657,
+      "files": 6,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/ts_runtime/src/unicode"
+    },
+    {
+      "bytes": 85647,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/verstable"
+    },
+    {
+      "bytes": 7244,
+      "files": 2,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/wyhash"
+    },
+    {
+      "bytes": 2362495,
+      "files": 4,
+      "path": "codebase-memory-mcp/internal/cbm/vendored/zstd"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg"
+    },
+    {
+      "bytes": 2232,
+      "files": 2,
+      "path": "codebase-memory-mcp/pkg/aur"
+    },
+    {
+      "bytes": 1622,
+      "files": 1,
+      "path": "codebase-memory-mcp/pkg/chocolatey"
+    },
+    {
+      "bytes": 1151,
+      "files": 2,
+      "path": "codebase-memory-mcp/pkg/chocolatey/tools"
+    },
+    {
+      "bytes": 3182,
+      "files": 2,
+      "path": "codebase-memory-mcp/pkg/glama"
+    },
+    {
+      "bytes": 65,
+      "files": 1,
+      "path": "codebase-memory-mcp/pkg/go"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/go/cmd"
+    },
+    {
+      "bytes": 7817,
+      "files": 1,
+      "path": "codebase-memory-mcp/pkg/go/cmd/codebase-memory-mcp"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/homebrew"
+    },
+    {
+      "bytes": 1793,
+      "files": 1,
+      "path": "codebase-memory-mcp/pkg/homebrew/Formula"
+    },
+    {
+      "bytes": 12046,
+      "files": 4,
+      "path": "codebase-memory-mcp/pkg/npm"
+    },
+    {
+      "bytes": 2116,
+      "files": 2,
+      "path": "codebase-memory-mcp/pkg/pypi"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/pypi/src"
+    },
+    {
+      "bytes": 8456,
+      "files": 3,
+      "path": "codebase-memory-mcp/pkg/pypi/src/codebase_memory_mcp"
+    },
+    {
+      "bytes": 1114,
+      "files": 1,
+      "path": "codebase-memory-mcp/pkg/scoop"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/winget"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/winget/manifests"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/winget/manifests/d"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/winget/manifests/d/DeusData"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/pkg/winget/manifests/d/DeusData/CodebaseMemoryMcp"
+    },
+    {
+      "bytes": 1905,
+      "files": 3,
+      "path": "codebase-memory-mcp/pkg/winget/manifests/d/DeusData/CodebaseMemoryMcp/0.8.1"
+    },
+    {
+      "bytes": 380683,
+      "files": 44,
+      "path": "codebase-memory-mcp/scripts"
+    },
+    {
+      "bytes": 4089,
+      "files": 2,
+      "path": "codebase-memory-mcp/scripts/ci"
+    },
+    {
+      "bytes": 657,
+      "files": 1,
+      "path": "codebase-memory-mcp/scripts/git-hooks"
+    },
+    {
+      "bytes": 490,
+      "files": 1,
+      "path": "codebase-memory-mcp/scripts/hooks"
+    },
+    {
+      "bytes": 28385,
+      "files": 1,
+      "path": "codebase-memory-mcp/src"
+    },
+    {
+      "bytes": 201414,
+      "files": 5,
+      "path": "codebase-memory-mcp/src/cli"
+    },
+    {
+      "bytes": 168115,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/cypher"
+    },
+    {
+      "bytes": 95552,
+      "files": 6,
+      "path": "codebase-memory-mcp/src/discover"
+    },
+    {
+      "bytes": 207957,
+      "files": 45,
+      "path": "codebase-memory-mcp/src/foundation"
+    },
+    {
+      "bytes": 13479,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/git"
+    },
+    {
+      "bytes": 71192,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/graph_buffer"
+    },
+    {
+      "bytes": 271182,
+      "files": 4,
+      "path": "codebase-memory-mcp/src/mcp"
+    },
+    {
+      "bytes": 905265,
+      "files": 37,
+      "path": "codebase-memory-mcp/src/pipeline"
+    },
+    {
+      "bytes": 86096,
+      "files": 4,
+      "path": "codebase-memory-mcp/src/semantic"
+    },
+    {
+      "bytes": 23337,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/simhash"
+    },
+    {
+      "bytes": 258337,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/store"
+    },
+    {
+      "bytes": 7469,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/traces"
+    },
+    {
+      "bytes": 120597,
+      "files": 10,
+      "path": "codebase-memory-mcp/src/ui"
+    },
+    {
+      "bytes": 29501,
+      "files": 2,
+      "path": "codebase-memory-mcp/src/watcher"
+    },
+    {
+      "bytes": 14686,
+      "files": 6,
+      "path": "codebase-memory-mcp/test-infrastructure"
+    },
+    {
+      "bytes": 4750392,
+      "files": 101,
+      "path": "codebase-memory-mcp/tests"
+    },
+    {
+      "bytes": 965609,
+      "files": 57,
+      "path": "codebase-memory-mcp/tests/repro"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/tools"
+    },
+    {
+      "bytes": 7583,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-form"
+    },
+    {
+      "bytes": 966424,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-form/src"
+    },
+    {
+      "bytes": 24898,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-form/src/tree_sitter"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/tools/tree-sitter-form/test"
+    },
+    {
+      "bytes": 1495,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-form/test/corpus"
+    },
+    {
+      "bytes": 10311,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-magma"
+    },
+    {
+      "bytes": 867025,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-magma/src"
+    },
+    {
+      "bytes": 24898,
+      "files": 3,
+      "path": "codebase-memory-mcp/tools/tree-sitter-magma/src/tree_sitter"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/tools/tree-sitter-magma/test"
+    },
+    {
+      "bytes": 2440,
+      "files": 2,
+      "path": "codebase-memory-mcp/tools/tree-sitter-magma/test/corpus"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "codebase-memory-mcp/vendored"
+    },
+    {
+      "bytes": 1096,
+      "files": 1,
+      "path": "codebase-memory-mcp/vendored/mimalloc"
+    },
+    {
+      "bytes": 62206,
+      "files": 4,
+      "path": "codebase-memory-mcp/vendored/mimalloc/include"
+    },
+    {
+      "bytes": 154794,
+      "files": 6,
+      "path": "codebase-memory-mcp/vendored/mimalloc/include/mimalloc"
+    },
+    {
+      "bytes": 608098,
+      "files": 22,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src"
+    },
+    {
+      "bytes": 2899,
+      "files": 2,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim"
+    },
+    {
+      "bytes": 7932,
+      "files": 1,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim/emscripten"
+    },
+    {
+      "bytes": 14792,
+      "files": 2,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim/osx"
+    },
+    {
+      "bytes": 33952,
+      "files": 1,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim/unix"
+    },
+    {
+      "bytes": 8518,
+      "files": 1,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim/wasi"
+    },
+    {
+      "bytes": 87879,
+      "files": 5,
+      "path": "codebase-memory-mcp/vendored/mimalloc/src/prim/windows"
+    },
+    {
+      "bytes": 32126736,
+      "files": 7,
+      "path": "codebase-memory-mcp/vendored/nomic"
+    },
+    {
+      "bytes": 10101285,
+      "files": 4,
+      "path": "codebase-memory-mcp/vendored/sqlite3"
+    },
+    {
+      "bytes": 237310,
+      "files": 27,
+      "path": "codebase-memory-mcp/vendored/tre"
+    },
+    {
+      "bytes": 280986,
+      "files": 3,
+      "path": "codebase-memory-mcp/vendored/xxhash"
+    },
+    {
+      "bytes": 746544,
+      "files": 3,
+      "path": "codebase-memory-mcp/vendored/yyjson"
+    },
+    {
+      "bytes": 1448,
+      "files": 1,
+      "path": "command_center"
+    },
+    {
+      "bytes": 1820,
+      "files": 6,
+      "path": "configuration"
+    },
+    {
+      "bytes": 1942,
+      "files": 6,
+      "path": "configuration_audit"
+    },
+    {
+      "bytes": 1980,
+      "files": 6,
+      "path": "configuration_certification"
+    },
+    {
+      "bytes": 2063,
+      "files": 6,
+      "path": "configuration_finalization"
+    },
+    {
+      "bytes": 2220,
+      "files": 7,
+      "path": "configuration_graph"
+    },
+    {
+      "bytes": 1992,
+      "files": 6,
+      "path": "configuration_lock"
+    },
+    {
+      "bytes": 2896,
+      "files": 7,
+      "path": "configuration_manifest"
+    },
+    {
+      "bytes": 1837,
+      "files": 6,
+      "path": "configuration_registry"
+    },
+    {
+      "bytes": 1865,
+      "files": 6,
+      "path": "configuration_release"
+    },
+    {
+      "bytes": 2192,
+      "files": 6,
+      "path": "configuration_validation"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "constructor-core-001"
+    },
+    {
+      "bytes": 371,
+      "files": 1,
+      "path": "constructor-core-001/compiler"
+    },
+    {
+      "bytes": 18158,
+      "files": 10,
+      "path": "core"
+    },
+    {
+      "bytes": 1610,
+      "files": 6,
+      "path": "data"
+    },
+    {
+      "bytes": 1735,
+      "files": 6,
+      "path": "data_audit"
+    },
+    {
+      "bytes": 1773,
+      "files": 6,
+      "path": "data_certification"
+    },
+    {
+      "bytes": 1829,
+      "files": 6,
+      "path": "data_finalization"
+    },
+    {
+      "bytes": 1985,
+      "files": 7,
+      "path": "data_graph"
+    },
+    {
+      "bytes": 1785,
+      "files": 6,
+      "path": "data_lock"
+    },
+    {
+      "bytes": 2489,
+      "files": 7,
+      "path": "data_manifest"
+    },
+    {
+      "bytes": 1602,
+      "files": 6,
+      "path": "data_registry"
+    },
+    {
+      "bytes": 1656,
+      "files": 6,
+      "path": "data_release"
+    },
+    {
+      "bytes": 1983,
+      "files": 6,
+      "path": "data_validation"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "docs"
+    },
+    {
+      "bytes": 1595,
+      "files": 6,
+      "path": "engine"
+    },
+    {
+      "bytes": 1781,
+      "files": 6,
+      "path": "engine_audit"
+    },
+    {
+      "bytes": 1819,
+      "files": 6,
+      "path": "engine_certification"
+    },
+    {
+      "bytes": 1820,
+      "files": 6,
+      "path": "engine_finalization"
+    },
+    {
+      "bytes": 2037,
+      "files": 7,
+      "path": "engine_graph"
+    },
+    {
+      "bytes": 1629,
+      "files": 6,
+      "path": "engine_lock"
+    },
+    {
+      "bytes": 1653,
+      "files": 6,
+      "path": "engine_registry"
+    },
+    {
+      "bytes": 1698,
+      "files": 6,
+      "path": "engine_release"
+    },
+    {
+      "bytes": 1667,
+      "files": 6,
+      "path": "engine_seal"
+    },
+    {
+      "bytes": 2029,
+      "files": 6,
+      "path": "engine_validation"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "forge"
+    },
+    {
+      "bytes": 918606,
+      "files": 373,
+      "path": "forge/automation"
+    },
+    {
+      "bytes": 2820,
+      "files": 1,
+      "path": "forge/builder"
+    },
+    {
+      "bytes": 52360,
+      "files": 13,
+      "path": "forge/compiler"
+    },
+    {
+      "bytes": 760,
+      "files": 1,
+      "path": "forge/evolution"
+    },
+    {
+      "bytes": 5074,
+      "files": 2,
+      "path": "forge/graph"
+    },
+    {
+      "bytes": 98875,
+      "files": 48,
+      "path": "forge/infra"
+    },
+    {
+      "bytes": 16684,
+      "files": 3,
+      "path": "forge/meta"
+    },
+    {
+      "bytes": 4731,
+      "files": 2,
+      "path": "forge/meta/catalogs"
+    },
+    {
+      "bytes": 1634,
+      "files": 2,
+      "path": "forge/meta/master"
+    },
+    {
+      "bytes": 1779,
+      "files": 1,
+      "path": "forge/meta/templates"
+    },
+    {
+      "bytes": 17250,
+      "files": 13,
+      "path": "forge/workforce"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "generated"
+    },
+    {
+      "bytes": 169,
+      "files": 1,
+      "path": "generated/cli"
+    },
+    {
+      "bytes": 4418,
+      "files": 3,
+      "path": "generated/dependencies"
+    },
+    {
+      "bytes": 716,
+      "files": 2,
+      "path": "generated/dist"
+    },
+    {
+      "bytes": 442,
+      "files": 1,
+      "path": "generated/docs"
+    },
+    {
+      "bytes": 7651,
+      "files": 3,
+      "path": "generated/index"
+    },
+    {
+      "bytes": 1697,
+      "files": 5,
+      "path": "generated/install"
+    },
+    {
+      "bytes": 972,
+      "files": 3,
+      "path": "generated/metadata"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "generated/package"
+    },
+    {
+      "bytes": 400,
+      "files": 4,
+      "path": "generated/package/mod_0001"
+    },
+    {
+      "bytes": 274,
+      "files": 1,
+      "path": "generated/python"
+    },
+    {
+      "bytes": 8137,
+      "files": 3,
+      "path": "generated/registry"
+    },
+    {
+      "bytes": 840,
+      "files": 2,
+      "path": "generated/release"
+    },
+    {
+      "bytes": 494,
+      "files": 1,
+      "path": "generated/tests"
+    },
+    {
+      "bytes": 0,
+      "files": 1,
+      "path": "generated/tests/integrity"
+    },
+    {
+      "bytes": 226,
+      "files": 1,
+      "path": "generated/validation"
+    },
+    {
+      "bytes": 135,
+      "files": 1,
+      "path": "kernel"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "projects"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "registry"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "registry/automation"
+    },
+    {
+      "bytes": 760,
+      "files": 1,
+      "path": "registry/evolution"
+    },
+    {
+      "bytes": 17250,
+      "files": 13,
+      "path": "registry/workforce"
+    },
+    {
+      "bytes": 5729,
+      "files": 56,
+      "path": "runtime"
+    },
+    {
+      "bytes": 1117,
+      "files": 1,
+      "path": "runtime/architecture"
+    },
+    {
+      "bytes": 440424,
+      "files": 614,
+      "path": "runtime/atlas"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "runtime/automation"
+    },
+    {
+      "bytes": 12011,
+      "files": 7,
+      "path": "runtime/builder"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "runtime/cache"
+    },
+    {
+      "bytes": 196,
+      "files": 1,
+      "path": "runtime/capabilities"
+    },
+    {
+      "bytes": 93178,
+      "files": 39,
+      "path": "runtime/compiler"
+    },
+    {
+      "bytes": 20794,
+      "files": 40,
+      "path": "runtime/compiler/cache"
+    },
+    {
+      "bytes": 846,
+      "files": 3,
+      "path": "runtime/config"
+    },
+    {
+      "bytes": 418,
+      "files": 1,
+      "path": "runtime/context"
+    },
+    {
+      "bytes": 1384,
+      "files": 1,
+      "path": "runtime/dependencies"
+    },
+    {
+      "bytes": 864,
+      "files": 1,
+      "path": "runtime/events"
+    },
+    {
+      "bytes": 760,
+      "files": 1,
+      "path": "runtime/evolution"
+    },
+    {
+      "bytes": 2027,
+      "files": 2,
+      "path": "runtime/fir"
+    },
+    {
+      "bytes": 4743,
+      "files": 11,
+      "path": "runtime/galaxy"
+    },
+    {
+      "bytes": 22816,
+      "files": 6,
+      "path": "runtime/graph"
+    },
+    {
+      "bytes": 5761134,
+      "files": 141,
+      "path": "runtime/infra"
+    },
+    {
+      "bytes": 205,
+      "files": 1,
+      "path": "runtime/kernel"
+    },
+    {
+      "bytes": 1532,
+      "files": 1,
+      "path": "runtime/logs"
+    },
+    {
+      "bytes": 4675,
+      "files": 4,
+      "path": "runtime/meta"
+    },
+    {
+      "bytes": 395,
+      "files": 1,
+      "path": "runtime/services"
+    },
+    {
+      "bytes": 145,
+      "files": 1,
+      "path": "runtime/state"
+    },
+    {
+      "bytes": 919374,
+      "files": 90,
+      "path": "runtime/workforce"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "scripts"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "services"
+    },
+    {
+      "bytes": 0,
+      "files": 0,
+      "path": "tests"
+    }
+  ],
+  "directory_count": 909,
+  "integrity_hash": "32ddaf2db12d033e780025f8b5e081c31a58de9e32d8d50cabca7578827ac6e7",
+  "module": "FORGE-INFRA-048",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_DIRECTORY_SIZE_SUMMARY_READY",
+  "timestamp": "2026-07-13T23:27:08.178315+00:00"
+}
