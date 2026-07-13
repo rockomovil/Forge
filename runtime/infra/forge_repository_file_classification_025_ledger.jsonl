@@ -1,0 +1,1 @@
+{"classification": {"no_extension": 210, "other": 3483, "text": 3035}, "integrity_hash": "eb812e0a12581b65d1ccaef735f614098fbf32ec4acf331ff2c0b681aba07c87", "module": "FORGE-INFRA-025", "runtime_mode": "SHADOW_ONLY_READ_ONLY", "status": "FORGE_REPOSITORY_FILE_CLASSIFICATION_READY", "timestamp": "2026-07-13T23:00:44.812403+00:00", "total_files": 6728}
