@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import re
 import subprocess
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -17,205 +16,182 @@ AUTOMATION = ROOT / "forge" / "automation"
 RUNTIME = ROOT / "runtime" / "atlas"
 RUNTIME_META = ROOT / "runtime" / "meta"
 
-SCRIPT_RE = re.compile(
-    r"forge_knowledge_(\d+)_atlas_(.+)_engine\.py$"
-)
-
 
 @dataclass
 class Module:
-
     id: int
-
     slug: str
-
     title: str
-
     status: str
 
 
 def load_catalog(path: Path):
+    return json.loads(path.read_text(encoding="utf-8"))
 
-    with path.open(
-        "r",
+
+def script_path(m: Module):
+    return AUTOMATION / (
+        f"forge_knowledge_{m.id:03d}_atlas_{m.slug}_engine.py"
+    )
+
+
+def runtime_paths(m: Module):
+    return [
+        RUNTIME / f"{m.slug}_{m.id:03d}.json",
+        RUNTIME / f"{m.slug}_{m.id:03d}_hash.json",
+        RUNTIME / f"{m.slug}_{m.id:03d}_ledger.jsonl",
+    ]
+
+
+def scan_module(m: Module):
+
+    script = script_path(m)
+
+    runtime = runtime_paths(m)
+
+    if script.exists() and all(x.exists() for x in runtime):
+        return "COMPLETE"
+
+    if script.exists() and any(x.exists() for x in runtime):
+        return "PARTIAL"
+
+    if script.exists():
+        return "SCRIPT_ONLY"
+
+    return "MISSING"
+
+
+def find_template(modules):
+
+    for m in reversed(modules):
+
+        if script_path(m).exists():
+
+            return m
+
+    raise RuntimeError("NO_TEMPLATE_AVAILABLE")
+
+
+def render(template: str, src: Module, dst: Module):
+
+    text = template
+
+    replacements = [
+
+        (
+            f"FORGE-KNOWLEDGE-{src.id:03d}",
+            f"FORGE-KNOWLEDGE-{dst.id:03d}"
+        ),
+
+        (
+            src.status,
+            dst.status
+        ),
+
+        (
+            src.title,
+            dst.title
+        ),
+
+        (
+            src.title.lower(),
+            dst.title.lower()
+        ),
+
+        (
+            src.slug,
+            dst.slug
+        ),
+
+        (
+            f"_{src.id:03d}",
+            f"_{dst.id:03d}"
+        )
+
+    ]
+
+    for a, b in replacements:
+
+        text = text.replace(a, b)
+
+    return text
+
+
+def generate(template_module, target):
+
+    template_file = script_path(template_module)
+
+    text = template_file.read_text(
         encoding="utf-8"
-    ) as f:
-
-        return json.load(f)
-
-
-def automation_file(module):
-
-    return (
-        AUTOMATION /
-        f"forge_knowledge_{module.id:03d}_atlas_{module.slug}_engine.py"
     )
 
-
-def runtime_files(module):
-
-    return {
-
-        "runtime":
-        RUNTIME /
-        f"{module.slug}_{module.id:03d}.json",
-
-        "hash":
-        RUNTIME /
-        f"{module.slug}_{module.id:03d}_hash.json",
-
-        "ledger":
-        RUNTIME /
-        f"{module.slug}_{module.id:03d}_ledger.jsonl",
-    }
-
-
-def scan(modules):
-
-    result = {}
-
-    for m in modules:
-
-        script = automation_file(m)
-
-        files = runtime_files(m)
-
-        if (
-            script.exists()
-            and
-            all(
-                p.exists()
-                for p in files.values()
-            )
-        ):
-
-            state = "COMPLETE"
-
-        elif (
-            script.exists()
-            and
-            any(
-                p.exists()
-                for p in files.values()
-            )
-        ):
-
-            state = "PARTIAL"
-
-        elif script.exists():
-
-            state = "SCRIPT_ONLY"
-
-        else:
-
-            state = "MISSING"
-
-        result[m.id] = {
-
-            "state": state,
-
-            "script": script,
-
-            "runtime": files,
-
-        }
-
-    return result
-
-
-def build(modules, scan_result, resume, overwrite):
-
-    generated = []
-
-    for m in modules:
-
-        state = scan_result[m.id]["state"]
-
-        if state == "COMPLETE":
-
-            if resume:
-
-                continue
-
-            if not overwrite:
-
-                raise SystemExit(
-                    f"DESTINATION_EXISTS: {automation_file(m)}"
-                )
-
-        generated.append(m)
-
-    return generated
-
-
-def report(summary):
-
-    RUNTIME_META.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    out = (
-        RUNTIME_META /
-        "forge_meta_builder_report.json"
-    )
+    out = script_path(target)
 
     out.write_text(
 
-        json.dumps(
-            summary,
-            indent=2
+        render(
+            text,
+            template_module,
+            target
         ),
 
         encoding="utf-8"
 
     )
 
-    digest = hashlib.sha256(
-        out.read_bytes()
-    ).hexdigest()
+    out.chmod(0o755)
 
-    print()
-    print(summary["status"])
-    print(f"hash = {digest}")
-    print()
+    return out
+
+
+def validate_runtime(module):
+
+    return all(
+        p.exists()
+        for p in runtime_paths(module)
+    )
+
+
+def execute(module):
+
+    subprocess.run(
+
+        [
+            "python3",
+            str(script_path(module))
+        ],
+
+        cwd=ROOT,
+        check=True
+
+    )
 
 
 def main():
 
-    parser = argparse.ArgumentParser()
+    ap = argparse.ArgumentParser()
 
-    parser.add_argument(
+    ap.add_argument(
         "--catalog",
         required=True
     )
 
-    parser.add_argument(
+    ap.add_argument(
         "--resume",
         action="store_true"
     )
 
-    parser.add_argument(
-        "--overwrite",
-        action="store_true"
-    )
-
-    parser.add_argument(
-        "--scan",
-        action="store_true"
-    )
-
-    parser.add_argument(
+    ap.add_argument(
         "--execute",
         action="store_true"
     )
 
-    parser.add_argument(
-        "--git-batch",
+    ap.add_argument(
+        "--scan",
         action="store_true"
     )
 
-    args = parser.parse_args()
+    args = ap.parse_args()
 
     catalog = load_catalog(
         ROOT / args.catalog
@@ -224,60 +200,94 @@ def main():
     modules = [
 
         Module(
-            id=int(x["id"]),
-            slug=x["slug"],
-            title=x["title"],
-            status=x["status"],
+
+            int(x["id"]),
+
+            x["slug"],
+
+            x["title"],
+
+            x["status"]
+
         )
 
         for x in catalog["modules"]
 
     ]
 
-    state = scan(modules)
-
-    complete = sum(
-        s["state"] == "COMPLETE"
-        for s in state.values()
-    )
-
-    partial = sum(
-        s["state"] == "PARTIAL"
-        for s in state.values()
-    )
-
-    script_only = sum(
-        s["state"] == "SCRIPT_ONLY"
-        for s in state.values()
-    )
-
-    missing = sum(
-        s["state"] == "MISSING"
-        for s in state.values()
-    )
+    template = find_template(modules)
 
     summary = {
+        "COMPLETE":0,
+        "PARTIAL":0,
+        "SCRIPT_ONLY":0,
+        "MISSING":0
+    }
 
-        "builder":
-        "FORGE_META_BUILDER",
+    todo = []
+
+    for m in modules:
+
+        state = scan_module(m)
+
+        summary[state]+=1
+
+        if state!="COMPLETE":
+
+            todo.append(m)
+
+    digest = hashlib.sha256(
+
+        json.dumps(
+            summary,
+            sort_keys=True
+        ).encode()
+
+    ).hexdigest()
+
+    print()
+    print("FORGE_META_BUILDER_005_READY")
+    print(f"hash = {digest}")
+    print()
+
+    print(summary)
+
+    if args.scan:
+        return
+
+    generated=[]
+
+    for m in todo:
+
+        print(f"GENERATING {m.id}")
+
+        generate(
+            template,
+            m
+        )
+
+        generated.append(m)
+
+        if args.execute:
+
+            execute(m)
+
+            if not validate_runtime(m):
+
+                raise RuntimeError(
+                    f"Runtime validation failed {m.id}"
+                )
+
+    report={
 
         "status":
-        "FORGE_META_BUILDER_READY",
+        "FORGE_META_BUILDER_005_READY",
 
-        "family":
-        catalog["family"],
+        "generated":
+        [m.id for m in generated],
 
-        "complete":
-        complete,
-
-        "partial":
-        partial,
-
-        "script_only":
-        script_only,
-
-        "missing":
-        missing,
+        "count":
+        len(generated),
 
         "timestamp":
         datetime.now(
@@ -289,75 +299,24 @@ def main():
 
     }
 
-    report(summary)
-
-    if args.scan:
-
-        print("SCAN COMPLETE")
-        return
-
-    todo = build(
-        modules,
-        state,
-        args.resume,
-        args.overwrite
+    RUNTIME_META.mkdir(
+        parents=True,
+        exist_ok=True
     )
 
-    print(
-        f"TO_GENERATE = {len(todo)}"
+    (
+        RUNTIME_META /
+        "forge_meta_builder_report.json"
+    ).write_text(
+
+        json.dumps(
+            report,
+            indent=2
+        ),
+
+        encoding="utf-8"
+
     )
-
-    if args.execute:
-
-        for m in todo:
-
-            subprocess.run(
-
-                [
-
-                    "python3",
-
-                    str(
-                        automation_file(m)
-                    )
-
-                ],
-
-                cwd=ROOT,
-
-                check=True
-
-            )
-
-    if args.git_batch:
-
-        subprocess.run(
-            ["git", "add", "."],
-            cwd=ROOT,
-            check=True
-        )
-
-        subprocess.run(
-            [
-                "git",
-                "commit",
-                "-m",
-                "FORGE-META-BUILDER Unified Engine Update"
-            ],
-            cwd=ROOT,
-            check=True
-        )
-
-        subprocess.run(
-            [
-                "git",
-                "push",
-                "origin",
-                "main"
-            ],
-            cwd=ROOT,
-            check=True
-        )
 
 
 if __name__ == "__main__":
