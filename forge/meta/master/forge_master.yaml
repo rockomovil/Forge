@@ -7,6 +7,7 @@ runtime_mode: SHADOW_ONLY_READ_ONLY
 families:
 
   - forge/meta/catalogs/atlas_knowledge_family_277_286.json
+  - forge/meta/catalogs/atlas_mathematical_foundations_family_287_296.json
 
 # Próximamente:
 #

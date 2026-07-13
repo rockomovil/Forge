@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-292",
+  "status": "ATLAS_INTEGRAL_CALCULUS_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 292,
+    "slug": "integral_calculus"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T20:39:21.141963+00:00",
+  "hash": "fa8f05a92613ba40c3645969753bffd847f75a7c9294f4a653984556d78d4fab"
+}
