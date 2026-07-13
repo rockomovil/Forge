@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-278",
+  "status": "ATLAS_KNOWLEDGE_VERSIONING_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 278,
+    "slug": "knowledge_versioning"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T21:06:11.828742+00:00",
+  "hash": "843a6165b8eebfc07b5b8e9e24f06e8a9e07e12a11d383a5b37dbafa1d3319d1"
+}

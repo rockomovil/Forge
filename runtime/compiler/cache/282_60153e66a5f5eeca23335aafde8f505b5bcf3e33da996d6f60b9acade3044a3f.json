@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-282",
+  "status": "ATLAS_KNOWLEDGE_RELEASE_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 282,
+    "slug": "knowledge_release"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T21:06:12.117573+00:00",
+  "hash": "1ed30d76624897543f1a6001ecb052e554e6aed39248f2b12231e2ff3b53c9d0"
+}

@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-279",
+  "status": "ATLAS_KNOWLEDGE_SNAPSHOT_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 279,
+    "slug": "knowledge_snapshot"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T21:06:11.920622+00:00",
+  "hash": "ebb7f5499dc208a99b5eca025037b953881851ceb1b2a1b43a0dc3fce5a656ee"
+}
