@@ -1,0 +1,9 @@
+{
+  "module": "FORGE-INFRA-012",
+  "status": "FORGE_REPOSITORY_SIGNATURE_READY",
+  "repository_signature": "062652a1636f2cd5323eaf0dcaf3eff99cefb56c127a586712a58107025e5fa7",
+  "files_processed": 6676,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "timestamp": "2026-07-13T22:06:41.891256+00:00",
+  "integrity_hash": "a0881426e0d25f79e7966461a6693a4c5c9dcdf4401bc96d6ec5c67e59fa4e32"
+}
