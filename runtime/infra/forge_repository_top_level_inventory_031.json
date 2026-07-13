@@ -1,0 +1,414 @@
+{
+  "entries": [
+    {
+      "name": ".forge_backup",
+      "type": "directory"
+    },
+    {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
+      "name": ".pytest_cache",
+      "type": "directory"
+    },
+    {
+      "name": "agents",
+      "type": "directory"
+    },
+    {
+      "name": "arc0003_architecture_dependency_graph.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0004_architecture_validation.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0005_architecture_integrity_audit.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0006_architecture_certification.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0007_architecture_lock.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0008_architecture_manifest.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0009_architecture_release.py",
+      "type": "file"
+    },
+    {
+      "name": "arc0010_architecture_finalization.py",
+      "type": "file"
+    },
+    {
+      "name": "architecture",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_audit",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_certification",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_finalization",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_graph",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_lock",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_manifest",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_registry",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_release",
+      "type": "directory"
+    },
+    {
+      "name": "architecture_validation",
+      "type": "directory"
+    },
+    {
+      "name": "bin",
+      "type": "directory"
+    },
+    {
+      "name": "bootstrap",
+      "type": "directory"
+    },
+    {
+      "name": "builder",
+      "type": "directory"
+    },
+    {
+      "name": "capabilities",
+      "type": "directory"
+    },
+    {
+      "name": "cfg0001_configuration_charter.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0002_configuration_registry.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0003_configuration_dependency_graph.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0004_configuration_validation.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0005_configuration_integrity_audit.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0006_configuration_certification.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0007_configuration_lock.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0008_configuration_manifest.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0009_configuration_release.py",
+      "type": "file"
+    },
+    {
+      "name": "cfg0010_configuration_finalization.py",
+      "type": "file"
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "type": "directory"
+    },
+    {
+      "name": "command_center",
+      "type": "directory"
+    },
+    {
+      "name": "configuration",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_audit",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_certification",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_finalization",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_graph",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_lock",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_manifest",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_registry",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_release",
+      "type": "directory"
+    },
+    {
+      "name": "configuration_validation",
+      "type": "directory"
+    },
+    {
+      "name": "constructor-core-001",
+      "type": "directory"
+    },
+    {
+      "name": "core",
+      "type": "directory"
+    },
+    {
+      "name": "DAT0001_DATA_CHARTER.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0002_DATA_REGISTRY.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0003_DATA_DEPENDENCY_GRAPH.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0004_DATA_VALIDATION.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0005_DATA_INTEGRITY_AUDIT.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0006_DATA_CERTIFICATION.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0007_DATA_LOCK.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0008_DATA_MANIFEST.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0009_DATA_RELEASE.py",
+      "type": "file"
+    },
+    {
+      "name": "DAT0010_DATA_FINALIZATION.py",
+      "type": "file"
+    },
+    {
+      "name": "data",
+      "type": "directory"
+    },
+    {
+      "name": "data_audit",
+      "type": "directory"
+    },
+    {
+      "name": "data_certification",
+      "type": "directory"
+    },
+    {
+      "name": "data_finalization",
+      "type": "directory"
+    },
+    {
+      "name": "data_graph",
+      "type": "directory"
+    },
+    {
+      "name": "data_lock",
+      "type": "directory"
+    },
+    {
+      "name": "data_manifest",
+      "type": "directory"
+    },
+    {
+      "name": "data_registry",
+      "type": "directory"
+    },
+    {
+      "name": "data_release",
+      "type": "directory"
+    },
+    {
+      "name": "data_validation",
+      "type": "directory"
+    },
+    {
+      "name": "docs",
+      "type": "directory"
+    },
+    {
+      "name": "ENG0001_ENGINE_CHARTER.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0002_ENGINE_REGISTRY.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0003_ENGINE_DEPENDENCY_GRAPH.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0004_ENGINE_VALIDATION.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0005_ENGINE_INTEGRITY_AUDIT.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0006_ENGINE_CERTIFICATION.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0007_ENGINE_SEAL.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0008_ENGINE_LOCK.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0009_ENGINE_RELEASE.py",
+      "type": "file"
+    },
+    {
+      "name": "ENG0010_ENGINE_FINALIZATION.py",
+      "type": "file"
+    },
+    {
+      "name": "engine",
+      "type": "directory"
+    },
+    {
+      "name": "engine_audit",
+      "type": "directory"
+    },
+    {
+      "name": "engine_certification",
+      "type": "directory"
+    },
+    {
+      "name": "engine_finalization",
+      "type": "directory"
+    },
+    {
+      "name": "engine_graph",
+      "type": "directory"
+    },
+    {
+      "name": "engine_lock",
+      "type": "directory"
+    },
+    {
+      "name": "engine_registry",
+      "type": "directory"
+    },
+    {
+      "name": "engine_release",
+      "type": "directory"
+    },
+    {
+      "name": "engine_seal",
+      "type": "directory"
+    },
+    {
+      "name": "engine_validation",
+      "type": "directory"
+    },
+    {
+      "name": "forge",
+      "type": "directory"
+    },
+    {
+      "name": "generated",
+      "type": "directory"
+    },
+    {
+      "name": "kernel",
+      "type": "directory"
+    },
+    {
+      "name": "main",
+      "type": "file"
+    },
+    {
+      "name": "projects",
+      "type": "directory"
+    },
+    {
+      "name": "registry",
+      "type": "directory"
+    },
+    {
+      "name": "runtime",
+      "type": "directory"
+    },
+    {
+      "name": "scripts",
+      "type": "directory"
+    },
+    {
+      "name": "services",
+      "type": "directory"
+    },
+    {
+      "name": "tests",
+      "type": "directory"
+    }
+  ],
+  "entry_count": 101,
+  "integrity_hash": "6f8abb0487df56e78b5c519007c01354c9e7d306bbe36bf40f78f614202a8356",
+  "module": "FORGE-INFRA-031",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_TOP_LEVEL_INVENTORY_READY",
+  "timestamp": "2026-07-13T23:04:55.106415+00:00"
+}
