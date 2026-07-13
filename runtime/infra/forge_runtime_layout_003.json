@@ -1,0 +1,15 @@
+{
+  "module": "FORGE-INFRA-003",
+  "status": "FORGE_RUNTIME_LAYOUT_VALIDATOR_READY",
+  "runtime_layout": {
+    "runtime": true,
+    "runtime/infra": true,
+    "runtime/atlas": true,
+    "runtime/graph": true
+  },
+  "runtime_layout_valid": true,
+  "missing_directories": [],
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "timestamp": "2026-07-13T21:56:57.259528+00:00",
+  "integrity_hash": "f7c27d02cbe397e36157fde14e147c5a66815c3d35534b03ca79cdc51ae86dd7"
+}
