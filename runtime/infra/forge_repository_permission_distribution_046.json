@@ -1,0 +1,13 @@
+{
+  "integrity_hash": "a766cab2f5cbc96f9a7e682cefdef0cedf2cc30141c86b2636a62fdbd812cebc",
+  "module": "FORGE-INFRA-046",
+  "permission_distribution": {
+    "0o664": 6468,
+    "0o755": 149,
+    "0o775": 195
+  },
+  "permission_pattern_count": 3,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_PERMISSION_DISTRIBUTION_READY",
+  "timestamp": "2026-07-13T23:25:10.589053+00:00"
+}
