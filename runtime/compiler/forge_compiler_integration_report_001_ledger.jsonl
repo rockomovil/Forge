@@ -1,0 +1,1 @@
+{"compiler": "FORGE-COMPILER-013", "status": "FORGE_COMPILER_INTEGRATION_READY", "runtime_mode": "SHADOW_ONLY_READ_ONLY", "modules": 20, "cache_hits": 20, "cache_misses": 0, "rebuilt": 0, "legacy_removed": 0, "cache_entries": 40, "generated": "2026-07-13T21:16:29.121626+00:00", "integration_hash": "2d4fdce4410a14e6d5feb70c29b44edea496d5e8eb724090fde3afb702bd5e2a"}
