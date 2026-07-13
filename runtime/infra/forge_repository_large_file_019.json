@@ -1,7 +1,7 @@
 {
   "audit_valid": true,
-  "files_scanned": 6704,
-  "integrity_hash": "4013741b514d736a819c22187f19cff5df532347c570e60eeea75788e63f5e62",
+  "files_scanned": 6707,
+  "integrity_hash": "2c7194ede33f734ea26fed229995506ec5d85250d8733859e1d34d787c1a42e8",
   "large_file_count": 34,
   "large_files": [
     {
@@ -147,5 +147,5 @@
   "scan_errors": [],
   "status": "FORGE_REPOSITORY_LARGE_FILE_AUDIT_READY",
   "threshold_bytes": 10485760,
-  "timestamp": "2026-07-13T22:55:22.296993+00:00"
+  "timestamp": "2026-07-13T22:56:13.979070+00:00"
 }
