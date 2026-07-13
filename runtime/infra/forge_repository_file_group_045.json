@@ -1,0 +1,11 @@
+{
+  "group_count": 1,
+  "groups": {
+    "esteban": 6808
+  },
+  "integrity_hash": "553dd42a89dd23b3a5948f2f06cebba27b583df89f714c1e90cf418f26262f46",
+  "module": "FORGE-INFRA-045",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_FILE_GROUP_AUDIT_READY",
+  "timestamp": "2026-07-13T23:24:08.173672+00:00"
+}
