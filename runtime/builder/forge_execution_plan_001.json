@@ -1,0 +1,192 @@
+{
+  "builder": "FORGE-BUILDER-001",
+  "status": "FORGE_EXECUTION_PLANNER_READY",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "families": 2,
+  "modules": 20,
+  "levels": 10,
+  "execution_plan": [
+    {
+      "level": 1,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 277,
+          "module_code": "FORGE-KNOWLEDGE-277",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_277_atlas_knowledge_lineage_engine.py"
+        },
+        {
+          "module_id": 287,
+          "module_code": "FORGE-KNOWLEDGE-287",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_287_atlas_arithmetic_foundations_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 278,
+          "module_code": "FORGE-KNOWLEDGE-278",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_278_atlas_knowledge_versioning_engine.py"
+        },
+        {
+          "module_id": 288,
+          "module_code": "FORGE-KNOWLEDGE-288",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_288_atlas_algebra_foundations_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 279,
+          "module_code": "FORGE-KNOWLEDGE-279",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_279_atlas_knowledge_snapshot_engine.py"
+        },
+        {
+          "module_id": 289,
+          "module_code": "FORGE-KNOWLEDGE-289",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_289_atlas_linear_algebra_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 280,
+          "module_code": "FORGE-KNOWLEDGE-280",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_280_atlas_knowledge_integrity_validation_engine.py"
+        },
+        {
+          "module_id": 290,
+          "module_code": "FORGE-KNOWLEDGE-290",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_290_atlas_calculus_foundations_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 281,
+          "module_code": "FORGE-KNOWLEDGE-281",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_281_atlas_knowledge_audit_engine.py"
+        },
+        {
+          "module_id": 291,
+          "module_code": "FORGE-KNOWLEDGE-291",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_291_atlas_differential_calculus_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 282,
+          "module_code": "FORGE-KNOWLEDGE-282",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_282_atlas_knowledge_release_engine.py"
+        },
+        {
+          "module_id": 292,
+          "module_code": "FORGE-KNOWLEDGE-292",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_292_atlas_integral_calculus_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 7,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 283,
+          "module_code": "FORGE-KNOWLEDGE-283",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_283_atlas_knowledge_finalization_engine.py"
+        },
+        {
+          "module_id": 293,
+          "module_code": "FORGE-KNOWLEDGE-293",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_293_atlas_multivariable_calculus_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 8,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 284,
+          "module_code": "FORGE-KNOWLEDGE-284",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_284_atlas_knowledge_terminal_engine.py"
+        },
+        {
+          "module_id": 294,
+          "module_code": "FORGE-KNOWLEDGE-294",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_294_atlas_numerical_analysis_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 9,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 285,
+          "module_code": "FORGE-KNOWLEDGE-285",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_285_atlas_knowledge_sovereign_engine.py"
+        },
+        {
+          "module_id": 295,
+          "module_code": "FORGE-KNOWLEDGE-295",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_295_atlas_optimization_mathematics_engine.py"
+        }
+      ]
+    },
+    {
+      "level": 10,
+      "parallelism": 2,
+      "modules": [
+        {
+          "module_id": 286,
+          "module_code": "FORGE-KNOWLEDGE-286",
+          "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+          "script": "forge/automation/forge_knowledge_286_atlas_knowledge_lifecycle_monitoring_engine.py"
+        },
+        {
+          "module_id": 296,
+          "module_code": "FORGE-KNOWLEDGE-296",
+          "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+          "script": "forge/automation/forge_knowledge_296_atlas_mathematical_validation_engine.py"
+        }
+      ]
+    }
+  ],
+  "generated": "2026-07-13T21:25:58.341691+00:00",
+  "planner_hash": "60f234fa71837e0c0cf5fc2f0bbfc966ff17c10f6dc5a011e45599b0d4be3e04"
+}

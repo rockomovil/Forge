@@ -27,15 +27,20 @@ schedule = json.loads(SCHEDULE.read_text())
 
 levels = []
 
-for level in schedule["levels"]:
+for level_number, module_ids in enumerate(schedule["levels"], start=1):
 
     modules = []
 
-    for mid in level["modules"]:
+    for mid in module_ids:
 
         item = next(
-            x for x in plan["modules"]
-            if x["module_id"] == mid
+
+            m
+
+            for m in plan["modules"]
+
+            if m["module_id"] == mid
+
         )
 
         modules.append({
@@ -57,7 +62,7 @@ for level in schedule["levels"]:
     levels.append({
 
         "level":
-        level["level"],
+        level_number,
 
         "parallelism":
         len(modules),
@@ -66,6 +71,7 @@ for level in schedule["levels"]:
         modules
 
     })
+
 
 payload = {
 
