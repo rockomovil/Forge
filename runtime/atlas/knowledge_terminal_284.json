@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-284",
+  "status": "ATLAS_KNOWLEDGE_TERMINAL_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 284,
+    "slug": "knowledge_terminal"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T15:04:24.722901+00:00",
+  "hash": "afe052338b9a77f27120980f9845732b25cb6668e845f7468ec8e67eec60d9ef"
+}

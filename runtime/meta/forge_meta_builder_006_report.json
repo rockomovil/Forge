@@ -1,0 +1,37 @@
+{
+  "builder": "FORGE-META-BUILDER-006",
+  "status": "ATLAS_TEMPLATE_ENGINE_READY",
+  "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+  "catalog": "forge/meta/catalogs/atlas_knowledge_family_277_286.json",
+  "template": "forge/meta/templates/atlas_knowledge_engine.py.tpl",
+  "generated": [
+    "FORGE-KNOWLEDGE-278",
+    "FORGE-KNOWLEDGE-279",
+    "FORGE-KNOWLEDGE-280",
+    "FORGE-KNOWLEDGE-281",
+    "FORGE-KNOWLEDGE-282",
+    "FORGE-KNOWLEDGE-283",
+    "FORGE-KNOWLEDGE-284",
+    "FORGE-KNOWLEDGE-285",
+    "FORGE-KNOWLEDGE-286"
+  ],
+  "skipped": [
+    "FORGE-KNOWLEDGE-277"
+  ],
+  "validated": [
+    "FORGE-KNOWLEDGE-278",
+    "FORGE-KNOWLEDGE-279",
+    "FORGE-KNOWLEDGE-280",
+    "FORGE-KNOWLEDGE-281",
+    "FORGE-KNOWLEDGE-282",
+    "FORGE-KNOWLEDGE-283",
+    "FORGE-KNOWLEDGE-284",
+    "FORGE-KNOWLEDGE-285",
+    "FORGE-KNOWLEDGE-286"
+  ],
+  "generated_count": 9,
+  "skipped_count": 1,
+  "validated_count": 9,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "timestamp": "2026-07-13T15:04:24.820880+00:00"
+}

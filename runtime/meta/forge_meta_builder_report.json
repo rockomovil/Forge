@@ -1,0 +1,11 @@
+{
+  "builder": "FORGE_META_BUILDER",
+  "status": "FORGE_META_BUILDER_READY",
+  "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+  "complete": 1,
+  "partial": 0,
+  "script_only": 0,
+  "missing": 9,
+  "timestamp": "2026-07-13T13:27:34.759871+00:00",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY"
+}
