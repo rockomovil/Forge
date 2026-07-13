@@ -1,0 +1,73 @@
+{
+  "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "template": {
+    "id": 276,
+    "slug": "knowledge_archive",
+    "title": "Knowledge Archive Engine",
+    "status": "ATLAS_KNOWLEDGE_ARCHIVE_ENGINE_READY",
+    "script": "forge_knowledge_276_atlas_knowledge_archive_engine.py"
+  },
+  "modules": [
+    {
+      "id": 277,
+      "slug": "knowledge_lineage",
+      "title": "Knowledge Lineage Engine",
+      "status": "ATLAS_KNOWLEDGE_LINEAGE_ENGINE_READY"
+    },
+    {
+      "id": 278,
+      "slug": "knowledge_versioning",
+      "title": "Knowledge Versioning Engine",
+      "status": "ATLAS_KNOWLEDGE_VERSIONING_ENGINE_READY"
+    },
+    {
+      "id": 279,
+      "slug": "knowledge_snapshot",
+      "title": "Knowledge Snapshot Engine",
+      "status": "ATLAS_KNOWLEDGE_SNAPSHOT_ENGINE_READY"
+    },
+    {
+      "id": 280,
+      "slug": "knowledge_integrity_validation",
+      "title": "Knowledge Integrity Validation Engine",
+      "status": "ATLAS_KNOWLEDGE_INTEGRITY_VALIDATION_ENGINE_READY"
+    },
+    {
+      "id": 281,
+      "slug": "knowledge_audit",
+      "title": "Knowledge Audit Engine",
+      "status": "ATLAS_KNOWLEDGE_AUDIT_ENGINE_READY"
+    },
+    {
+      "id": 282,
+      "slug": "knowledge_release",
+      "title": "Knowledge Release Engine",
+      "status": "ATLAS_KNOWLEDGE_RELEASE_ENGINE_READY"
+    },
+    {
+      "id": 283,
+      "slug": "knowledge_finalization",
+      "title": "Knowledge Finalization Engine",
+      "status": "ATLAS_KNOWLEDGE_FINALIZATION_ENGINE_READY"
+    },
+    {
+      "id": 284,
+      "slug": "knowledge_terminal",
+      "title": "Knowledge Terminal Engine",
+      "status": "ATLAS_KNOWLEDGE_TERMINAL_ENGINE_READY"
+    },
+    {
+      "id": 285,
+      "slug": "knowledge_sovereign",
+      "title": "Knowledge Sovereign Engine",
+      "status": "ATLAS_KNOWLEDGE_SOVEREIGN_ENGINE_READY"
+    },
+    {
+      "id": 286,
+      "slug": "knowledge_lifecycle_monitoring",
+      "title": "Knowledge Lifecycle Monitoring Engine",
+      "status": "ATLAS_KNOWLEDGE_LIFECYCLE_MONITORING_ENGINE_READY"
+    }
+  ]
+}
