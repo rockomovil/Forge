@@ -1,0 +1,11 @@
+{
+  "average_filename_length": 22.4,
+  "files_scanned": 6772,
+  "integrity_hash": "2c5b034933e6db6e2b06a7f4c2d9d40536123be342e5a18691c1cf1b97266a2d",
+  "longest_filename": "forge_auto_070_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_final_seal_lock_certification_engine.json",
+  "maximum_filename_length": 197,
+  "module": "FORGE-INFRA-036",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_FILENAME_LENGTH_STATISTICS_READY",
+  "timestamp": "2026-07-13T23:13:21.071523+00:00"
+}
