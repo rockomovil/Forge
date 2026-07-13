@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-285",
+  "status": "ATLAS_KNOWLEDGE_SOVEREIGN_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 285,
+    "slug": "knowledge_sovereign"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T21:06:12.284613+00:00",
+  "hash": "727eb72482652aed98e5fb44f2eb7f763b51425ecccb888d575d52d440a7ca35"
+}

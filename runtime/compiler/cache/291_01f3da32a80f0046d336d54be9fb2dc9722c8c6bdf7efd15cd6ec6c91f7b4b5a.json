@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-KNOWLEDGE-291",
+  "status": "ATLAS_DIFFERENTIAL_CALCULUS_ENGINE_READY",
+  "engine": {
+    "initialized": true,
+    "ready": true,
+    "module_id": 291,
+    "slug": "differential_calculus"
+  },
+  "runtime": {
+    "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+    "broker_connected": false,
+    "orders_allowed": false,
+    "real_money_allowed": false
+  },
+  "result": "PASS",
+  "timestamp": "2026-07-13T21:06:12.052837+00:00",
+  "hash": "22223ea353bc23786226131d097c8f8cefc923964d9a9493156beaee5b2542f3"
+}
