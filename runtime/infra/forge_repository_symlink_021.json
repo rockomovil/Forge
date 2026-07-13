@@ -1,0 +1,14 @@
+{
+  "integrity_hash": "b1fcfb55370be8e0be21a056644bcc6a152e34d473104f6075a1b5aa4d2ce86c",
+  "module": "FORGE-INFRA-021",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_SYMLINK_AUDIT_READY",
+  "symlink_count": 1,
+  "symlinks": [
+    {
+      "path": "codebase-memory-mcp/Formula",
+      "target": "pkg/homebrew/Formula"
+    }
+  ],
+  "timestamp": "2026-07-13T22:58:00.632951+00:00"
+}
