@@ -1,7 +1,7 @@
 {
   "module": "FORGE-INFRA-018",
   "status": "FORGE_REPOSITORY_DUPLICATE_CONTENT_AUDIT_READY",
-  "files_scanned": 6700,
+  "files_scanned": 6703,
   "duplicate_content_groups": 99,
   "duplicate_content": {
     "1f7ca41cb544a4a2ae1dfd22baf14a81da105589291c366c36b6e8e2f1e37372": [
@@ -907,6 +907,6 @@
     ]
   },
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "timestamp": "2026-07-13T22:10:32.971284+00:00",
-  "integrity_hash": "a9440db9b6cb7807d0c9545e97bcd98f0de5c62c64cf06ec9ac531bbf9adbd37"
+  "timestamp": "2026-07-13T22:11:14.421134+00:00",
+  "integrity_hash": "255d4af2c2dca13289da85b4ca967ad6f4cd879998d9aaecb2dfb4d8b15c4c38"
 }
