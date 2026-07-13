@@ -1,0 +1,410 @@
+{
+  "integrity_hash": "ffb309fcb941178e23320f23d40ff0e4f33cf84fa33938c39e432e19560f51ca",
+  "module": "FORGE-INFRA-042",
+  "recent_file_count": 100,
+  "recent_files": [
+    {
+      "modified": "2026-07-13T23:21:10.838804+00:00",
+      "path": "forge/infra/forge_infra_042_repository_recent_file_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:20:22.510190+00:00",
+      "path": "runtime/infra/forge_repository_executable_catalog_041_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:20:22.510190+00:00",
+      "path": "runtime/infra/forge_repository_executable_catalog_041_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:20:22.510190+00:00",
+      "path": "runtime/infra/forge_repository_executable_catalog_041.json"
+    },
+    {
+      "modified": "2026-07-13T23:20:22.186185+00:00",
+      "path": "forge/infra/forge_infra_041_repository_executable_catalog_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:19:23.001432+00:00",
+      "path": "runtime/infra/forge_repository_empty_file_catalog_040_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:19:23.001432+00:00",
+      "path": "runtime/infra/forge_repository_empty_file_catalog_040_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:19:23.001432+00:00",
+      "path": "runtime/infra/forge_repository_empty_file_catalog_040.json"
+    },
+    {
+      "modified": "2026-07-13T23:19:22.617427+00:00",
+      "path": "forge/infra/forge_infra_040_repository_empty_file_catalog_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:18:06.348456+00:00",
+      "path": "runtime/infra/forge_repository_case_collision_039_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:18:06.348456+00:00",
+      "path": "runtime/infra/forge_repository_case_collision_039_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:18:06.348456+00:00",
+      "path": "runtime/infra/forge_repository_case_collision_039.json"
+    },
+    {
+      "modified": "2026-07-13T23:18:05.400444+00:00",
+      "path": "forge/infra/forge_infra_039_repository_case_collision_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:17:22.991903+00:00",
+      "path": "runtime/infra/forge_repository_unicode_filename_038_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:17:22.991903+00:00",
+      "path": "runtime/infra/forge_repository_unicode_filename_038_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:17:22.991903+00:00",
+      "path": "runtime/infra/forge_repository_unicode_filename_038.json"
+    },
+    {
+      "modified": "2026-07-13T23:17:22.599898+00:00",
+      "path": "forge/infra/forge_infra_038_repository_unicode_filename_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:16:29.363219+00:00",
+      "path": "runtime/infra/forge_repository_name_character_statistics_037_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:16:29.363219+00:00",
+      "path": "runtime/infra/forge_repository_name_character_statistics_037_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:16:29.363219+00:00",
+      "path": "runtime/infra/forge_repository_name_character_statistics_037.json"
+    },
+    {
+      "modified": "2026-07-13T23:16:28.979214+00:00",
+      "path": "forge/infra/forge_infra_037_repository_name_character_statistics_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:13:21.068814+00:00",
+      "path": "runtime/infra/forge_repository_filename_length_statistics_036_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:13:21.068814+00:00",
+      "path": "runtime/infra/forge_repository_filename_length_statistics_036_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:13:21.068814+00:00",
+      "path": "runtime/infra/forge_repository_filename_length_statistics_036.json"
+    },
+    {
+      "modified": "2026-07-13T23:13:20.788811+00:00",
+      "path": "forge/infra/forge_infra_036_repository_filename_length_statistics_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:11:35.143458+00:00",
+      "path": "runtime/infra/forge_repository_path_length_035_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:11:35.143458+00:00",
+      "path": "runtime/infra/forge_repository_path_length_035_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:11:35.143458+00:00",
+      "path": "runtime/infra/forge_repository_path_length_035.json"
+    },
+    {
+      "modified": "2026-07-13T23:11:34.311447+00:00",
+      "path": "forge/infra/forge_infra_035_repository_path_length_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:06:51.463809+00:00",
+      "path": "runtime/infra/forge_repository_directory_fanout_034_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:06:51.463809+00:00",
+      "path": "runtime/infra/forge_repository_directory_fanout_034_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:06:51.463809+00:00",
+      "path": "runtime/infra/forge_repository_directory_fanout_034.json"
+    },
+    {
+      "modified": "2026-07-13T23:06:51.031803+00:00",
+      "path": "forge/infra/forge_infra_034_repository_directory_fanout_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:06:12.515305+00:00",
+      "path": "runtime/infra/forge_repository_leaf_directory_033_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:06:12.515305+00:00",
+      "path": "runtime/infra/forge_repository_leaf_directory_033_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:06:12.515305+00:00",
+      "path": "runtime/infra/forge_repository_leaf_directory_033.json"
+    },
+    {
+      "modified": "2026-07-13T23:06:11.887297+00:00",
+      "path": "forge/infra/forge_infra_033_repository_leaf_directory_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:05:34.786816+00:00",
+      "path": "runtime/infra/forge_repository_tree_index_032_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:05:34.774816+00:00",
+      "path": "runtime/infra/forge_repository_tree_index_032_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:05:34.758816+00:00",
+      "path": "runtime/infra/forge_repository_tree_index_032.json"
+    },
+    {
+      "modified": "2026-07-13T23:05:33.146795+00:00",
+      "path": "forge/infra/forge_infra_032_repository_tree_index_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:04:55.102301+00:00",
+      "path": "runtime/infra/forge_repository_top_level_inventory_031_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:04:55.102301+00:00",
+      "path": "runtime/infra/forge_repository_top_level_inventory_031_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:04:55.102301+00:00",
+      "path": "runtime/infra/forge_repository_top_level_inventory_031.json"
+    },
+    {
+      "modified": "2026-07-13T23:04:55.050301+00:00",
+      "path": "forge/infra/forge_infra_031_repository_top_level_inventory_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:03:56.733542+00:00",
+      "path": "runtime/infra/forge_repository_extension_statistics_030_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:03:56.733542+00:00",
+      "path": "runtime/infra/forge_repository_extension_statistics_030_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:03:56.733542+00:00",
+      "path": "runtime/infra/forge_repository_extension_statistics_030.json"
+    },
+    {
+      "modified": "2026-07-13T23:03:56.493539+00:00",
+      "path": "forge/infra/forge_infra_030_repository_extension_statistics_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:03:22.877101+00:00",
+      "path": "runtime/infra/forge_repository_file_size_distribution_029_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:03:22.877101+00:00",
+      "path": "runtime/infra/forge_repository_file_size_distribution_029_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:03:22.877101+00:00",
+      "path": "runtime/infra/forge_repository_file_size_distribution_029.json"
+    },
+    {
+      "modified": "2026-07-13T23:03:22.617098+00:00",
+      "path": "forge/infra/forge_infra_029_repository_file_size_distribution_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:02:28.308388+00:00",
+      "path": "runtime/infra/forge_repository_depth_analysis_028_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:02:28.308388+00:00",
+      "path": "runtime/infra/forge_repository_depth_analysis_028_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:02:28.308388+00:00",
+      "path": "runtime/infra/forge_repository_depth_analysis_028.json"
+    },
+    {
+      "modified": "2026-07-13T23:02:27.416376+00:00",
+      "path": "forge/infra/forge_infra_028_repository_depth_analysis_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:01:57.407983+00:00",
+      "path": "runtime/infra/forge_repository_directory_catalog_027_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:01:57.407983+00:00",
+      "path": "runtime/infra/forge_repository_directory_catalog_027_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:01:57.407983+00:00",
+      "path": "runtime/infra/forge_repository_directory_catalog_027.json"
+    },
+    {
+      "modified": "2026-07-13T23:01:56.931977+00:00",
+      "path": "forge/infra/forge_infra_027_repository_directory_catalog_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:01:24.303549+00:00",
+      "path": "runtime/infra/forge_repository_checksum_catalog_026_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:01:24.291548+00:00",
+      "path": "runtime/infra/forge_repository_checksum_catalog_026_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:01:24.283549+00:00",
+      "path": "runtime/infra/forge_repository_checksum_catalog_026.json"
+    },
+    {
+      "modified": "2026-07-13T23:01:18.467472+00:00",
+      "path": "forge/infra/forge_infra_026_repository_checksum_catalog_engine.py"
+    },
+    {
+      "modified": "2026-07-13T23:00:44.807029+00:00",
+      "path": "runtime/infra/forge_repository_file_classification_025_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T23:00:44.807029+00:00",
+      "path": "runtime/infra/forge_repository_file_classification_025_hash.json"
+    },
+    {
+      "modified": "2026-07-13T23:00:44.807029+00:00",
+      "path": "runtime/infra/forge_repository_file_classification_025.json"
+    },
+    {
+      "modified": "2026-07-13T23:00:44.459024+00:00",
+      "path": "forge/infra/forge_infra_025_repository_file_classification_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:59:52.778342+00:00",
+      "path": "runtime/infra/forge_repository_text_file_024_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:59:52.774342+00:00",
+      "path": "runtime/infra/forge_repository_text_file_024_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:59:52.770342+00:00",
+      "path": "runtime/infra/forge_repository_text_file_024.json"
+    },
+    {
+      "modified": "2026-07-13T22:59:47.810276+00:00",
+      "path": "forge/infra/forge_infra_024_repository_text_file_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:59:08.161750+00:00",
+      "path": "runtime/infra/forge_repository_binary_file_023_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:59:08.161750+00:00",
+      "path": "runtime/infra/forge_repository_binary_file_023_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:59:08.161750+00:00",
+      "path": "runtime/infra/forge_repository_binary_file_023.json"
+    },
+    {
+      "modified": "2026-07-13T22:59:06.741731+00:00",
+      "path": "forge/infra/forge_infra_023_repository_binary_file_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:58:36.097324+00:00",
+      "path": "runtime/infra/forge_repository_hidden_file_022_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:58:36.097324+00:00",
+      "path": "runtime/infra/forge_repository_hidden_file_022_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:58:36.097324+00:00",
+      "path": "runtime/infra/forge_repository_hidden_file_022.json"
+    },
+    {
+      "modified": "2026-07-13T22:58:35.837320+00:00",
+      "path": "forge/infra/forge_infra_022_repository_hidden_file_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:58:00.628850+00:00",
+      "path": "runtime/infra/forge_repository_symlink_021_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:58:00.628850+00:00",
+      "path": "runtime/infra/forge_repository_symlink_021_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:58:00.628850+00:00",
+      "path": "runtime/infra/forge_repository_symlink_021.json"
+    },
+    {
+      "modified": "2026-07-13T22:58:00.364847+00:00",
+      "path": "forge/infra/forge_infra_021_repository_symlink_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:57:30.252443+00:00",
+      "path": "runtime/infra/forge_repository_empty_directory_020_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:57:30.252443+00:00",
+      "path": "runtime/infra/forge_repository_empty_directory_020_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:57:30.252443+00:00",
+      "path": "runtime/infra/forge_repository_empty_directory_020.json"
+    },
+    {
+      "modified": "2026-07-13T22:57:29.836438+00:00",
+      "path": "forge/infra/forge_infra_020_repository_empty_directory_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:56:13.975416+00:00",
+      "path": "runtime/infra/forge_repository_large_file_019_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:56:13.975416+00:00",
+      "path": "runtime/infra/forge_repository_large_file_019_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:56:13.975416+00:00",
+      "path": "runtime/infra/forge_repository_large_file_019.json"
+    },
+    {
+      "modified": "2026-07-13T22:56:13.219406+00:00",
+      "path": "forge/infra/forge_infra_019_repository_large_file_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:11:14.419146+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_content_018_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:11:14.419146+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_content_018_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:11:14.419146+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_content_018.json"
+    },
+    {
+      "modified": "2026-07-13T22:11:03.719015+00:00",
+      "path": "forge/infra/forge_infra_018_repository_duplicate_content_audit_engine.py"
+    },
+    {
+      "modified": "2026-07-13T22:09:38.594186+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_names_017_ledger.jsonl"
+    },
+    {
+      "modified": "2026-07-13T22:09:38.594186+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_names_017_hash.json"
+    },
+    {
+      "modified": "2026-07-13T22:09:38.590186+00:00",
+      "path": "runtime/infra/forge_repository_duplicate_names_017.json"
+    }
+  ],
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_RECENT_FILE_AUDIT_READY",
+  "timestamp": "2026-07-13T23:21:11.591984+00:00"
+}
