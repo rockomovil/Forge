@@ -1,0 +1,1 @@
+{"module": "FORGE-INFRA-005", "status": "FORGE_WORKSPACE_INTEGRITY_READY", "workspace": {"forge": true, "runtime": true, "registry": true, ".git": true}, "workspace_valid": true, "runtime_mode": "SHADOW_ONLY_READ_ONLY", "timestamp": "2026-07-13T21:58:52.069134+00:00", "integrity_hash": "10491a3f97c05c27ecfd852bc576318fd2897aa0b57f19c3e49a32bf1792cff6"}
