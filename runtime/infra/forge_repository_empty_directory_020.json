@@ -1,0 +1,20 @@
+{
+  "empty_directories": [
+    "agents",
+    "capabilities",
+    "docs",
+    "projects",
+    "registry/automation",
+    "runtime/automation",
+    "runtime/cache",
+    "scripts",
+    "services",
+    "tests"
+  ],
+  "empty_directory_count": 10,
+  "integrity_hash": "b0815229dbfb7839e4611d18946a54b08519b0903ece958b472e636bbe8fe941",
+  "module": "FORGE-INFRA-020",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_EMPTY_DIRECTORY_AUDIT_READY",
+  "timestamp": "2026-07-13T22:57:30.256066+00:00"
+}
