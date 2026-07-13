@@ -13,61 +13,89 @@
       "id": 277,
       "slug": "knowledge_lineage",
       "title": "Knowledge Lineage Engine",
-      "status": "ATLAS_KNOWLEDGE_LINEAGE_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_LINEAGE_ENGINE_READY",
+      "depends_on": []
     },
     {
       "id": 278,
       "slug": "knowledge_versioning",
       "title": "Knowledge Versioning Engine",
-      "status": "ATLAS_KNOWLEDGE_VERSIONING_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_VERSIONING_ENGINE_READY",
+      "depends_on": [
+        277
+      ]
     },
     {
       "id": 279,
       "slug": "knowledge_snapshot",
       "title": "Knowledge Snapshot Engine",
-      "status": "ATLAS_KNOWLEDGE_SNAPSHOT_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_SNAPSHOT_ENGINE_READY",
+      "depends_on": [
+        278
+      ]
     },
     {
       "id": 280,
       "slug": "knowledge_integrity_validation",
       "title": "Knowledge Integrity Validation Engine",
-      "status": "ATLAS_KNOWLEDGE_INTEGRITY_VALIDATION_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_INTEGRITY_VALIDATION_ENGINE_READY",
+      "depends_on": [
+        279
+      ]
     },
     {
       "id": 281,
       "slug": "knowledge_audit",
       "title": "Knowledge Audit Engine",
-      "status": "ATLAS_KNOWLEDGE_AUDIT_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_AUDIT_ENGINE_READY",
+      "depends_on": [
+        280
+      ]
     },
     {
       "id": 282,
       "slug": "knowledge_release",
       "title": "Knowledge Release Engine",
-      "status": "ATLAS_KNOWLEDGE_RELEASE_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_RELEASE_ENGINE_READY",
+      "depends_on": [
+        281
+      ]
     },
     {
       "id": 283,
       "slug": "knowledge_finalization",
       "title": "Knowledge Finalization Engine",
-      "status": "ATLAS_KNOWLEDGE_FINALIZATION_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_FINALIZATION_ENGINE_READY",
+      "depends_on": [
+        282
+      ]
     },
     {
       "id": 284,
       "slug": "knowledge_terminal",
       "title": "Knowledge Terminal Engine",
-      "status": "ATLAS_KNOWLEDGE_TERMINAL_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_TERMINAL_ENGINE_READY",
+      "depends_on": [
+        283
+      ]
     },
     {
       "id": 285,
       "slug": "knowledge_sovereign",
       "title": "Knowledge Sovereign Engine",
-      "status": "ATLAS_KNOWLEDGE_SOVEREIGN_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_SOVEREIGN_ENGINE_READY",
+      "depends_on": [
+        284
+      ]
     },
     {
       "id": 286,
       "slug": "knowledge_lifecycle_monitoring",
       "title": "Knowledge Lifecycle Monitoring Engine",
-      "status": "ATLAS_KNOWLEDGE_LIFECYCLE_MONITORING_ENGINE_READY"
+      "status": "ATLAS_KNOWLEDGE_LIFECYCLE_MONITORING_ENGINE_READY",
+      "depends_on": [
+        285
+      ]
     }
   ]
 }

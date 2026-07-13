@@ -1,0 +1,223 @@
+{
+  "compiler": "FORGE-COMPILER-004",
+  "status": "FORGE_SEMANTIC_DEPENDENCY_GRAPH_READY",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "families": 2,
+  "modules": 20,
+  "generated": "2026-07-13T20:58:10.458172+00:00",
+  "nodes": [
+    {
+      "module_id": 277,
+      "module_code": "FORGE-KNOWLEDGE-277",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [],
+      "required_by": [
+        278
+      ]
+    },
+    {
+      "module_id": 278,
+      "module_code": "FORGE-KNOWLEDGE-278",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        277
+      ],
+      "required_by": [
+        279
+      ]
+    },
+    {
+      "module_id": 279,
+      "module_code": "FORGE-KNOWLEDGE-279",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        278
+      ],
+      "required_by": [
+        280
+      ]
+    },
+    {
+      "module_id": 280,
+      "module_code": "FORGE-KNOWLEDGE-280",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        279
+      ],
+      "required_by": [
+        281
+      ]
+    },
+    {
+      "module_id": 281,
+      "module_code": "FORGE-KNOWLEDGE-281",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        280
+      ],
+      "required_by": [
+        282
+      ]
+    },
+    {
+      "module_id": 282,
+      "module_code": "FORGE-KNOWLEDGE-282",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        281
+      ],
+      "required_by": [
+        283
+      ]
+    },
+    {
+      "module_id": 283,
+      "module_code": "FORGE-KNOWLEDGE-283",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        282
+      ],
+      "required_by": [
+        284
+      ]
+    },
+    {
+      "module_id": 284,
+      "module_code": "FORGE-KNOWLEDGE-284",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        283
+      ],
+      "required_by": [
+        285
+      ]
+    },
+    {
+      "module_id": 285,
+      "module_code": "FORGE-KNOWLEDGE-285",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        284
+      ],
+      "required_by": [
+        286
+      ]
+    },
+    {
+      "module_id": 286,
+      "module_code": "FORGE-KNOWLEDGE-286",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE",
+      "depends_on": [
+        285
+      ],
+      "required_by": []
+    },
+    {
+      "module_id": 287,
+      "module_code": "FORGE-KNOWLEDGE-287",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [],
+      "required_by": [
+        288
+      ]
+    },
+    {
+      "module_id": 288,
+      "module_code": "FORGE-KNOWLEDGE-288",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        287
+      ],
+      "required_by": [
+        289
+      ]
+    },
+    {
+      "module_id": 289,
+      "module_code": "FORGE-KNOWLEDGE-289",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        288
+      ],
+      "required_by": [
+        290
+      ]
+    },
+    {
+      "module_id": 290,
+      "module_code": "FORGE-KNOWLEDGE-290",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        289
+      ],
+      "required_by": [
+        291
+      ]
+    },
+    {
+      "module_id": 291,
+      "module_code": "FORGE-KNOWLEDGE-291",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        290
+      ],
+      "required_by": [
+        292
+      ]
+    },
+    {
+      "module_id": 292,
+      "module_code": "FORGE-KNOWLEDGE-292",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        291
+      ],
+      "required_by": [
+        293
+      ]
+    },
+    {
+      "module_id": 293,
+      "module_code": "FORGE-KNOWLEDGE-293",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        292
+      ],
+      "required_by": [
+        294
+      ]
+    },
+    {
+      "module_id": 294,
+      "module_code": "FORGE-KNOWLEDGE-294",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        293
+      ],
+      "required_by": [
+        295
+      ]
+    },
+    {
+      "module_id": 295,
+      "module_code": "FORGE-KNOWLEDGE-295",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        294
+      ],
+      "required_by": [
+        296
+      ]
+    },
+    {
+      "module_id": 296,
+      "module_code": "FORGE-KNOWLEDGE-296",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "depends_on": [
+        295
+      ],
+      "required_by": []
+    }
+  ],
+  "graph_hash": "93de8ed1605a07028f008dbab1ad1d6204523ec5cf4eb9a1d17c4e9d34eb9312"
+}

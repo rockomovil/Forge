@@ -6,61 +6,89 @@
       "id": 287,
       "slug": "arithmetic_foundations",
       "title": "Arithmetic Foundations Engine",
-      "status": "ATLAS_ARITHMETIC_FOUNDATIONS_ENGINE_READY"
+      "status": "ATLAS_ARITHMETIC_FOUNDATIONS_ENGINE_READY",
+      "depends_on": []
     },
     {
       "id": 288,
       "slug": "algebra_foundations",
       "title": "Algebra Foundations Engine",
-      "status": "ATLAS_ALGEBRA_FOUNDATIONS_ENGINE_READY"
+      "status": "ATLAS_ALGEBRA_FOUNDATIONS_ENGINE_READY",
+      "depends_on": [
+        287
+      ]
     },
     {
       "id": 289,
       "slug": "linear_algebra",
       "title": "Linear Algebra Engine",
-      "status": "ATLAS_LINEAR_ALGEBRA_ENGINE_READY"
+      "status": "ATLAS_LINEAR_ALGEBRA_ENGINE_READY",
+      "depends_on": [
+        288
+      ]
     },
     {
       "id": 290,
       "slug": "calculus_foundations",
       "title": "Calculus Foundations Engine",
-      "status": "ATLAS_CALCULUS_FOUNDATIONS_ENGINE_READY"
+      "status": "ATLAS_CALCULUS_FOUNDATIONS_ENGINE_READY",
+      "depends_on": [
+        289
+      ]
     },
     {
       "id": 291,
       "slug": "differential_calculus",
       "title": "Differential Calculus Engine",
-      "status": "ATLAS_DIFFERENTIAL_CALCULUS_ENGINE_READY"
+      "status": "ATLAS_DIFFERENTIAL_CALCULUS_ENGINE_READY",
+      "depends_on": [
+        290
+      ]
     },
     {
       "id": 292,
       "slug": "integral_calculus",
       "title": "Integral Calculus Engine",
-      "status": "ATLAS_INTEGRAL_CALCULUS_ENGINE_READY"
+      "status": "ATLAS_INTEGRAL_CALCULUS_ENGINE_READY",
+      "depends_on": [
+        291
+      ]
     },
     {
       "id": 293,
       "slug": "multivariable_calculus",
       "title": "Multivariable Calculus Engine",
-      "status": "ATLAS_MULTIVARIABLE_CALCULUS_ENGINE_READY"
+      "status": "ATLAS_MULTIVARIABLE_CALCULUS_ENGINE_READY",
+      "depends_on": [
+        292
+      ]
     },
     {
       "id": 294,
       "slug": "numerical_analysis",
       "title": "Numerical Analysis Engine",
-      "status": "ATLAS_NUMERICAL_ANALYSIS_ENGINE_READY"
+      "status": "ATLAS_NUMERICAL_ANALYSIS_ENGINE_READY",
+      "depends_on": [
+        293
+      ]
     },
     {
       "id": 295,
       "slug": "optimization_mathematics",
       "title": "Optimization Mathematics Engine",
-      "status": "ATLAS_OPTIMIZATION_MATHEMATICS_ENGINE_READY"
+      "status": "ATLAS_OPTIMIZATION_MATHEMATICS_ENGINE_READY",
+      "depends_on": [
+        294
+      ]
     },
     {
       "id": 296,
       "slug": "mathematical_validation",
       "title": "Mathematical Validation Engine",
-      "status": "ATLAS_MATHEMATICAL_VALIDATION_ENGINE_READY"
+      "status": "ATLAS_MATHEMATICAL_VALIDATION_ENGINE_READY",
+      "depends_on": [
+        295
+      ]
     }
   ]
 }
