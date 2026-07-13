@@ -1,0 +1,15 @@
+{
+  "module": "FORGE-INFRA-013",
+  "status": "FORGE_REPOSITORY_HEALTH_READY",
+  "repository_health": {
+    "files": 6680,
+    "directories": 909,
+    "symlinks": 1,
+    "empty_files": 10,
+    "empty_directories": 10
+  },
+  "healthy": true,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "timestamp": "2026-07-13T22:07:13.283287+00:00",
+  "integrity_hash": "e17bf6817f966f2284cbf38a805967aaf137e60fe00fd0edee1b4f6df6602a70"
+}
