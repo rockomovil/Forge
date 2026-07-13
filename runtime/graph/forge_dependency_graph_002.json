@@ -1,0 +1,339 @@
+{
+  "graph": "FORGE-GRAPH-002",
+  "status": "FORGE_DEPENDENCY_GRAPH_READY",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "nodes": [
+    {
+      "id": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "type": "family",
+      "name": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "type": "family",
+      "name": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 277,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-277",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 278,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-278",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 279,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-279",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 280,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-280",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 281,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-281",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 282,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-282",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 283,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-283",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 284,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-284",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 285,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-285",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 286,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-286",
+      "family": "ATLAS_KNOWLEDGE_LIFECYCLE"
+    },
+    {
+      "id": 287,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-287",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 288,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-288",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 289,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-289",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 290,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-290",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 291,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-291",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 292,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-292",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 293,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-293",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 294,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-294",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 295,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-295",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    },
+    {
+      "id": 296,
+      "type": "module",
+      "code": "FORGE-KNOWLEDGE-296",
+      "family": "ATLAS_MATHEMATICAL_FOUNDATIONS"
+    }
+  ],
+  "edges": [
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 277,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 278,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 279,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 280,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 281,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 282,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 283,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 284,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 285,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_KNOWLEDGE_LIFECYCLE",
+      "to": 286,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 287,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 288,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 289,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 290,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 291,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 292,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 293,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 294,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 295,
+      "relation": "contains"
+    },
+    {
+      "from": "family::ATLAS_MATHEMATICAL_FOUNDATIONS",
+      "to": 296,
+      "relation": "contains"
+    },
+    {
+      "from": 277,
+      "to": 278,
+      "relation": "execution_order"
+    },
+    {
+      "from": 278,
+      "to": 279,
+      "relation": "execution_order"
+    },
+    {
+      "from": 279,
+      "to": 280,
+      "relation": "execution_order"
+    },
+    {
+      "from": 280,
+      "to": 281,
+      "relation": "execution_order"
+    },
+    {
+      "from": 281,
+      "to": 282,
+      "relation": "execution_order"
+    },
+    {
+      "from": 282,
+      "to": 283,
+      "relation": "execution_order"
+    },
+    {
+      "from": 283,
+      "to": 284,
+      "relation": "execution_order"
+    },
+    {
+      "from": 284,
+      "to": 285,
+      "relation": "execution_order"
+    },
+    {
+      "from": 285,
+      "to": 286,
+      "relation": "execution_order"
+    },
+    {
+      "from": 286,
+      "to": 287,
+      "relation": "execution_order"
+    },
+    {
+      "from": 287,
+      "to": 288,
+      "relation": "execution_order"
+    },
+    {
+      "from": 288,
+      "to": 289,
+      "relation": "execution_order"
+    },
+    {
+      "from": 289,
+      "to": 290,
+      "relation": "execution_order"
+    },
+    {
+      "from": 290,
+      "to": 291,
+      "relation": "execution_order"
+    },
+    {
+      "from": 291,
+      "to": 292,
+      "relation": "execution_order"
+    },
+    {
+      "from": 292,
+      "to": 293,
+      "relation": "execution_order"
+    },
+    {
+      "from": 293,
+      "to": 294,
+      "relation": "execution_order"
+    },
+    {
+      "from": 294,
+      "to": 295,
+      "relation": "execution_order"
+    },
+    {
+      "from": 295,
+      "to": 296,
+      "relation": "execution_order"
+    }
+  ],
+  "family_count": 2,
+  "module_count": 20,
+  "dependency_edges": 39,
+  "generated": "2026-07-13T21:30:34.473177+00:00",
+  "graph_hash": "79dcba67b0cf0528dedc7d82453c30b02b90daa1763574986dd2d5a29bff598f"
+}
