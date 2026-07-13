@@ -1,0 +1,19 @@
+version: 1
+
+name: FORGE_MASTER_BUILD
+
+runtime_mode: SHADOW_ONLY_READ_ONLY
+
+families:
+
+  - forge/meta/catalogs/atlas_knowledge_family_277_286.json
+
+# Próximamente:
+#
+# - forge/meta/catalogs/atlas_finance_family_*.json
+# - forge/meta/catalogs/atlas_probability_family_*.json
+# - forge/meta/catalogs/atlas_statistics_family_*.json
+# - forge/meta/catalogs/atlas_math_family_*.json
+# - forge/meta/catalogs/atlas_market_family_*.json
+# - forge/meta/catalogs/atlas_execution_family_*.json
+# - forge/meta/catalogs/atlas_broker_family_*.json

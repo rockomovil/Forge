@@ -1,1 +1,6 @@
 FinceptTerminal/
+
+# Forge Meta Builder
+.forge_backup/
+*.bak
+*.mb*
