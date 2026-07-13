@@ -1,0 +1,9 @@
+{
+  "integrity_hash": "bdd18c75ffcc2b9f482472748d23aed2ee3bdee1402b559ce67e75f661b32d04",
+  "module": "FORGE-INFRA-038",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_REPOSITORY_UNICODE_FILENAME_AUDIT_READY",
+  "timestamp": "2026-07-13T23:17:22.994699+00:00",
+  "unicode_filename_count": 0,
+  "unicode_filenames": []
+}
