@@ -1,0 +1,1 @@
+{"module": "FORGE-INFRA-010", "status": "FORGE_REPOSITORY_FINGERPRINT_READY", "repository_fingerprint": "a64369b340f11ce4e03e78129ffb789df9660caea5a23099fda9aa30f99575e5", "files_scanned": 6668, "runtime_mode": "SHADOW_ONLY_READ_ONLY", "timestamp": "2026-07-13T22:03:18.280575+00:00", "integrity_hash": "aa383bc2b64fd30ec3856748dc7217ab9e174f250401ad67ab32f6a183459bc8"}
