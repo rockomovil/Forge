@@ -1,0 +1,13 @@
+{
+  "module": "FORGE-BUILD-0001",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-14T22:49:00.329396+00:00",
+  "target_module": "architecture_registry",
+  "affected_modules": [
+    "core",
+    "codebase-memory-mcp"
+  ],
+  "affected_count": 2,
+  "hash": "547e71653b95d08af3221f07698e1b658ab585abbdb0d393805191fe65146f1e"
+}
