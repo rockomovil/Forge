@@ -1,0 +1,14 @@
+{
+  "module": "FORGE-ARCH-0037",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "terminal_release_ready": true,
+  "released_at": "2026-07-14T22:19:33.587968+00:00",
+  "terminal_audit_hash": "10b7b3926dad5dd1f7c4e21a92205d624bdfe4addef85fb722f54e4199c8e6ac",
+  "terminal_manifest_hash": "6d8646c1255dd8a8ffc0d061d6d2ec3a6204adf30c730f4a9720a68bbf5cc508",
+  "module_count": 1546,
+  "family_count": 46,
+  "prefix_count": 571,
+  "artifact_count": 13,
+  "hash": "04e2c233afc9052ceef8df60b1bbc62a04d247556183c7eb04042913d994711b"
+}
