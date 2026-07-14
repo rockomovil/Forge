@@ -1,0 +1,28 @@
+{
+  "module": "FORGE-ARCH-0035",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-14T22:17:59.467253+00:00",
+  "terminal_manifest_ready": true,
+  "terminal_finalization_hash": "6d134e49a227922d48313be12d8e3dce0d251d2154cca2d48dbf950ab7861267",
+  "registry_hash": "5ac363ff7010e1ff2e40e7f7a7648781d20163544f50f32ee199f7e3d986c44f",
+  "module_count": 1546,
+  "family_count": 46,
+  "prefix_count": 571,
+  "artifacts": [
+    "module_index.json",
+    "module_dependency_index.json",
+    "architecture_dependency_graph.json",
+    "architecture_metrics.json",
+    "architecture_validation.json",
+    "architecture_certification.json",
+    "architecture_seal.json",
+    "architecture_lock.json",
+    "architecture_manifest.json",
+    "architecture_release.json",
+    "architecture_archive.json",
+    "architecture_registry_export.json",
+    "architecture_terminal_finalization.json"
+  ],
+  "hash": "6d8646c1255dd8a8ffc0d061d6d2ec3a6204adf30c730f4a9720a68bbf5cc508"
+}
