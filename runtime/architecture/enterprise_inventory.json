@@ -1,8 +1,64 @@
 {
   "module": "FORGE-ARCH-0001",
-  "status": "INVENTORY_READY",
+  "status": "PASS",
   "root": "/home/esteban/Documentos/EngineeringWorkspace/Forge",
-  "directories": 941,
-  "files": 6939,
-  "python_files": 1544
+  "directories": 942,
+  "files": 6940,
+  "python_files": 1545,
+  "families": {
+    "forge": {
+      "exists": true,
+      "directories": 29,
+      "files": 526,
+      "python_files": 488
+    },
+    "runtime": {
+      "exists": true,
+      "directories": 26,
+      "files": 1075,
+      "python_files": 0
+    },
+    "registry": {
+      "exists": true,
+      "directories": 6,
+      "files": 15,
+      "python_files": 0
+    },
+    "galaxy": {
+      "exists": true,
+      "directories": 12,
+      "files": 0,
+      "python_files": 0
+    },
+    "builder": {
+      "exists": true,
+      "directories": 2,
+      "files": 22,
+      "python_files": 21
+    },
+    "services": {
+      "exists": true,
+      "directories": 1,
+      "files": 0,
+      "python_files": 0
+    },
+    "tests": {
+      "exists": true,
+      "directories": 1,
+      "files": 0,
+      "python_files": 0
+    },
+    "docs": {
+      "exists": true,
+      "directories": 1,
+      "files": 0,
+      "python_files": 0
+    },
+    "scripts": {
+      "exists": true,
+      "directories": 1,
+      "files": 0,
+      "python_files": 0
+    }
+  }
 }
