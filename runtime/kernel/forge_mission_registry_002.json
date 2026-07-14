@@ -1,0 +1,18 @@
+{
+  "generated": "2026-07-14T01:22:41.337022+00:00",
+  "mission_count": 1,
+  "missions": [
+    {
+      "mission_id": "MISSION-000001",
+      "name": "bootstrap_kernel",
+      "priority": "CRITICAL",
+      "required_capabilities": [
+        "repository_scan"
+      ],
+      "state": "READY"
+    }
+  ],
+  "module": "FORGE-KERNEL-002",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_MISSION_REGISTRY_READY"
+}
