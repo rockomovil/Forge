@@ -1,0 +1,21 @@
+{
+  "module": "FORGE-BUILD-0003",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-14T23:00:08.301104+00:00",
+  "target_module": "architecture_registry",
+  "build_order": [
+    "core",
+    "codebase-memory-mcp"
+  ],
+  "levels": {
+    "1": [
+      "core"
+    ],
+    "2": [
+      "codebase-memory-mcp"
+    ]
+  },
+  "build_steps": 2,
+  "hash": "7f503bbbf6202f66a2621eac7b0aab77ad73e52019964c00c76c6a716d87db2f"
+}
