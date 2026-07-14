@@ -1,0 +1,21 @@
+{
+  "current_metrics": {
+    "average_tasks_per_worker": 2.0,
+    "completed_nodes": 2,
+    "execution_steps": 2,
+    "graph_runtime_state": "MISSION_GRAPH_EXECUTED",
+    "scheduled_tasks": 2,
+    "scheduler_strategy": "TOPOLOGICAL_PRIORITY",
+    "worker_instance_count": 1,
+    "worker_pool_count": 1
+  },
+  "current_worker_instances": 1,
+  "generated": "2026-07-14T01:45:52.923576+00:00",
+  "governor_state": "READY",
+  "module": "FORGE-KERNEL-010",
+  "recommended_action": "MONITOR_LOAD",
+  "recommended_worker_instances": 2,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_PERFORMANCE_GOVERNOR_READY",
+  "worker_pool_count": 1
+}
