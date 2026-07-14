@@ -1,0 +1,25 @@
+{
+  "generated": "2026-07-14T01:29:27.517795+00:00",
+  "module": "FORGE-KERNEL-007",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "schedule": [
+    {
+      "assigned_worker_pool": "DEFAULT_CAPABILITY_POOL",
+      "execution_slot": 1,
+      "node": "MISSION-000001",
+      "priority": 99,
+      "state": "SCHEDULED"
+    },
+    {
+      "assigned_worker_pool": "DEFAULT_CAPABILITY_POOL",
+      "execution_slot": 2,
+      "node": "repository_scan",
+      "priority": 98,
+      "state": "SCHEDULED"
+    }
+  ],
+  "scheduled_tasks": 2,
+  "scheduler_state": "READY",
+  "status": "FORGE_KERNEL_SCHEDULER_READY",
+  "strategy": "TOPOLOGICAL_PRIORITY"
+}
