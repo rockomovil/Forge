@@ -1,0 +1,13 @@
+{
+  "module": "FORGE-ARCH-0001",
+  "title": "Enterprise Architecture Audit Engine",
+  "status": "BOOTSTRAP_READY",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "version": "0.1.0",
+  "owner": "Forge",
+  "capabilities": [
+    "repository_discovery",
+    "architecture_inventory",
+    "engineering_metrics"
+  ]
+}
