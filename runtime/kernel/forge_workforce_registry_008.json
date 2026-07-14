@@ -1,0 +1,20 @@
+{
+  "generated": "2026-07-14T01:37:43.355800+00:00",
+  "module": "FORGE-KERNEL-008",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "scheduler_strategy": "TOPOLOGICAL_PRIORITY",
+  "status": "FORGE_WORKFORCE_REGISTRY_READY",
+  "worker_pool_count": 1,
+  "workers": [
+    {
+      "assigned_tasks": 0,
+      "busy": 0,
+      "capability": "repository_scan",
+      "domain": "infra",
+      "health": "READY",
+      "idle": 1,
+      "instances": 1,
+      "worker_pool": "repository_scan_pool"
+    }
+  ]
+}
