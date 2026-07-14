@@ -1,0 +1,23 @@
+{
+  "generated": "2026-07-14T02:47:01.031997+00:00",
+  "module": "FORGE-SCHEDULER-001",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_WORKER_STATE_ENGINE_READY",
+  "worker_count": 2,
+  "workers": {
+    "GraphWorker": {
+      "average_runtime_ms": 0.0,
+      "completed_jobs": 0,
+      "last_update": "2026-07-14T02:47:01.031993+00:00",
+      "running_jobs": 0,
+      "state": "IDLE"
+    },
+    "RepositoryWorker": {
+      "average_runtime_ms": 0.0,
+      "completed_jobs": 0,
+      "last_update": "2026-07-14T02:47:01.031973+00:00",
+      "running_jobs": 0,
+      "state": "IDLE"
+    }
+  }
+}
