@@ -1,0 +1,16 @@
+{
+  "generated": "2026-07-14T01:43:49.807601+00:00",
+  "metrics": {
+    "average_tasks_per_worker": 2.0,
+    "completed_nodes": 2,
+    "execution_steps": 2,
+    "graph_runtime_state": "MISSION_GRAPH_EXECUTED",
+    "scheduled_tasks": 2,
+    "scheduler_strategy": "TOPOLOGICAL_PRIORITY",
+    "worker_instance_count": 1,
+    "worker_pool_count": 1
+  },
+  "module": "FORGE-KERNEL-009",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_EXECUTION_PROFILER_READY"
+}
