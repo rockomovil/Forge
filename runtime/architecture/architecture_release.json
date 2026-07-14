@@ -1,0 +1,19 @@
+{
+  "module": "FORGE-ARCH-0014",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "release_ready": true,
+  "released_at": "2026-07-14T22:09:11.548186+00:00",
+  "manifest_hash": "a3e0186f24bae0b525b83d6c0234d4e4e88341c5748fb14d96710980a10cc753",
+  "audit_hash": "72cd0009b167cbfe4838cba14f58259715f65fd0a815c5e6a47551424b6d8dd3",
+  "summary": {
+    "module_count": 1546,
+    "unique_module_count": 1418,
+    "family_count": 46,
+    "node_count": 1464,
+    "edge_count": 1418,
+    "locked": true,
+    "immutable": true
+  },
+  "hash": "d499ec9649d248424386d25c6936d900075429016699f2546950fc34ea9fc2b5"
+}
