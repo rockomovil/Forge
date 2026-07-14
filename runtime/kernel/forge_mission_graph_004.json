@@ -1,0 +1,31 @@
+{
+  "edge_count": 1,
+  "generated": "2026-07-14T01:24:49.268251+00:00",
+  "graph": {
+    "edges": [
+      {
+        "from": "MISSION-000001",
+        "relationship": "COMPILED_TO",
+        "to": "repository_scan"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "MISSION-000001",
+        "priority": "CRITICAL",
+        "state": "READY",
+        "type": "MISSION"
+      },
+      {
+        "id": "repository_scan",
+        "status": "READY",
+        "type": "CAPABILITY"
+      }
+    ]
+  },
+  "mission_count": 1,
+  "module": "FORGE-KERNEL-004",
+  "node_count": 2,
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_MISSION_GRAPH_COMPILER_READY"
+}
