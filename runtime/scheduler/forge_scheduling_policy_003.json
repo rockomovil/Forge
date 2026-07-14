@@ -1,0 +1,9 @@
+{
+  "candidate_count": 2,
+  "generated": "2026-07-14T02:51:46.173107+00:00",
+  "module": "FORGE-SCHEDULER-003",
+  "policy": "LEAST_LOADED_IDLE",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "selected_worker": "GraphWorker",
+  "status": "FORGE_SCHEDULING_POLICY_ENGINE_READY"
+}
