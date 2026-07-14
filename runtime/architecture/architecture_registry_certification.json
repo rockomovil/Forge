@@ -1,0 +1,13 @@
+{
+  "module": "FORGE-ARCH-0028",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "registry_certified": true,
+  "certified_at": "2026-07-14T22:15:02.885717+00:00",
+  "audit_hash": "9400e6541e09ea8362f7ca57fe81d4151c0cd145851bd107aa6bde7a7f686c80",
+  "registry_hash": "5ac363ff7010e1ff2e40e7f7a7648781d20163544f50f32ee199f7e3d986c44f",
+  "module_count": 1546,
+  "family_count": 46,
+  "prefix_count": 571,
+  "hash": "1120435319a2bf13a29e80b4506f291ccc6344417c70a362c3da679432ccbdf1"
+}
