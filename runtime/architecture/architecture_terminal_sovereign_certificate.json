@@ -1,0 +1,14 @@
+{
+  "module": "FORGE-ARCH-0041",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "sovereign_certificate_issued": true,
+  "certificate_level": "TERMINAL_SOVEREIGN",
+  "issued_at": "2026-07-14T22:21:26.016039+00:00",
+  "completion_hash": "9f5ae0f06acdf1be48f72f73517cc7d9a5c504e29c8b957f81761daf869c82b8",
+  "module_count": 1546,
+  "family_count": 46,
+  "prefix_count": 571,
+  "artifact_count": 13,
+  "hash": "10b943479aba9d2535f6d2fe8ce37955df67cd0ad9fa770f223f8c38d8282673"
+}
