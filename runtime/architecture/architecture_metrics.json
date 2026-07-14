@@ -1,0 +1,12 @@
+{
+  "module": "FORGE-ARCH-0007",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "family_count": 46,
+  "module_count": 1546,
+  "unique_module_count": 1418,
+  "node_count": 1464,
+  "edge_count": 1418,
+  "average_modules_per_family": 30.83,
+  "hash": "738c0927984a952e1a345499c35c22d311878d323f607f331621acdb619c354c"
+}
