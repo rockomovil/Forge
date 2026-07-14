@@ -1,0 +1,23 @@
+{
+  "busy_workers": 0,
+  "generated": "2026-07-14T02:49:23.189944+00:00",
+  "idle_workers": 2,
+  "metrics": {
+    "GraphWorker": {
+      "completed_jobs": 0,
+      "running_jobs": 0,
+      "state": "IDLE",
+      "utilization": 0.0
+    },
+    "RepositoryWorker": {
+      "completed_jobs": 0,
+      "running_jobs": 0,
+      "state": "IDLE",
+      "utilization": 0.0
+    }
+  },
+  "module": "FORGE-SCHEDULER-002",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_LOAD_METRICS_ENGINE_READY",
+  "worker_count": 2
+}
