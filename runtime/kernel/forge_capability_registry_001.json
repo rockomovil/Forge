@@ -1,0 +1,15 @@
+{
+  "capabilities": [
+    {
+      "domain": "infra",
+      "name": "repository_scan",
+      "status": "READY",
+      "version": 1
+    }
+  ],
+  "capability_count": 1,
+  "generated": "2026-07-14T01:21:31.381343+00:00",
+  "module": "FORGE-KERNEL-001",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "status": "FORGE_CAPABILITY_REGISTRY_READY"
+}
