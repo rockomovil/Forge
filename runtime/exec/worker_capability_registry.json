@@ -1,0 +1,29 @@
+{
+  "module": "FORGE-EXEC-0002",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T00:45:52.555024+00:00",
+  "worker_count": 3,
+  "capability_registry": {
+    "validation": [
+      "worker-001"
+    ],
+    "audit": [
+      "worker-001"
+    ],
+    "build": [
+      "worker-002"
+    ],
+    "parallel_execution": [
+      "worker-002"
+    ],
+    "certification": [
+      "worker-003"
+    ],
+    "release": [
+      "worker-003"
+    ]
+  },
+  "capability_count": 6,
+  "hash": "48c581fce76bd03fca240444da26f3cb39141b6668fc0f855ab8fabdf47895e7"
+}
