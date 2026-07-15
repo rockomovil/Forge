@@ -1,0 +1,42 @@
+{
+  "module": "FORGE-KAPI-0001",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T11:31:26.842655+00:00",
+  "knowledge_api_ready": true,
+  "services": {
+    "module_lookup": true,
+    "family_lookup": true,
+    "concept_lookup": true,
+    "graph_lookup": true,
+    "cross_reference_lookup": true
+  },
+  "statistics": {
+    "modules": 1418,
+    "families": 46,
+    "concepts": 1467,
+    "graph_nodes": 1464,
+    "graph_edges": 1418,
+    "cross_references": 1418
+  },
+  "resources": {
+    "index": "runtime/knowledge/knowledge_index.json",
+    "concepts": "runtime/knowledge/knowledge_concepts.json",
+    "semantic_graph": "runtime/knowledge/knowledge_semantic_graph.json",
+    "cross_reference": "runtime/knowledge/knowledge_cross_reference.json"
+  },
+  "api": {
+    "module": "lookup_module(name)",
+    "family": "lookup_family(name)",
+    "concept": "lookup_concept(name)",
+    "graph": "lookup_graph(node)",
+    "xref": "lookup_cross_reference(module)"
+  },
+  "source_hashes": {
+    "index": "4041579232b99849e9f347ec242106487b9c228add072f826c1ffe144ca1f3d4",
+    "concepts": "445783bbe72f4d1c1c6a884c969a51d5c9c18d711f2fa184d3d6ff9759389193",
+    "graph": "14b93977c8ba372bc148ac37953747c20cf2eb50d418edbe02768aa75c4cbaeb",
+    "cross_reference": "bea5a8f2c53fd3df56a21fe56b15681c1a27f52c6ee851b35f687a8f03812cb8"
+  },
+  "hash": "3e4a28899fd687158d305a4e77b11703b1ac7386541a28e63aff79d5b6dac2d5"
+}
