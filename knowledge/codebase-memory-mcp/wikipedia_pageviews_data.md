@@ -3,31 +3,34 @@ id: wikipedia_pageviews_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:21.884363+00:00
+generated_at: 2026-07-15T11:22:04.063816+00:00
+path: None
+knowledge_version: 2
 ---
 
 # wikipedia_pageviews_data
 
-## Purpose
+## Metadata
 
-TODO
-
-## Inputs
-
-TODO
-
-## Outputs
-
-TODO
+- Family: codebase-memory-mcp
+- Runtime: SHADOW_ONLY_READ_ONLY
+- Status: READY
 
 ## Dependencies
 
-TODO
+- None
 
-## Runtime
 
-SHADOW_ONLY_READ_ONLY
+## Graph
+
+Node Present: No
+
+Outgoing Dependencies: 0
 
 ## Source
 
 None
+
+## Notes
+
+Generated automatically by FORGE-KNOWLEDGE-0004.

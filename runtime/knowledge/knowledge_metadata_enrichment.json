@@ -1,0 +1,11 @@
+{
+  "module": "FORGE-KNOWLEDGE-0004",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T11:22:04.066776+00:00",
+  "knowledge_documents_updated": 1418,
+  "knowledge_root": "/home/esteban/Documentos/EngineeringWorkspace/Forge/knowledge",
+  "graph_hash": "3918ebee7f7180a0c6dd75f0a8d0991318598ae4faa60991c21462f74ded36b1",
+  "index_hash": "4041579232b99849e9f347ec242106487b9c228add072f826c1ffe144ca1f3d4",
+  "hash": "17d9e2d3ea0248f9aa44fcdf32228e994539ecd5f2f158323dc65f91f5c34fbb"
+}

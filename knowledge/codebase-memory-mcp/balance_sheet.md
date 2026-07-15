@@ -3,31 +3,34 @@ id: balance_sheet
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:21.748543+00:00
+generated_at: 2026-07-15T11:22:03.945975+00:00
+path: None
+knowledge_version: 2
 ---
 
 # balance_sheet
 
-## Purpose
+## Metadata
 
-TODO
-
-## Inputs
-
-TODO
-
-## Outputs
-
-TODO
+- Family: codebase-memory-mcp
+- Runtime: SHADOW_ONLY_READ_ONLY
+- Status: READY
 
 ## Dependencies
 
-TODO
+- None
 
-## Runtime
 
-SHADOW_ONLY_READ_ONLY
+## Graph
+
+Node Present: No
+
+Outgoing Dependencies: 0
 
 ## Source
 
 None
+
+## Notes
+
+Generated automatically by FORGE-KNOWLEDGE-0004.

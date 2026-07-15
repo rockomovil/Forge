@@ -3,31 +3,34 @@ id: cfg0003_configuration_dependency_graph
 family: cfg0003_configuration_dependency_graph.py
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:21.757146+00:00
+generated_at: 2026-07-15T11:22:03.952252+00:00
+path: None
+knowledge_version: 2
 ---
 
 # cfg0003_configuration_dependency_graph
 
-## Purpose
+## Metadata
 
-TODO
-
-## Inputs
-
-TODO
-
-## Outputs
-
-TODO
+- Family: cfg0003_configuration_dependency_graph.py
+- Runtime: SHADOW_ONLY_READ_ONLY
+- Status: READY
 
 ## Dependencies
 
-TODO
+- None
 
-## Runtime
 
-SHADOW_ONLY_READ_ONLY
+## Graph
+
+Node Present: No
+
+Outgoing Dependencies: 0
 
 ## Source
 
 None
+
+## Notes
+
+Generated automatically by FORGE-KNOWLEDGE-0004.

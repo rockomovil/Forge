@@ -3,31 +3,34 @@ id: unctad_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:21.880164+00:00
+generated_at: 2026-07-15T11:22:04.060026+00:00
+path: None
+knowledge_version: 2
 ---
 
 # unctad_data
 
-## Purpose
+## Metadata
 
-TODO
-
-## Inputs
-
-TODO
-
-## Outputs
-
-TODO
+- Family: codebase-memory-mcp
+- Runtime: SHADOW_ONLY_READ_ONLY
+- Status: READY
 
 ## Dependencies
 
-TODO
+- None
 
-## Runtime
 
-SHADOW_ONLY_READ_ONLY
+## Graph
+
+Node Present: No
+
+Outgoing Dependencies: 0
 
 ## Source
 
 None
+
+## Notes
+
+Generated automatically by FORGE-KNOWLEDGE-0004.
