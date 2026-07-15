@@ -1,0 +1,44 @@
+{
+  "module": "FORGE-EXEC-0008",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T01:02:11.021853+00:00",
+  "workers": [
+    {
+      "worker": "worker-001",
+      "role": "validation",
+      "assigned_jobs": 0,
+      "jobs": []
+    },
+    {
+      "worker": "worker-002",
+      "role": "builder",
+      "assigned_jobs": 2,
+      "jobs": [
+        {
+          "dispatch_id": 1,
+          "module": "core",
+          "capability": "build"
+        },
+        {
+          "dispatch_id": 2,
+          "module": "codebase-memory-mcp",
+          "capability": "build"
+        }
+      ]
+    },
+    {
+      "worker": "worker-003",
+      "role": "release",
+      "assigned_jobs": 0,
+      "jobs": []
+    }
+  ],
+  "worker_count": 3,
+  "dispatch_count": 2,
+  "max_load": 2,
+  "min_load": 0,
+  "load_delta": 2,
+  "balanced": true,
+  "hash": "8a01a4f1c0186278de941dbde64c134d9f2c98d671bbd57751adbb7f74c73416"
+}
