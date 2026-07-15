@@ -2,7 +2,7 @@
   "module": "FORGE-KNOWLEDGE-0001",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "generated_at": "2026-07-15T01:30:02.928535+00:00",
+  "generated_at": "2026-07-15T11:19:55.099962+00:00",
   "knowledge_registry_ready": true,
   "knowledge_object_count": 1418,
   "knowledge_objects": [
@@ -8516,5 +8516,5 @@
     }
   ],
   "architecture_hash": "5ac363ff7010e1ff2e40e7f7a7648781d20163544f50f32ee199f7e3d986c44f",
-  "hash": "4f667ff5be5c0e805929e924ba45823ade653bcc1e116c623613abcb1f49ad37"
+  "hash": "b99d3f601a4cf0d257a5b1e9885896c2486e149114dea11fc70403ff03e5d23b"
 }
