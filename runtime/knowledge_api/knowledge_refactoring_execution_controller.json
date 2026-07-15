@@ -1,0 +1,68 @@
+{
+  "module": "FORGE-KAPI-0059",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "controller_ready": true,
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
+  "parallel_execution": true,
+  "worker_count": 8,
+  "controller_state": "READY_FOR_PARALLEL_SIMULATION",
+  "workers": [
+    {
+      "worker_id": "worker_1",
+      "batch": 1,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_2",
+      "batch": 2,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_3",
+      "batch": 3,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_4",
+      "batch": 4,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_5",
+      "batch": 5,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_6",
+      "batch": 6,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_7",
+      "batch": 7,
+      "tasks": 5,
+      "state": "READY",
+      "mode": "SIMULATION"
+    },
+    {
+      "worker_id": "worker_8",
+      "batch": 8,
+      "tasks": 1,
+      "state": "READY",
+      "mode": "SIMULATION"
+    }
+  ]
+}
