@@ -2,7 +2,7 @@
   "module": "FORGE-BUILD-0007",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "audited_at": "2026-07-15T00:27:34.462510+00:00",
+  "audited_at": "2026-07-15T00:30:44.278659+00:00",
   "target_module": "architecture_registry",
   "checks": {
     "target_consistency": true,
@@ -27,5 +27,5 @@
     "incremental": "feb8c86b1e614cb2fe47d595087f54add7add42446c19b42050cc103066caad8",
     "execution": "eb985db3b3c5f8b962841fa4a43dccaa5fb6fa670d702529ec2848384bb052a9"
   },
-  "hash": "6e64fba36bd3106a6be3ac8a7489db0485516d7d0ed2e74f0a6fc833a4ca88da"
+  "hash": "1f63c5b93e4786b841022b51186015c2bb499028caa77c249e9e14fed45abe81"
 }
