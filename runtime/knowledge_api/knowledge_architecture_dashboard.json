@@ -1,0 +1,24 @@
+{
+  "module": "FORGE-KAPI-0018",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "summary": {
+    "architecture_health_score": 90.21,
+    "components": 1330,
+    "layers": 14,
+    "largest_scc": 22,
+    "roadmap_phases": 4,
+    "recommendations": 6
+  },
+  "kpis": {
+    "average_scc_size": 1.039,
+    "largest_layer_size": 1085,
+    "average_layer_size": 95.0
+  },
+  "next_phase": {
+    "phase": 1,
+    "title": "Break largest strongly connected component",
+    "priority": 1,
+    "expected_health_score": 91.71
+  }
+}
