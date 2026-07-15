@@ -1,0 +1,75 @@
+{
+  "module": "FORGE-KAPI-0016",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "health_score": 90.21,
+  "largest_cycle_size": 22,
+  "largest_cycle_modules": [
+    "module::akshare_stocks_historical",
+    "module::base",
+    "module::base_analytics",
+    "module::config",
+    "module::database_schema",
+    "module::datetime_utils",
+    "module::deal_parser",
+    "module::edgar_tools",
+    "module::exchange_client",
+    "module::fetch_markets",
+    "module::forge_infra_003_runtime_layout_validator_engine",
+    "module::forge_infra_020_repository_empty_directory_audit_engine",
+    "module::forge_knowledge_175_atlas_uncertainty_propagation_engine",
+    "module::forge_knowledge_253_atlas_system_integration_engine",
+    "module::gs_quant_service",
+    "module::managed_futures",
+    "module::market_data_tools",
+    "module::math_engine",
+    "module::paths",
+    "module::risk_analytics",
+    "module::risk_guardrails",
+    "module::yfinance_data"
+  ],
+  "high_coupling_modules": [
+    {
+      "node": "module::runtime_json_writer",
+      "out_degree": 0,
+      "in_degree": 1103,
+      "total_degree": 1103
+    },
+    {
+      "node": "module::datetime_utils",
+      "out_degree": 2,
+      "in_degree": 829,
+      "total_degree": 831
+    },
+    {
+      "node": "module::forge_knowledge_253_atlas_system_integration_engine",
+      "out_degree": 2,
+      "in_degree": 542,
+      "total_degree": 544
+    },
+    {
+      "node": "module::forge_infra_020_repository_empty_directory_audit_engine",
+      "out_degree": 2,
+      "in_degree": 318,
+      "total_degree": 320
+    }
+  ],
+  "recommended_actions": [
+    {
+      "priority": 1,
+      "action": "Break largest strongly connected component"
+    },
+    {
+      "priority": 2,
+      "action": "Introduce interfaces around high fan-in modules"
+    },
+    {
+      "priority": 3,
+      "action": "Reduce cyclic dependencies"
+    },
+    {
+      "priority": 4,
+      "action": "Increase architectural layering"
+    }
+  ]
+}
