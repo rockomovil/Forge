@@ -16,7 +16,7 @@ INDEX = json.loads(
     (ROOT / "runtime/knowledge/knowledge_index.json").read_text()
 )
 
-modules = sorted(INDEX["indexes"]["by_name"].keys())
+modules = sorted(INDEX["indexes"]["by_module"].keys())
 
 xref = {}
 
@@ -32,21 +32,34 @@ for m in modules:
 # families
 #
 
-for family, mods in INDEX["indexes"]["by_family"].items():
+family_groups = {}
 
-    for m in mods:
+for module, meta in INDEX["indexes"]["by_module"].items():
 
-        if m not in xref:
+    family = meta.get("family")
+
+    if family is None:
+        continue
+
+    if module in xref:
+        xref[module]["family"] = family
+
+    family_groups.setdefault(family, []).append(module)
+
+for family, mods in family_groups.items():
+
+    mods = sorted(mods)
+
+    for module in mods:
+
+        if module not in xref:
             continue
 
-        xref[m]["family"] = family
-
-        xref[m]["same_family"] = sorted(
-            [
-                x for x in mods
-                if x != m
-            ]
-        )
+        xref[module]["same_family"] = [
+            m
+            for m in mods
+            if m != module
+        ]
 
 #
 # graph dependencies
