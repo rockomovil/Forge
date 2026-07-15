@@ -1,0 +1,8301 @@
+{
+  "module": "FORGE-KAPI-0008",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "nodes": 1382,
+  "dependency_edges": 4092,
+  "ranking": [
+    {
+      "node": "module::runtime_json_writer",
+      "out_degree": 0,
+      "in_degree": 1103,
+      "total_degree": 1103
+    },
+    {
+      "node": "module::datetime_utils",
+      "out_degree": 2,
+      "in_degree": 829,
+      "total_degree": 831
+    },
+    {
+      "node": "module::forge_knowledge_253_atlas_system_integration_engine",
+      "out_degree": 2,
+      "in_degree": 542,
+      "total_degree": 544
+    },
+    {
+      "node": "module::forge_infra_020_repository_empty_directory_audit_engine",
+      "out_degree": 2,
+      "in_degree": 318,
+      "total_degree": 320
+    },
+    {
+      "node": "module::akshare_stocks_historical",
+      "out_degree": 5,
+      "in_degree": 80,
+      "total_degree": 85
+    },
+    {
+      "node": "module::forge_infra_003_runtime_layout_validator_engine",
+      "out_degree": 2,
+      "in_degree": 82,
+      "total_degree": 84
+    },
+    {
+      "node": "module::config",
+      "out_degree": 1,
+      "in_degree": 80,
+      "total_degree": 81
+    },
+    {
+      "node": "module::forge_knowledge_175_atlas_uncertainty_propagation_engine",
+      "out_degree": 2,
+      "in_degree": 67,
+      "total_degree": 69
+    },
+    {
+      "node": "module::math_engine",
+      "out_degree": 1,
+      "in_degree": 48,
+      "total_degree": 49
+    },
+    {
+      "node": "module::yfinance_data",
+      "out_degree": 7,
+      "in_degree": 40,
+      "total_degree": 47
+    },
+    {
+      "node": "module::base",
+      "out_degree": 1,
+      "in_degree": 42,
+      "total_degree": 43
+    },
+    {
+      "node": "module::deal_parser",
+      "out_degree": 8,
+      "in_degree": 27,
+      "total_degree": 35
+    },
+    {
+      "node": "module::functime_service_polars_legacy",
+      "out_degree": 18,
+      "in_degree": 13,
+      "total_degree": 31
+    },
+    {
+      "node": "module::agent",
+      "out_degree": 8,
+      "in_degree": 19,
+      "total_degree": 27
+    },
+    {
+      "node": "module::exchange_client",
+      "out_degree": 4,
+      "in_degree": 23,
+      "total_degree": 27
+    },
+    {
+      "node": "module::base_analytics",
+      "out_degree": 3,
+      "in_degree": 22,
+      "total_degree": 25
+    },
+    {
+      "node": "module::stats_extended",
+      "out_degree": 2,
+      "in_degree": 23,
+      "total_degree": 25
+    },
+    {
+      "node": "module::core_agent",
+      "out_degree": 9,
+      "in_degree": 12,
+      "total_degree": 21
+    },
+    {
+      "node": "module::finrl_agents",
+      "out_degree": 8,
+      "in_degree": 13,
+      "total_degree": 21
+    },
+    {
+      "node": "module::swiss_gov_api",
+      "out_degree": 7,
+      "in_degree": 14,
+      "total_degree": 21
+    },
+    {
+      "node": "module::core",
+      "out_degree": 3,
+      "in_degree": 18,
+      "total_degree": 21
+    },
+    {
+      "node": "module::market_data_tools",
+      "out_degree": 2,
+      "in_degree": 18,
+      "total_degree": 20
+    },
+    {
+      "node": "module::vectorbt_provider",
+      "out_degree": 18,
+      "in_degree": 1,
+      "total_degree": 19
+    },
+    {
+      "node": "module::optimize_portfolio_weights",
+      "out_degree": 3,
+      "in_degree": 16,
+      "total_degree": 19
+    },
+    {
+      "node": "module::qlib_service",
+      "out_degree": 18,
+      "in_degree": 0,
+      "total_degree": 18
+    },
+    {
+      "node": "module::qlib_rl",
+      "out_degree": 9,
+      "in_degree": 8,
+      "total_degree": 17
+    },
+    {
+      "node": "module::lbo_model",
+      "out_degree": 6,
+      "in_degree": 11,
+      "total_degree": 17
+    },
+    {
+      "node": "module::financepy_wrapper",
+      "out_degree": 16,
+      "in_degree": 0,
+      "total_degree": 16
+    },
+    {
+      "node": "module::china_pipeline_scheduler",
+      "out_degree": 13,
+      "in_degree": 3,
+      "total_degree": 16
+    },
+    {
+      "node": "module::data_processor",
+      "out_degree": 2,
+      "in_degree": 14,
+      "total_degree": 16
+    },
+    {
+      "node": "module::quant_modules_3042",
+      "out_degree": 11,
+      "in_degree": 4,
+      "total_degree": 15
+    },
+    {
+      "node": "module::signal_scientist",
+      "out_degree": 7,
+      "in_degree": 8,
+      "total_degree": 15
+    },
+    {
+      "node": "module::statsmodels_service",
+      "out_degree": 7,
+      "in_degree": 8,
+      "total_degree": 15
+    },
+    {
+      "node": "module::types",
+      "out_degree": 1,
+      "in_degree": 14,
+      "total_degree": 15
+    },
+    {
+      "node": "module::test_glm_model",
+      "out_degree": 11,
+      "in_degree": 3,
+      "total_degree": 14
+    },
+    {
+      "node": "module::fortitudo_service_legacy",
+      "out_degree": 9,
+      "in_degree": 5,
+      "total_degree": 14
+    },
+    {
+      "node": "module::agno_tools",
+      "out_degree": 5,
+      "in_degree": 9,
+      "total_degree": 14
+    },
+    {
+      "node": "module::utils",
+      "out_degree": 3,
+      "in_degree": 11,
+      "total_degree": 14
+    },
+    {
+      "node": "module::base_analyzer",
+      "out_degree": 2,
+      "in_degree": 12,
+      "total_degree": 14
+    },
+    {
+      "node": "module::test_hard_integration",
+      "out_degree": 13,
+      "in_degree": 0,
+      "total_degree": 13
+    },
+    {
+      "node": "module::base_agent",
+      "out_degree": 12,
+      "in_degree": 1,
+      "total_degree": 13
+    },
+    {
+      "node": "module::skfolio_core",
+      "out_degree": 12,
+      "in_degree": 1,
+      "total_degree": 13
+    },
+    {
+      "node": "module::skfolio_validation",
+      "out_degree": 6,
+      "in_degree": 7,
+      "total_degree": 13
+    },
+    {
+      "node": "module::models",
+      "out_degree": 0,
+      "in_degree": 13,
+      "total_degree": 13
+    },
+    {
+      "node": "module::agent_factory",
+      "out_degree": 12,
+      "in_degree": 0,
+      "total_degree": 12
+    },
+    {
+      "node": "module::runner",
+      "out_degree": 9,
+      "in_degree": 3,
+      "total_degree": 12
+    },
+    {
+      "node": "module::gs_quant_service",
+      "out_degree": 7,
+      "in_degree": 5,
+      "total_degree": 12
+    },
+    {
+      "node": "module::fincept_strategy_runner",
+      "out_degree": 6,
+      "in_degree": 6,
+      "total_degree": 12
+    },
+    {
+      "node": "module::migrate_bundled_configs",
+      "out_degree": 4,
+      "in_degree": 8,
+      "total_degree": 12
+    },
+    {
+      "node": "module::workflow_tracer",
+      "out_degree": 2,
+      "in_degree": 10,
+      "total_degree": 12
+    },
+    {
+      "node": "module::base_models",
+      "out_degree": 1,
+      "in_degree": 11,
+      "total_degree": 12
+    },
+    {
+      "node": "module::akshare_data",
+      "out_degree": 11,
+      "in_degree": 0,
+      "total_degree": 11
+    },
+    {
+      "node": "module::fasttrade_provider",
+      "out_degree": 11,
+      "in_degree": 0,
+      "total_degree": 11
+    },
+    {
+      "node": "module::backtestingpy_provider",
+      "out_degree": 11,
+      "in_degree": 0,
+      "total_degree": 11
+    },
+    {
+      "node": "module::skfolio_wrapper",
+      "out_degree": 11,
+      "in_degree": 0,
+      "total_degree": 11
+    },
+    {
+      "node": "module::qlib_rolling_retraining",
+      "out_degree": 10,
+      "in_degree": 1,
+      "total_degree": 11
+    },
+    {
+      "node": "module::edgar_tools",
+      "out_degree": 3,
+      "in_degree": 8,
+      "total_degree": 11
+    },
+    {
+      "node": "module::personas",
+      "out_degree": 0,
+      "in_degree": 11,
+      "total_degree": 11
+    },
+    {
+      "node": "module::technical_analysis",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::skfolio_api",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::daily_cycle",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::debate_orchestrator",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::qlib_meta_learning",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::qlib_online_learning",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::zipline_provider",
+      "out_degree": 10,
+      "in_degree": 0,
+      "total_degree": 10
+    },
+    {
+      "node": "module::skfolio_portfolio",
+      "out_degree": 9,
+      "in_degree": 1,
+      "total_degree": 10
+    },
+    {
+      "node": "module::databento_provider",
+      "out_degree": 9,
+      "in_degree": 1,
+      "total_degree": 10
+    },
+    {
+      "node": "module::deal_scanner",
+      "out_degree": 9,
+      "in_degree": 1,
+      "total_degree": 10
+    },
+    {
+      "node": "module::finrl_ensemble",
+      "out_degree": 8,
+      "in_degree": 2,
+      "total_degree": 10
+    },
+    {
+      "node": "module::agent_loader",
+      "out_degree": 6,
+      "in_degree": 4,
+      "total_degree": 10
+    },
+    {
+      "node": "module::ensemble",
+      "out_degree": 4,
+      "in_degree": 6,
+      "total_degree": 10
+    },
+    {
+      "node": "module::base_provider",
+      "out_degree": 4,
+      "in_degree": 6,
+      "total_degree": 10
+    },
+    {
+      "node": "module::metrics",
+      "out_degree": 3,
+      "in_degree": 7,
+      "total_degree": 10
+    },
+    {
+      "node": "module::forge_infra_037_repository_name_character_statistics_engine",
+      "out_degree": 2,
+      "in_degree": 8,
+      "total_degree": 10
+    },
+    {
+      "node": "module::preprocessing",
+      "out_degree": 2,
+      "in_degree": 8,
+      "total_degree": 10
+    },
+    {
+      "node": "module::model_selection",
+      "out_degree": 1,
+      "in_degree": 9,
+      "total_degree": 10
+    },
+    {
+      "node": "module::nasa_gibs_api",
+      "out_degree": 9,
+      "in_degree": 0,
+      "total_degree": 9
+    },
+    {
+      "node": "module::skfolio_service",
+      "out_degree": 9,
+      "in_degree": 0,
+      "total_degree": 9
+    },
+    {
+      "node": "module::setup_index",
+      "out_degree": 9,
+      "in_degree": 0,
+      "total_degree": 9
+    },
+    {
+      "node": "module::finrl_backtest",
+      "out_degree": 8,
+      "in_degree": 1,
+      "total_degree": 9
+    },
+    {
+      "node": "module::fortitudo_service",
+      "out_degree": 8,
+      "in_degree": 1,
+      "total_degree": 9
+    },
+    {
+      "node": "module::llm_composer",
+      "out_degree": 8,
+      "in_degree": 1,
+      "total_degree": 9
+    },
+    {
+      "node": "module::skfolio_optimization",
+      "out_degree": 8,
+      "in_degree": 1,
+      "total_degree": 9
+    },
+    {
+      "node": "module::finrl_environments",
+      "out_degree": 5,
+      "in_degree": 4,
+      "total_degree": 9
+    },
+    {
+      "node": "module::database_schema",
+      "out_degree": 4,
+      "in_degree": 5,
+      "total_degree": 9
+    },
+    {
+      "node": "module::baostock_corporate_actions",
+      "out_degree": 4,
+      "in_degree": 5,
+      "total_degree": 9
+    },
+    {
+      "node": "module::managed_futures",
+      "out_degree": 3,
+      "in_degree": 6,
+      "total_degree": 9
+    },
+    {
+      "node": "module::optimization",
+      "out_degree": 2,
+      "in_degree": 7,
+      "total_degree": 9
+    },
+    {
+      "node": "module::forge_meta_builder",
+      "out_degree": 2,
+      "in_degree": 7,
+      "total_degree": 9
+    },
+    {
+      "node": "module::data",
+      "out_degree": 2,
+      "in_degree": 7,
+      "total_degree": 9
+    },
+    {
+      "node": "module::forge_knowledge_062_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 7,
+      "total_degree": 9
+    },
+    {
+      "node": "module::test_integration",
+      "out_degree": 8,
+      "in_degree": 0,
+      "total_degree": 8
+    },
+    {
+      "node": "module::compute_technicals",
+      "out_degree": 8,
+      "in_degree": 0,
+      "total_degree": 8
+    },
+    {
+      "node": "module::bt_provider",
+      "out_degree": 8,
+      "in_degree": 0,
+      "total_degree": 8
+    },
+    {
+      "node": "module::functime_service",
+      "out_degree": 8,
+      "in_degree": 0,
+      "total_degree": 8
+    },
+    {
+      "node": "module::main",
+      "out_degree": 7,
+      "in_degree": 1,
+      "total_degree": 8
+    },
+    {
+      "node": "module::cninfo_entity_resolver",
+      "out_degree": 7,
+      "in_degree": 1,
+      "total_degree": 8
+    },
+    {
+      "node": "module::risk_analytics",
+      "out_degree": 6,
+      "in_degree": 2,
+      "total_degree": 8
+    },
+    {
+      "node": "module::cli",
+      "out_degree": 6,
+      "in_degree": 2,
+      "total_degree": 8
+    },
+    {
+      "node": "module::ft_data",
+      "out_degree": 6,
+      "in_degree": 2,
+      "total_degree": 8
+    },
+    {
+      "node": "module::task_state",
+      "out_degree": 5,
+      "in_degree": 3,
+      "total_degree": 8
+    },
+    {
+      "node": "module::option_greeks_daemon",
+      "out_degree": 5,
+      "in_degree": 3,
+      "total_degree": 8
+    },
+    {
+      "node": "module::database_manager",
+      "out_degree": 4,
+      "in_degree": 4,
+      "total_degree": 8
+    },
+    {
+      "node": "module::team_config",
+      "out_degree": 2,
+      "in_degree": 6,
+      "total_degree": 8
+    },
+    {
+      "node": "module::model_factory",
+      "out_degree": 2,
+      "in_degree": 6,
+      "total_degree": 8
+    },
+    {
+      "node": "module::backtesting",
+      "out_degree": 2,
+      "in_degree": 6,
+      "total_degree": 8
+    },
+    {
+      "node": "module::clap_detector",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::agent_memory",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::valuation_summary",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::analysis",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::cninfo_data",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::risk_quant",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::loops",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::finrl_data",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::quant_researcher",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::news_geolocation",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::medallion_fund",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::research_lead",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::competition_runtime",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::financial_modeling",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::iv_surface",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::congress_gov_data",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::deepgram_stt",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::gex_calculator",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::startup_summary",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::quant_analytics_cli",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::qlib_advanced_models",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::ws_stream",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::polymarket_quant_bot",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::execution_trader",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::iv_smile",
+      "out_degree": 7,
+      "in_degree": 0,
+      "total_degree": 7
+    },
+    {
+      "node": "module::cninfo_pdf_downloader",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::cninfo_announcements_incremental",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::baostock_daily_backfill",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::forge_compiler_006_worker_pool_engine",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::decision_coordinator",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::qlib_high_frequency",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::skfolio_risk",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::eval_harness",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::financial_report_generator",
+      "out_degree": 6,
+      "in_degree": 1,
+      "total_degree": 7
+    },
+    {
+      "node": "module::mcp_tools",
+      "out_degree": 5,
+      "in_degree": 2,
+      "total_degree": 7
+    },
+    {
+      "node": "module::gluonts_service",
+      "out_degree": 4,
+      "in_degree": 3,
+      "total_degree": 7
+    },
+    {
+      "node": "module::options",
+      "out_degree": 4,
+      "in_degree": 3,
+      "total_degree": 7
+    },
+    {
+      "node": "module::fincept_provider",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_funds",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::nasdaq_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_financial",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::market_maker",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_reits",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_margin",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_crypto",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::adb_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::datagovuk_api",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::deal_tracker",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::unesco_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::bis_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::finrl_portfolio",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::merger_model",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_realtime",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_index",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_news",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::canada_gov_api",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::extract_nomic_vectors",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_futures",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::qlib_reporting_legacy",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::sentinelhub_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::baostock_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::data_scientist",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_board",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_currency",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::portfolio_manager",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::french_gov_api",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::investment_committee",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::govdata_de_api_complete",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::oecd_data",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::strategy_chart",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_energy",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::exchange_daemon",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::analytics_engine",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::super_agent",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_hot",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::derivatives_pricing",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_stocks_holders",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::finrl_trading",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::broker_ws_bridge",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::daemon",
+      "out_degree": 6,
+      "in_degree": 0,
+      "total_degree": 6
+    },
+    {
+      "node": "module::qlib_evaluation",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_derivatives",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_funds_expanded",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::precedent_transactions",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_bonds",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::risk_assessment",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::baostock_fundamentals_quarterly",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::signal_validation",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::post_trade_analysis",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_economics_china",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::signal_discovery",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::skfolio_data",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::trading_comps",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_analysis",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::akshare_alternative",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::_cli",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::databento_live",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::ic_deliberation",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::execution_pipeline",
+      "out_degree": 5,
+      "in_degree": 1,
+      "total_degree": 6
+    },
+    {
+      "node": "module::quantstats_analytics",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::cninfo_pdf_text_extractor",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::momentum_indicators",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::persona_runtime",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::generate_updates_manifest",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::execution_planner",
+      "out_degree": 4,
+      "in_degree": 2,
+      "total_degree": 6
+    },
+    {
+      "node": "module::apply_trader_investors_batch3",
+      "out_degree": 3,
+      "in_degree": 3,
+      "total_degree": 6
+    },
+    {
+      "node": "module::signal_tools",
+      "out_degree": 3,
+      "in_degree": 3,
+      "total_degree": 6
+    },
+    {
+      "node": "module::risk_guardrails",
+      "out_degree": 3,
+      "in_degree": 3,
+      "total_degree": 6
+    },
+    {
+      "node": "module::backtest_analytics",
+      "out_degree": 3,
+      "in_degree": 3,
+      "total_degree": 6
+    },
+    {
+      "node": "module::ffn_analytics",
+      "out_degree": 2,
+      "in_degree": 4,
+      "total_degree": 6
+    },
+    {
+      "node": "module::forge_knowledge_203_atlas_context_reconstruction_engine",
+      "out_degree": 2,
+      "in_degree": 4,
+      "total_degree": 6
+    },
+    {
+      "node": "module::scorer",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::analytics",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::news_nlp",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::estat_japan_api",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::cboe_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::workflow_module",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::comprehensive_analyzer",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::qlib_reporting",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::bls_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::scb_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::ilostat_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::cftc_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::news_correlation",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::core_agent_stream",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::compliance_officer",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::sec_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::data_gov_hk_api",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::govinfo_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::ffn_service",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::sec_data_adapter",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::government_us_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::pyportfolioopt_service",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::wits_trade_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::oscar_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::databento_fno_chain",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::bea_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::gluonts_service_legacy",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::spain_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::n2yo_satellite_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::agno_trading_service",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::portfolio_planning",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::qlib_strategy",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::fred_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::cnstats_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::backtester",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::datagov_au_api",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::seed_data",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::openafrica_api",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::vollib_service",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::akshare_company_info",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::portfolio_analytics",
+      "out_degree": 5,
+      "in_degree": 0,
+      "total_degree": 5
+    },
+    {
+      "node": "module::anomaly_detection",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::risk_team",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::china_data_unified_store",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::features_pipeline",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::research_team",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::mcp_server",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::china_data_quality_checks",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::straddle_simulator",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::data_handler",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::trade_executor",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::agent_config",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::portfolio_management",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::trading_team",
+      "out_degree": 4,
+      "in_degree": 1,
+      "total_degree": 5
+    },
+    {
+      "node": "module::forward_commitments",
+      "out_degree": 3,
+      "in_degree": 2,
+      "total_degree": 5
+    },
+    {
+      "node": "module::market_data_source",
+      "out_degree": 3,
+      "in_degree": 2,
+      "total_degree": 5
+    },
+    {
+      "node": "module::investing_calendar_data",
+      "out_degree": 3,
+      "in_degree": 2,
+      "total_degree": 5
+    },
+    {
+      "node": "module::reflexion_store",
+      "out_degree": 2,
+      "in_degree": 3,
+      "total_degree": 5
+    },
+    {
+      "node": "module::bt_strategies",
+      "out_degree": 2,
+      "in_degree": 3,
+      "total_degree": 5
+    },
+    {
+      "node": "module::terminal_toolkit",
+      "out_degree": 2,
+      "in_degree": 3,
+      "total_degree": 5
+    },
+    {
+      "node": "module::build_akshare_symbols_db",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::cboe_vix_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::trading_economics_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::ffn_analysis",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::stooq_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::license-gate-check-npm",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::trade_evaluation",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::financial_analysis_cli",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::qlib_advanced_backtest",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::rba_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::global_petrol_prices_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::un_comtrade_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::pxweb_fetcher",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::snb_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::worldbank_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::reporting",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::data_providers",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::deepgram_tts",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::nber_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::verify_all_agents",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::agent_evolution",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::investment_reasoning",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::regression",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::system_evaluation",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::eia_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::fii_dii_scraper",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::datagovsg_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::oi_tracker",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::riksbank_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::akshare_misc",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::statsmodels_cli",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::agent_evaluation",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::totp_gen",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::federal_reserve_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::finrl_plot",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::universal_ckan_api",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::boi_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::imf_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::wto_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::audit-license-provenance",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::boj_fetcher",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::economic_calendar",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::auto_trader",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::test_service",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::signal_evaluation",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::forge_infra_014_repository_permissions_audit_engine",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::get_historical_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::fmp_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::fincept_output_standard",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::norges_bank_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::boe_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::risk_reasoning",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::multpl_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::fiscal_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::owid_co2_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::portfolio_optimization",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::akshare_macro",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::metrics_collector",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::arbitrage",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::redfin_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::geocoding_service",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::explore_databento_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::finnhub_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::fetch_company_news",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::zillow_data",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::active_management",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::finrl_config",
+      "out_degree": 4,
+      "in_degree": 0,
+      "total_degree": 4
+    },
+    {
+      "node": "module::equity_risk_premium",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::zl_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::debt_schedule",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::wikipedia_pageviews_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::feature_importance",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::seasonality",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::bt_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::paper_execution",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::public_apis_finance_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::zl_metrics",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::advanced_cv",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::emerging_market_bonds",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::base_calculator",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::timeseries_analytics",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::akshare_economics_global",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::task_manager",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::memory_module",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::contribution_analysis",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::advanced",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::instrument_wrapper",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::alpha_vantage_extra_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::predictors",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::portfolio_service",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::reflector",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::bond_pricing",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::option_pricing",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::skfolio_measures",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::pypme_service",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::scheduler",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::global_trade_alert_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::un_population_data",
+      "out_degree": 3,
+      "in_degree": 1,
+      "total_degree": 4
+    },
+    {
+      "node": "module::skill_library",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::decision_memory",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::learning_memory",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::python_backend",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::archival_memory",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::market_data",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::persona_registry",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::risk_factor_summation",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::forge_knowledge_099_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::advanced_models",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::forge_knowledge_223_atlas_strategy_evaluation_engine",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::earnout_calculator",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::cross_validation",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::functions",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::trade_memory",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::vbt_portfolio",
+      "out_degree": 2,
+      "in_degree": 2,
+      "total_degree": 4
+    },
+    {
+      "node": "module::risk_tools",
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4
+    },
+    {
+      "node": "module::ts_risk_measures",
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4
+    },
+    {
+      "node": "module::black",
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4
+    },
+    {
+      "node": "module::mean_reversion",
+      "out_degree": 1,
+      "in_degree": 3,
+      "total_degree": 4
+    },
+    {
+      "node": "module::pro_forma_builder",
+      "out_degree": 0,
+      "in_degree": 4,
+      "total_degree": 4
+    },
+    {
+      "node": "module::world_bank_commodity_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::usda_ers_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::wipo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::adb_data_extended",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::stats_tests",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::github_stats_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::risk_analyzer",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::econdb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::hedge_funds",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::twelve_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::energy_transition_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::afdb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::agent_manager",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::exchangerate_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::cme_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_trader_investors_batch2",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::nymex_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::inflation_protected",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::openbb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::hooks_module",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::coincap_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::metals_prices_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::dexscreener_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::govtrack_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_price_index_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_competitiveness_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::tts",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::timeseries_funcs",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::who_immunization_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::qlib_feature_engineering",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fao_data_extended",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::transparency_budget_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::open_secrets_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::meta_builder_resume",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::open_meteo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::irs_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::abs_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::models_registry",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::coinmarketcap_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_wind_atlas_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bcb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_forest_watch_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eia_natural_gas_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::waqi_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::shipping_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_pop_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::quandl_nasdaq_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::comex_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::undp_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::equity_indexed_annuities",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::penn_world_table_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_portfolio_translations",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::tradingview_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::aisstream_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eurostat_extra_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ebrd_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::arxiv_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::unfpa_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::cvr_valuation",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::yh_finance_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::treasury_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::tcmb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bond_features",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::grain_futures_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::carbon_price_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::reliefweb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::nbp_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::usda_nass_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bt_fincept_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::census_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::faostat_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::trade_geopolitics",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::cnb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::data_manager",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fetch_historical",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::repositories",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_fishing_watch_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::oecd_dev_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::relationship_map",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::generate-lang-code",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_051_infrastructure_consolidation_engine",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::messari_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::paper_trading_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::sec_xbrl_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::openaq_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_trader_investors_batch1",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::data_fetcher",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_translations",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::wisesheets_macro_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_risks_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::prediction_kalshi",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::rsf_press_freedom_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::preferred_stocks",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::alternative_me_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::unicef_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::gfd_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::coinglass_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::meta_builder_repository_scanner",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::opsd_energy_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::zenodo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::btp_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_geopolitics_batch2",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_inequality_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::convertible_bonds",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::hud_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::worldbank_health_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::openCorporates_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::multiples_valuation",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::vbt_fincept_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fixed_annuities",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::data_world_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::tiingo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::unhcr_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::climate_trace_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::iadb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::simfin_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::marinetraffic_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::quandl_wiki_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::noaa_climate_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::speech_to_text",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::hnb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::tracing_module",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::market_neutral",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::iea_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::cryptocompare_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::transparency_intl_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::numbeo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::coinpaprika_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fmp_extra_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::execution_guardrails",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::freightos_fbx_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::dividend_models",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::usda_crop_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::copernicus_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::test_broker_data_injection",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::blockchain_com_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_041_repository_executable_catalog_engine",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::doing_business_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::statista_free_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::opec_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bnr_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::oecd_health_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::natural_resources",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::un_sdg_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::unep_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::covered_calls",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::update_readme_table",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::prediction_polymarket",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::sri_funds",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::coingecko",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_health_security_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::alpha_spread_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::quantstats_analysis",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::paris_agreement_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::compliance_guardrails",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::owid_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fdic_fetcher",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::private_capital",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::entso_e_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::high_yield_bonds",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ons_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::boc_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::validators",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bis_stats_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eiu_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::freedom_house_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::kaggle_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::who_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::worldometers_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::usda_fas_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_innovation_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::evaluation_module",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::glm",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::test_mcp_rapid_init",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::signal_guardrails",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::unctad_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::btp_fincept_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::economics_markets",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::power_analysis",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_geopolitics_batch3",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::hdx_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::platts_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ember_energy_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::un_comtrade_extended_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::harvard_dataverse_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ecb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::precious_metals",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::lme_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::business_cycle",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::defillama_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fdic_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::crossref_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_economic_agents",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::glassnode_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_justice_rule_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::digital_assets",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::lei_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_values_survey_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::stable_value",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::overpass_api_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::intrinio_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::quantstats_monte_carlo",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eurostat_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ilostat_data_extended",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::taiwan_market_connector",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_bank_climate_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::oecd_energy_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::un_stats_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_findex_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bis_data_extended",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ssrn_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fetch_quotes",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eodhd_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_geopolitics_batch1",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::census_international_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::isdb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fred_economic_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::open_exchange_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::irena_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::gen-ui-licenses",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::gen-py-stdlib",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::quiverquant_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::semantic_scholar_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::spreadsheet",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::openfigi_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ft_fincept_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_debt_monitor_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::floating_rate",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::apply_geopolitics_batch4",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::world_bank_extra_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::port_congestion_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::acled_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::marketstack_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::alphavantage_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eia_petroleum_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::zp_fincept_bridge",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::wto_data_extended",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::universal_socrata_api",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::open_parliament_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::variable_annuities",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::premium_analysis",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::frankfurter_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::calculations",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::performance_metrics",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::survival",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fitch_connect_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::gas_infrastructure_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eia_electricity_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::eia_steo_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_050_repository_file_age_distribution_engine",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::mnb_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::polygon_io_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::engine",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::license-gate-check",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ecb_sdmx_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::statcan_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::pew_research_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::real_estate",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::nominatim_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::global_solar_atlas_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::open_ownership_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::iex_cloud_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::weforum_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::maddison_project_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::imf_datamapper_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::qlib_portfolio_opt",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::portfolio_sparklines",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::bnm_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::gam",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::prs_group_data",
+      "out_degree": 3,
+      "in_degree": 0,
+      "total_degree": 3
+    },
+    {
+      "node": "module::utility",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::metadata_backend",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_auto_022_artifact_archive_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::statistical_arbitrage",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::vc_method",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_knowledge_289_atlas_linear_algebra_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_knowledge_171_atlas_counterfactual_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::berkus_method",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::data_validator",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::evaluation",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_knowledge_133_atlas_websocket_source_stream_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::kernel_service",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::first_chicago_method",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forecasters",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::football_field",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::fetch_markets",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::ft_utils",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::feature_extraction",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::orchestrator",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_032_repository_tree_index_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::sovereign_credit",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::vbt_optimization",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::balance_sheet",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::valuation_framework",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::sources_uses",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::cash_flow",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::duration_convexity",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::backends",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::confidence_intervals",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::sensitivity_analysis",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_knowledge_187_atlas_goal_decomposition_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::returns_calculator",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::technical_indicators",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::scorecard_method",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::exchange_calculations",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_004_registry_layout_validator_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::structured_products",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_auto_004_self_repair_loop_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_infra_043_repository_oldest_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::embedder_factory",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::income_statement",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forge_scheduler_001_worker_state_engine",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::arc0003_architecture_dependency_graph",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::offsets",
+      "out_degree": 2,
+      "in_degree": 1,
+      "total_degree": 3
+    },
+    {
+      "node": "module::base_execution",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::base_composer",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::portfolio_tools",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::execution_tools",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::paths",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::black_scholes_merton",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::base_features",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::black_scholes",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::vbt_strategies",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::budget",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::base_portfolio",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::btp_strategies",
+      "out_degree": 1,
+      "in_degree": 2,
+      "total_degree": 3
+    },
+    {
+      "node": "module::vbt_metrics",
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3
+    },
+    {
+      "node": "module::distribution_backend",
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3
+    },
+    {
+      "node": "module::forecasting",
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3
+    },
+    {
+      "node": "module::volatility_indicators",
+      "out_degree": 0,
+      "in_degree": 3,
+      "total_degree": 3
+    },
+    {
+      "node": "module::DAT0009_DATA_RELEASE",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_134_atlas_http_api_gateway_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_014_artifact_integrity_guardian_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_006_repository_manifest_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_arch_002_galaxy_construction_orchestrator",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_065_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_181_atlas_probabilistic_inference_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::translate_text",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_005_workspace_integrity_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_045_artifact_archive_ultimate_terminal_sovereign_final_seal_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_053_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_145_atlas_trie_semantic_index_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_044_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ffn_portfolio",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_090_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::kernel_logger",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_201_atlas_memory_consolidation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_148_atlas_graph_traversal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_172_atlas_hypothesis_generation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_236_atlas_creative_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_my_trades",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_040_repository_empty_file_catalog_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_078_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_050_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_141_atlas_policy_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_029_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_048_repository_directory_size_summary_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::dcf_models",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::synergy_valuation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_254_atlas_global_coordination_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_011_canonical_hash_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::guardrails_module",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::tax_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::dcf_model",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_017_artifact_release_readiness_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_160_atlas_graph_embedding_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_015_repository_timestamp_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_155_atlas_bipartite_matching_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_037_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_038_artifact_archive_ultimate_terminal_sovereign_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_274_atlas_knowledge_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_275_atlas_knowledge_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_041_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_232_atlas_transfer_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::runtime_preparation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forms_10k",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_188_atlas_task_graph_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0007_ENGINE_SEAL",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_007_incremental_build_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_177_atlas_bayesian_network_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::test_persona_runtime",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::timeseries_models",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::multivariate",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_112_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_272_atlas_terminal_knowledge_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_063_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_scheduler_003_policy_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_003_capability_graph_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_147_atlas_union_find_connectivity_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_029_repository_file_size_distribution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_018_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_033_repository_leaf_directory_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_059_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_220_atlas_risk_scenario_analysis_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_164_atlas_semantic_query_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_002_terminal_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_115_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_259_atlas_conflict_resolution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_017_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_035_artifact_archive_ultimate_terminal_sovereign_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_170_atlas_causal_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::inventory_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_open_interest",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_110_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_030_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_216_atlas_environment_simulation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_047_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_009_worker_assignment_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_120_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_281_atlas_knowledge_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_058_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_062_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::communication",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_orderbook",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0003_DATA_DEPENDENCY_GRAPH",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_224_atlas_policy_simulation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_190_atlas_resource_allocator_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_199_atlas_meta_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_233_atlas_cross_domain_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_068_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::healthcare",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::technology",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::process_quality",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_085_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_043_artifact_archive_ultimate_terminal_sovereign_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_031_artifact_archive_ultimate_terminal_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_261_atlas_emergent_behavior_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0003_ENGINE_DEPENDENCY_GRAPH",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_040_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_036_artifact_archive_ultimate_terminal_sovereign_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ft_cli",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_015_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_180_atlas_belief_propagation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_277_atlas_knowledge_lineage_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_012_cache_unification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_072_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_027_artifact_archive_ultimate_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::installation_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_243_atlas_online_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_184_atlas_multi_objective_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::capability_registry",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_006_atlas_source_integrity_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_069_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_scheduler_ref_001_scheduler_service_demo",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::set_margin_mode",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_044_artifact_archive_ultimate_terminal_sovereign_final_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0004_ENGINE_VALIDATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_282_atlas_knowledge_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_020_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_054_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0005_ENGINE_INTEGRITY_AUDIT",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_144_atlas_merkle_integrity_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_161_atlas_graph_neural_network_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_010_deterministic_build_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_040_artifact_archive_ultimate_terminal_sovereign_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_027_repository_directory_catalog_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::release_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_008_workforce_registry_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_088_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_287_atlas_arithmetic_foundations_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::bond_portfolio",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forms_8k",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_055_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_080_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::test_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_290_atlas_calculus_foundations_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_255_atlas_collective_intelligence_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_061_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_021_artifact_archive_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_239_atlas_curiosity_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_260_atlas_cooperative_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_159_atlas_centrality_analysis_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_296_atlas_mathematical_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_008_worker_capability_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_185_atlas_constraint_solver_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_221_atlas_monte_carlo_simulation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_028_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_026_repository_checksum_catalog_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_076_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_021_repository_symlink_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_270_atlas_mission_assurance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_027_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fundamental_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::service_registry",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_mark_price",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_034_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_116_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_162_atlas_knowledge_graph_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_234_atlas_analogical_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::builder_core",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_052_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_249_atlas_model_quantization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_007_atlas_source_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0009_architecture_release",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_194_atlas_dependency_resolution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_262_atlas_collective_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_graph_002_dependency_graph_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_169_atlas_decision_trace_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_004_mission_graph_compiler_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_031_repository_top_level_inventory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_084_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_198_atlas_policy_optimization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_293_atlas_multivariable_calculus_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_tickers",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_051_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fir_specification",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_008_repository_size_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_285_atlas_knowledge_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_205_atlas_semantic_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_022_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_001_build_plan",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_011_repository_tree_digest_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_283_atlas_knowledge_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cancel_order",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_019_repository_large_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_017_repository_duplicate_name_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_063_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_scheduler_002_load_metrics_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::runtime_context",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_016_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fix_numerus_translations",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_093_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::regression_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0008_DATA_MANIFEST",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_009_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0009_ENGINE_RELEASE",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_163_atlas_ontology_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_013_compiler_integration_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_002_dependency_graph",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_015_artifact_dependency_validator_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_238_atlas_discovery_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_001_workspace_controller_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_064_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_211_atlas_self_evaluation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_101_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_124_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_123_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::employee_compensation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_154_atlas_minimum_cut_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_103_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_200_atlas_continual_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0010_architecture_finalization",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_173_atlas_evidence_fusion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_137_atlas_ssh_administration_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_005_galaxy_construction_orchestrator",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_231_atlas_knowledge_generalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::documentation_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_039_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_042_artifact_archive_ultimate_terminal_sovereign_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_229_atlas_execution_feedback_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_246_atlas_knowledge_distillation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_phase8_evolution_release_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_096_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_182_atlas_decision_network_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_125_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::architecture_charter",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_176_atlas_probabilistic_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_019_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_068_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0001_DATA_CHARTER",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0005_DATA_INTEGRITY_AUDIT",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_057_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_005_parallel_scheduler",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::place_order",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::leveraged_funds",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::architecture_validator",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_033_artifact_archive_ultimate_terminal_final_lock_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_056_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_091_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_257_atlas_multi_agent_coordination_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_192_atlas_adaptive_scheduler_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_178_atlas_factor_graph_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_001_atlas_foundation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_278_atlas_knowledge_versioning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0001_configuration_charter",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_018_repository_duplicate_content_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_111_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_024_artifact_archive_ultimate_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_204_atlas_episodic_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forms_13f",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_193_atlas_priority_optimization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_083_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_212_atlas_self_improvement_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_214_atlas_knowledge_synthesis_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_197_atlas_feedback_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_294_atlas_numerical_analysis_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_070_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_workforce_003_parallel_construction_controller",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::currency_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_142_atlas_integrity_guardian_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_098_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_007_repository_inventory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_044_repository_file_owner_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_237_atlas_innovation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_003_output_understanding_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_032_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_195_atlas_plan_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_011_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::dependency_resolver",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::credit_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0010_ENGINE_FINALIZATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_030_repository_extension_statistics_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_026_artifact_archive_ultimate_terminal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_126_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_workforce_001_worker_registry_expansion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_008_artifact_cache_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_009_repository_statistics_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0010_configuration_finalization",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_035_repository_path_length_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_268_atlas_recovery_orchestration_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_023_artifact_archive_terminal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_069_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_final_seal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_002_mission_registry_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_158_atlas_community_detection_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_225_atlas_adaptive_scenario_planning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_206_atlas_working_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_263_atlas_self_organization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_067_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_049_repository_directory_depth_summary_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_256_atlas_distributed_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_055_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_292_atlas_integral_calculus_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_129_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_070_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_final_seal_lock_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_267_atlas_self_healing_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::quality_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_025_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_005_atlas_source_lineage_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_024_repository_text_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0001_ENGINE_CHARTER",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_149_atlas_shortest_path_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::event_bus",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_138_atlas_sftp_archive_transfer_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_150_atlas_topological_sort_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_039_artifact_archive_ultimate_terminal_sovereign_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_109_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_ohlcv",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_081_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::test_isolation_integration",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fir_builder",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_189_atlas_execution_scheduler_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::validation_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_166_atlas_rule_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_135_atlas_tcp_internal_communication_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_226_atlas_decision_optimization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0005_configuration_integrity_audit",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_208_atlas_context_switching_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_046_repository_permission_distribution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_053_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_052_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_183_atlas_expected_utility_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::specification_parser",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_219_atlas_outcome_prediction_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_067_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_087_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_146_atlas_hash_table_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_060_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_130_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_152_atlas_strongly_connected_components_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_245_atlas_lifelong_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_013_artifact_mutation_gateway_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0004_DATA_VALIDATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_003_topological_scheduler",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_028_artifact_archive_ultimate_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forms_insider",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_106_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::equity_securities",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_006_autonomous_task_dispatcher_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_builder_001_execution_planner",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::asset_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_143_atlas_rolling_hash_search_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0004_configuration_validation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_094_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_086_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::bt_fixed_income",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_graph_001_graph_registry",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::financials",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_139_atlas_recursive_workflow_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_153_atlas_maximum_flow_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::agent_tracer",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::polymarket",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_002_atlas_source_discovery_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_082_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_202_atlas_memory_retrieval_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_074_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_014_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_128_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::extract_unfinished",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_242_atlas_experience_replay_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_167_atlas_reasoning_pipeline_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::artifact_index_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_047_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::qlib_data_processors",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_247_atlas_model_compression_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_019_artifact_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_235_atlas_abductive_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_034_repository_directory_fanout_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_089_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0005_architecture_integrity_audit",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_258_atlas_consensus_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_036_repository_filename_length_statistics_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_funding_rate",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_095_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_012_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_097_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::robust",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_295_atlas_optimization_mathematics_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_100_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_066_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::session_module",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::multinational_operations",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_209_atlas_cognitive_control_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0008_ENGINE_LOCK",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::test_real_configs_smoke",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_022_repository_hidden_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_250_atlas_model_deployment_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_244_atlas_incremental_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_trading_fees",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_058_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_118_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_107_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::resources",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_positions",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_215_atlas_world_model_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_291_atlas_differential_calculus_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::mod_0001_cli",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::collar_mechanisms",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_001_repository_hygiene_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_157_atlas_clique_detection_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0007_architecture_lock",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_arch_001_galaxy_master_blueprint_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0008_architecture_manifest",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_248_atlas_model_pruning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_102_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_228_atlas_execution_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_060_atlas_source_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0003_configuration_dependency_graph",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_252_atlas_autonomous_orchestration_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_036_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_056_atlas_source_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::registry_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::builder_planner",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cost_synergies",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::deal_comparator",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_004_atlas_source_registry_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_038_atlas_source_alert_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_264_atlas_autonomous_governance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_049_atlas_source_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_113_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_077_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_010_performance_governor_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_131_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_230_atlas_closed_loop_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::payment_structure",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_057_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_064_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_045_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_007_worker_registry_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_open_orders",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_174_atlas_belief_revision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_012_command_safety_validator_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_117_atlas_source_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_016_artifact_lifecycle_controller_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_035_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0007_DATA_LOCK",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_047_repository_file_type_summary_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_073_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_021_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_043_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_005_dependency_resolver_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_227_atlas_action_selection_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_251_atlas_runtime_adaptation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_010_repository_fingerprint_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_191_atlas_workload_balancer_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_269_atlas_continuity_management_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_049_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_007_kernel_scheduler_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_042_repository_recent_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_168_atlas_explanation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::financial_services",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_276_atlas_knowledge_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_071_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_210_atlas_self_reflection_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_279_atlas_knowledge_snapshot_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::kraken_api",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_032_artifact_archive_ultimate_terminal_lock_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_034_artifact_archive_ultimate_terminal_certification_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_122_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_136_atlas_dns_service_discovery_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_119_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_023_atlas_source_semantic_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_075_atlas_source_sovereign_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::litellm_models",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0002_configuration_registry",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_196_atlas_plan_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_025_repository_file_classification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::exchange_ratio",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0009_configuration_release",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::market_efficiency",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::revenue_synergies",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_156_atlas_graph_coloring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_092_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_033_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::bt_risk",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::capital_flows",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::dependency_backend",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::strip_datahub_guard",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_284_atlas_knowledge_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_222_atlas_decision_simulation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_026_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_059_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_114_atlas_source_terminal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_273_atlas_knowledge_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0004_architecture_validation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::residual_income",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_009_execution_profiler_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::growth_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_218_atlas_scenario_evaluation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_001_capability_registry_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::vbt_data",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::apply_new_strings",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_013_repository_health_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forms_10q",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_010_atlas_source_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_050_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_140_atlas_identity_access_management_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::yield_curve",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_048_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_217_atlas_scenario_generation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_016_repository_extension_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_280_atlas_knowledge_integrity_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_065_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_048_artifact_archive_ultimate_terminal_sovereign_final_lock_seal_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::nonparametric",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_workforce_002_task_distribution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_266_atlas_fault_tolerance_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0006_configuration_certification",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_039_repository_case_collision_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::market_cycles",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_046_artifact_archive_ultimate_terminal_sovereign_final_lock_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_079_atlas_source_response_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_286_atlas_knowledge_lifecycle_monitoring_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::integration_costs",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_054_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_final_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_061_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_165_atlas_inference_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_004_semantic_dependency_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_045_repository_file_group_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_046_atlas_source_execution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_031_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_018_artifact_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_207_atlas_attention_management_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_020_artifact_terminal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ffn_performance",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_213_atlas_autonomous_evolution_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_workforce_004_worker_capability_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_030_artifact_archive_ultimate_terminal_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_104_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_029_artifact_archive_ultimate_terminal_completion_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_240_atlas_exploration_strategy_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::kernel_bootstrap",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_kernel_006_mission_graph_runtime_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::arc0006_architecture_certification",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_051_atlas_source_archive_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0002_DATA_REGISTRY",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_002_repository_structure_validator_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::architecture_registry",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_trades",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_041_artifact_archive_ultimate_terminal_sovereign_final_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_013_atlas_source_finalization_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_241_atlas_active_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_186_atlas_planning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0010_DATA_FINALIZATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_balance",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::monte_carlo_valuation",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0002_ENGINE_REGISTRY",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_025_artifact_archive_ultimate_final_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_012_repository_signature_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_066_artifact_archive_ultimate_terminal_sovereign_final_seal_lock_certification_ultimate_terminal_final_lock_seal_certification_ultimate_terminal_lock_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_288_atlas_algebra_foundations_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_151_atlas_minimum_spanning_tree_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_008_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_023_repository_binary_file_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_003_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_127_atlas_source_validation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_108_atlas_source_certification_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_265_atlas_system_resilience_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::intercorporate_investments",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ENG0006_ENGINE_CERTIFICATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_042_atlas_source_memory_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_024_atlas_source_reasoning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_028_repository_depth_analysis_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_179_atlas_message_passing_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_010_worker_execution_simulation_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_infra_038_repository_unicode_filename_audit_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_132_atlas_source_release_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_271_atlas_autonomous_mission_management_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_037_artifact_archive_ultimate_terminal_sovereign_seal_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::index_analysis",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_auto_011_worker_execution_controller_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0007_configuration_lock",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::DAT0006_DATA_CERTIFICATION",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_105_atlas_source_decision_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_knowledge_121_atlas_source_learning_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::forge_compiler_009_content_hash_engine",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::fetch_ticker",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::set_leverage",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::cfg0008_configuration_manifest",
+      "out_degree": 2,
+      "in_degree": 0,
+      "total_degree": 2
+    },
+    {
+      "node": "module::events",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::hierarchy",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::kernel_health_monitor",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::compliance_tools",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::execution",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::zl_strategies",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ft_backtest",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::momentum",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::risk_management",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ft_summary",
+      "out_degree": 1,
+      "in_degree": 1,
+      "total_degree": 2
+    },
+    {
+      "node": "module::trend_indicators",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::advanced_metrics",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::vbt_indicators",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::subagents",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::vbt_returns",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::tools_registry",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::others_indicators",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ft_indicators",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::volume_indicators",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::capital_structure",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::additional_optimizers",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::schemas",
+      "out_degree": 0,
+      "in_degree": 2,
+      "total_degree": 2
+    },
+    {
+      "node": "module::ts_math_statistics",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::reasoning_module",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::btp_optimize",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::knowledge_module",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::settings",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::forge_arch_0001_enterprise_architecture_audit",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::intervals",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::runtime",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::output_models",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::bootstrap",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::test_team_workflow_registry",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::list_exchanges",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::list_exchange_ids",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::team_module",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::test_resources",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::tp_sl_calculator",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::embedder_registry",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::compression_module",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::forge",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::forge_master_builder",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::test_persona_registry",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::news_sentiment",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::arima",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::__main__",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::workflow_engine",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::btp_signals",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::industry_analysis",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::ts_data_transforms",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::configuration_manager",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::test_agentic_memory_isolation",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::confidence_scorer",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::test_core_agent_facade",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::registry",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::package_backend",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::private_valuation",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::forge_arch_0003_module_discovery_engine",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::config_loader",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::policy_analysis",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::market_structure",
+      "out_degree": 1,
+      "in_degree": 0,
+      "total_degree": 1
+    },
+    {
+      "node": "module::scheduler_service",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::vectordb_registry",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::policies",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::ft_evaluate",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::vbt_splitters",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::exit_analysis",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::attention_cae",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::smoothers",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::vbt_labels",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::vbt_generic",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::market_config",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::exceptions",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::vbt_signals",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::btp_indicators",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::mod_0001",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::ft_strategies",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    },
+    {
+      "node": "module::advanced_objectives",
+      "out_degree": 0,
+      "in_degree": 1,
+      "total_degree": 1
+    }
+  ]
+}
