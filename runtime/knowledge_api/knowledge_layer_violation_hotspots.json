@@ -1,0 +1,266 @@
+{
+  "module": "FORGE-KAPI-0023",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "total_violations": 3975,
+  "top_source_hotspots": [
+    {
+      "module": "module::agent_factory",
+      "violations": 9
+    },
+    {
+      "module": "module::agent",
+      "violations": 7
+    },
+    {
+      "module": "module::adb_data",
+      "violations": 6
+    },
+    {
+      "module": "module::_cli",
+      "violations": 5
+    },
+    {
+      "module": "module::active_management",
+      "violations": 4
+    },
+    {
+      "module": "module::agent_config",
+      "violations": 4
+    },
+    {
+      "module": "module::agent_evaluation",
+      "violations": 4
+    },
+    {
+      "module": "module::agent_evolution",
+      "violations": 4
+    },
+    {
+      "module": "module::abs_data",
+      "violations": 3
+    },
+    {
+      "module": "module::acled_data",
+      "violations": 3
+    },
+    {
+      "module": "module::adb_data_extended",
+      "violations": 3
+    },
+    {
+      "module": "module::afdb_data",
+      "violations": 3
+    },
+    {
+      "module": "module::DAT0001_DATA_CHARTER",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0002_DATA_REGISTRY",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0003_DATA_DEPENDENCY_GRAPH",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0004_DATA_VALIDATION",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0005_DATA_INTEGRITY_AUDIT",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0006_DATA_CERTIFICATION",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0007_DATA_LOCK",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0008_DATA_MANIFEST",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0009_DATA_RELEASE",
+      "violations": 2
+    },
+    {
+      "module": "module::DAT0010_DATA_FINALIZATION",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0001_ENGINE_CHARTER",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0002_ENGINE_REGISTRY",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0003_ENGINE_DEPENDENCY_GRAPH",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0004_ENGINE_VALIDATION",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0005_ENGINE_INTEGRITY_AUDIT",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0006_ENGINE_CERTIFICATION",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0007_ENGINE_SEAL",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0008_ENGINE_LOCK",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0009_ENGINE_RELEASE",
+      "violations": 2
+    },
+    {
+      "module": "module::ENG0010_ENGINE_FINALIZATION",
+      "violations": 2
+    },
+    {
+      "module": "module::advanced",
+      "violations": 2
+    },
+    {
+      "module": "module::__main__",
+      "violations": 1
+    },
+    {
+      "module": "module::advanced_cv",
+      "violations": 1
+    },
+    {
+      "module": "module::advanced_models",
+      "violations": 1
+    }
+  ],
+  "top_target_hotspots": [
+    {
+      "module": "module::runtime_json_writer",
+      "violations": 29
+    },
+    {
+      "module": "module::datetime_utils",
+      "violations": 25
+    },
+    {
+      "module": "module::forge_infra_020_repository_empty_directory_audit_engine",
+      "violations": 9
+    },
+    {
+      "module": "module::forge_knowledge_253_atlas_system_integration_engine",
+      "violations": 9
+    },
+    {
+      "module": "module::deal_parser",
+      "violations": 2
+    },
+    {
+      "module": "module::config",
+      "violations": 2
+    },
+    {
+      "module": "module::market_data_tools",
+      "violations": 2
+    },
+    {
+      "module": "module::models",
+      "violations": 2
+    },
+    {
+      "module": "module::_cli",
+      "violations": 1
+    },
+    {
+      "module": "module::metadata_backend",
+      "violations": 1
+    },
+    {
+      "module": "module::quantstats_analytics",
+      "violations": 1
+    },
+    {
+      "module": "module::math_engine",
+      "violations": 1
+    },
+    {
+      "module": "module::akshare_stocks_historical",
+      "violations": 1
+    },
+    {
+      "module": "module::optimize_portfolio_weights",
+      "violations": 1
+    },
+    {
+      "module": "module::arc0003_architecture_dependency_graph",
+      "violations": 1
+    },
+    {
+      "module": "module::backends",
+      "violations": 1
+    },
+    {
+      "module": "module::forge_knowledge_062_atlas_source_memory_engine",
+      "violations": 1
+    },
+    {
+      "module": "module::subagents",
+      "violations": 1
+    },
+    {
+      "module": "module::model_factory",
+      "violations": 1
+    },
+    {
+      "module": "module::base",
+      "violations": 1
+    },
+    {
+      "module": "module::forge_infra_037_repository_name_character_statistics_engine",
+      "violations": 1
+    },
+    {
+      "module": "module::database_manager",
+      "violations": 1
+    },
+    {
+      "module": "module::agent",
+      "violations": 1
+    },
+    {
+      "module": "module::agno_tools",
+      "violations": 1
+    },
+    {
+      "module": "module::earnout_calculator",
+      "violations": 1
+    },
+    {
+      "module": "module::embedder_factory",
+      "violations": 1
+    },
+    {
+      "module": "module::forge_infra_043_repository_oldest_file_audit_engine",
+      "violations": 1
+    },
+    {
+      "module": "module::forge_knowledge_175_atlas_uncertainty_propagation_engine",
+      "violations": 1
+    }
+  ]
+}
