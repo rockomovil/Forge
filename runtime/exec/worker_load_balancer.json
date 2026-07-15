@@ -1,0 +1,32 @@
+{
+  "module": "FORGE-EXEC-0007",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T01:01:11.531180+00:00",
+  "workers": [
+    {
+      "worker": "worker-001",
+      "role": "validation",
+      "assigned_jobs": 0,
+      "available": true
+    },
+    {
+      "worker": "worker-002",
+      "role": "builder",
+      "assigned_jobs": 2,
+      "available": true
+    },
+    {
+      "worker": "worker-003",
+      "role": "release",
+      "assigned_jobs": 0,
+      "available": true
+    }
+  ],
+  "worker_count": 3,
+  "dispatches": 2,
+  "max_jobs_per_worker": 2,
+  "min_jobs_per_worker": 0,
+  "load_balance_delta": 2,
+  "hash": "6782396ac504b8e6f44f3e406da04a5092afd3503e8602b933c66ba522ceb2d6"
+}
