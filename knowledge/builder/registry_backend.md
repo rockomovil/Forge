@@ -34,3 +34,37 @@ None
 ## Notes
 
 Generated automatically by FORGE-KNOWLEDGE-0004.
+
+
+## Cross References
+
+### Depends On
+
+- None
+
+### Referenced By
+
+- None
+
+### Same Family
+
+- architecture_charter
+- architecture_validator
+- artifact_index_backend
+- builder_core
+- builder_planner
+- cli_backend
+- dependency_backend
+- distribution_backend
+- documentation_backend
+- fir_builder
+- fir_specification
+- installation_backend
+- metadata_backend
+- package_backend
+- python_backend
+- release_backend
+- runtime_preparation
+- specification_parser
+- test_backend
+- validation_backend

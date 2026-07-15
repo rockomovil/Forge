@@ -34,3 +34,26 @@ None
 ## Notes
 
 Generated automatically by FORGE-KNOWLEDGE-0004.
+
+
+## Cross References
+
+### Depends On
+
+- None
+
+### Referenced By
+
+- None
+
+### Same Family
+
+- architecture_registry
+- capability_registry
+- configuration_manager
+- dependency_resolver
+- event_bus
+- kernel_bootstrap
+- kernel_health_monitor
+- kernel_logger
+- runtime_context
