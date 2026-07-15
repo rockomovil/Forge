@@ -1,0 +1,125 @@
+{
+  "module": "FORGE-KAPI-0009",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "nodes": 1382,
+  "articulation_points": 29,
+  "ranking": [
+    {
+      "node": "module::runtime_json_writer",
+      "degree": 1103
+    },
+    {
+      "node": "module::datetime_utils",
+      "degree": 830
+    },
+    {
+      "node": "module::forge_knowledge_253_atlas_system_integration_engine",
+      "degree": 544
+    },
+    {
+      "node": "module::forge_infra_020_repository_empty_directory_audit_engine",
+      "degree": 320
+    },
+    {
+      "node": "module::forge_knowledge_175_atlas_uncertainty_propagation_engine",
+      "degree": 69
+    },
+    {
+      "node": "module::math_engine",
+      "degree": 49
+    },
+    {
+      "node": "module::exchange_client",
+      "degree": 27
+    },
+    {
+      "node": "module::stats_extended",
+      "degree": 25
+    },
+    {
+      "node": "module::base_analytics",
+      "degree": 25
+    },
+    {
+      "node": "module::core_agent",
+      "degree": 21
+    },
+    {
+      "node": "module::core",
+      "degree": 20
+    },
+    {
+      "node": "module::vectorbt_provider",
+      "degree": 19
+    },
+    {
+      "node": "module::lbo_model",
+      "degree": 17
+    },
+    {
+      "node": "module::quant_modules_3042",
+      "degree": 15
+    },
+    {
+      "node": "module::base_models",
+      "degree": 12
+    },
+    {
+      "node": "module::agent_factory",
+      "degree": 12
+    },
+    {
+      "node": "module::fasttrade_provider",
+      "degree": 11
+    },
+    {
+      "node": "module::backtestingpy_provider",
+      "degree": 11
+    },
+    {
+      "node": "module::setup_index",
+      "degree": 9
+    },
+    {
+      "node": "module::team_config",
+      "degree": 8
+    },
+    {
+      "node": "module::backtesting",
+      "degree": 7
+    },
+    {
+      "node": "module::_cli",
+      "degree": 6
+    },
+    {
+      "node": "module::pyportfolioopt_service",
+      "degree": 5
+    },
+    {
+      "node": "module::persona_registry",
+      "degree": 4
+    },
+    {
+      "node": "module::memory_module",
+      "degree": 4
+    },
+    {
+      "node": "module::kernel_service",
+      "degree": 3
+    },
+    {
+      "node": "module::forge_knowledge_171_atlas_counterfactual_reasoning_engine",
+      "degree": 3
+    },
+    {
+      "node": "module::mod_0001_cli",
+      "degree": 2
+    },
+    {
+      "node": "module::forge_scheduler_ref_001_scheduler_service_demo",
+      "degree": 2
+    }
+  ]
+}
