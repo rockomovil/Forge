@@ -24,6 +24,7 @@ workers = {
     for w in REGISTRY["worker_registry"]
 }
 
+
 def capability_for(module, fallback):
     name = module.lower()
 
@@ -38,32 +39,44 @@ def capability_for(module, fallback):
 
     return fallback
 
-for job in QUEUE["dispatch_queue"]:
+
+# Ordenar para que el resultado sea determinista
+jobs = sorted(
+    QUEUE["dispatch_queue"],
+    key=lambda j: (j["dispatch_id"], j["module"])
+)
+
+for job in jobs:
 
     cap = capability_for(job["module"], job["capability"])
 
     candidates = [
         wid
-        for wid, data in workers.items()
-        if cap in data["capabilities"]
+        for wid, info in workers.items()
+        if cap in info["capabilities"]
     ]
 
     if not candidates:
         candidates = list(workers.keys())
 
+    # Balanceo real:
+    # 1) menor cantidad de trabajos
+    # 2) menor carga total
+    # 3) id para desempate estable
     selected = min(
         candidates,
         key=lambda wid: (
             len(workers[wid]["queue"]),
-            wid
-        )
+            sum(x["priority"] for x in workers[wid]["queue"]),
+            wid,
+        ),
     )
 
     workers[selected]["queue"].append({
         "dispatch_id": job["dispatch_id"],
         "module": job["module"],
         "capability": cap,
-        "priority": len(workers[selected]["queue"]) + 1
+        "priority": len(workers[selected]["queue"]) + 1,
     })
 
 queues = []
@@ -73,7 +86,7 @@ for wid in sorted(workers):
         "worker": wid,
         "role": workers[wid]["role"],
         "queue_length": len(workers[wid]["queue"]),
-        "queue": workers[wid]["queue"]
+        "queue": workers[wid]["queue"],
     })
 
 lengths = [q["queue_length"] for q in queues]
@@ -90,7 +103,8 @@ report = {
 
     "max_queue": max(lengths, default=0),
     "min_queue": min(lengths, default=0),
-    "queue_delta": max(lengths, default=0) - min(lengths, default=0)
+    "queue_delta": max(lengths, default=0) - min(lengths, default=0),
+    "balanced": (max(lengths, default=0) - min(lengths, default=0)) <= 1,
 }
 
 report["hash"] = hashlib.sha256(
@@ -109,6 +123,7 @@ print("Jobs      :", report["dispatch_count"])
 print("Max Queue :", report["max_queue"])
 print("Min Queue :", report["min_queue"])
 print("Delta     :", report["queue_delta"])
+print("Balanced  :", report["balanced"])
 print("Output    :", OUT)
 print()
 print("STATUS : PASS")

@@ -2,7 +2,7 @@
   "module": "FORGE-EXEC-0009",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "generated_at": "2026-07-15T01:03:44.066480+00:00",
+  "generated_at": "2026-07-15T01:06:31.189582+00:00",
   "optimized_worker_queues": [
     {
       "worker": "worker-001",
@@ -41,5 +41,6 @@
   "max_queue": 2,
   "min_queue": 0,
   "queue_delta": 2,
-  "hash": "56dadd9249561e11c1cb61cbf17272bbd30676d4b5f2868f1311f2adb3248ccf"
+  "balanced": false,
+  "hash": "1eca50e96e9989d26ddc238720c9d2c732bc22f56a7bdcad60ba30bb8050d22c"
 }
