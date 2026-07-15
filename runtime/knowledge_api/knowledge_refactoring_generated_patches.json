@@ -1,0 +1,478 @@
+{
+  "module": "FORGE-KAPI-0052",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "candidate_count": 36,
+  "generated_patches": 36,
+  "validated_patches": 0,
+  "patches": [
+    {
+      "candidate_id": 1,
+      "operation": {
+        "priority": 1,
+        "module": "module::agent_factory",
+        "reason": "High outgoing layer violations",
+        "violation_count": 9
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 2,
+      "operation": {
+        "priority": 2,
+        "module": "module::agent",
+        "reason": "High outgoing layer violations",
+        "violation_count": 7
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 3,
+      "operation": {
+        "priority": 3,
+        "module": "module::adb_data",
+        "reason": "High outgoing layer violations",
+        "violation_count": 6
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 4,
+      "operation": {
+        "priority": 4,
+        "module": "module::_cli",
+        "reason": "High outgoing layer violations",
+        "violation_count": 5
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 5,
+      "operation": {
+        "priority": 5,
+        "module": "module::active_management",
+        "reason": "High outgoing layer violations",
+        "violation_count": 4
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 6,
+      "operation": {
+        "priority": 6,
+        "module": "module::agent_config",
+        "reason": "High outgoing layer violations",
+        "violation_count": 4
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 7,
+      "operation": {
+        "priority": 7,
+        "module": "module::agent_evaluation",
+        "reason": "High outgoing layer violations",
+        "violation_count": 4
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 8,
+      "operation": {
+        "priority": 8,
+        "module": "module::agent_evolution",
+        "reason": "High outgoing layer violations",
+        "violation_count": 4
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 9,
+      "operation": {
+        "priority": 9,
+        "module": "module::abs_data",
+        "reason": "High outgoing layer violations",
+        "violation_count": 3
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 10,
+      "operation": {
+        "priority": 10,
+        "module": "module::acled_data",
+        "reason": "High outgoing layer violations",
+        "violation_count": 3
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 11,
+      "operation": {
+        "priority": 11,
+        "module": "module::adb_data_extended",
+        "reason": "High outgoing layer violations",
+        "violation_count": 3
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 12,
+      "operation": {
+        "priority": 12,
+        "module": "module::afdb_data",
+        "reason": "High outgoing layer violations",
+        "violation_count": 3
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 13,
+      "operation": {
+        "priority": 13,
+        "module": "module::DAT0001_DATA_CHARTER",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 14,
+      "operation": {
+        "priority": 14,
+        "module": "module::DAT0002_DATA_REGISTRY",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 15,
+      "operation": {
+        "priority": 15,
+        "module": "module::DAT0003_DATA_DEPENDENCY_GRAPH",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 16,
+      "operation": {
+        "priority": 16,
+        "module": "module::DAT0004_DATA_VALIDATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 17,
+      "operation": {
+        "priority": 17,
+        "module": "module::DAT0005_DATA_INTEGRITY_AUDIT",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 18,
+      "operation": {
+        "priority": 18,
+        "module": "module::DAT0006_DATA_CERTIFICATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 19,
+      "operation": {
+        "priority": 19,
+        "module": "module::DAT0007_DATA_LOCK",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 20,
+      "operation": {
+        "priority": 20,
+        "module": "module::DAT0008_DATA_MANIFEST",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 21,
+      "operation": {
+        "priority": 21,
+        "module": "module::DAT0009_DATA_RELEASE",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 22,
+      "operation": {
+        "priority": 22,
+        "module": "module::DAT0010_DATA_FINALIZATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 23,
+      "operation": {
+        "priority": 23,
+        "module": "module::ENG0001_ENGINE_CHARTER",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 24,
+      "operation": {
+        "priority": 24,
+        "module": "module::ENG0002_ENGINE_REGISTRY",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 25,
+      "operation": {
+        "priority": 25,
+        "module": "module::ENG0003_ENGINE_DEPENDENCY_GRAPH",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 26,
+      "operation": {
+        "priority": 26,
+        "module": "module::ENG0004_ENGINE_VALIDATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 27,
+      "operation": {
+        "priority": 27,
+        "module": "module::ENG0005_ENGINE_INTEGRITY_AUDIT",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 28,
+      "operation": {
+        "priority": 28,
+        "module": "module::ENG0006_ENGINE_CERTIFICATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 29,
+      "operation": {
+        "priority": 29,
+        "module": "module::ENG0007_ENGINE_SEAL",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 30,
+      "operation": {
+        "priority": 30,
+        "module": "module::ENG0008_ENGINE_LOCK",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 31,
+      "operation": {
+        "priority": 31,
+        "module": "module::ENG0009_ENGINE_RELEASE",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 32,
+      "operation": {
+        "priority": 32,
+        "module": "module::ENG0010_ENGINE_FINALIZATION",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 33,
+      "operation": {
+        "priority": 33,
+        "module": "module::advanced",
+        "reason": "High outgoing layer violations",
+        "violation_count": 2
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 34,
+      "operation": {
+        "priority": 34,
+        "module": "module::__main__",
+        "reason": "High outgoing layer violations",
+        "violation_count": 1
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 35,
+      "operation": {
+        "priority": 35,
+        "module": "module::advanced_cv",
+        "reason": "High outgoing layer violations",
+        "violation_count": 1
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    },
+    {
+      "candidate_id": 36,
+      "operation": {
+        "priority": 36,
+        "module": "module::advanced_models",
+        "reason": "High outgoing layer violations",
+        "violation_count": 1
+      },
+      "patch_state": "GENERATED",
+      "patch_type": "SIMULATED",
+      "mutation": false,
+      "validated": false
+    }
+  ]
+}
