@@ -1,0 +1,70 @@
+{
+  "module": "FORGE-KAPI-0030",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "controller_ready": true,
+  "execution_mode": "PARALLEL_BATCH_EXECUTION",
+  "worker_count": 8,
+  "parallel_execution": true,
+  "pending_refactorings": 36,
+  "completed_refactorings": 0,
+  "master_state": "READY_FOR_EXECUTION",
+  "workers": [
+    {
+      "worker": "worker_001",
+      "batch": 1,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_002",
+      "batch": 2,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_003",
+      "batch": 3,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_004",
+      "batch": 4,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_005",
+      "batch": 5,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_006",
+      "batch": 6,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_007",
+      "batch": 7,
+      "modules": 5,
+      "parallelizable": true,
+      "status": "READY"
+    },
+    {
+      "worker": "worker_008",
+      "batch": 8,
+      "modules": 1,
+      "parallelizable": true,
+      "status": "READY"
+    }
+  ]
+}
