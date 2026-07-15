@@ -1,0 +1,31 @@
+{
+  "module": "FORGE-BUILD-0007",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "audited_at": "2026-07-15T00:27:34.462510+00:00",
+  "target_module": "architecture_registry",
+  "checks": {
+    "target_consistency": true,
+    "impact_validation_consistency": true,
+    "impact_order_consistency": true,
+    "impact_incremental_consistency": true,
+    "execution_jobs_consistency": true,
+    "execution_job_count_consistency": true,
+    "parallel_enabled": true,
+    "incremental_enabled": true,
+    "shadow_runtime": true
+  },
+  "passed": 9,
+  "total": 9,
+  "execution_steps": 2,
+  "total_jobs": 2,
+  "artifact_hashes": {
+    "impact": "547e71653b95d08af3221f07698e1b658ab585abbdb0d393805191fe65146f1e",
+    "validation": "478afc29da0fd693e0b5c9b33fc286da1623b7e0eb87166cd6fa6f1677ae71e1",
+    "order": "7f503bbbf6202f66a2621eac7b0aab77ad73e52019964c00c76c6a716d87db2f",
+    "parallel": "5960357d434dc98e8cb2c78a497ac2bafeb3f063c944831a107471661de9b1cc",
+    "incremental": "feb8c86b1e614cb2fe47d595087f54add7add42446c19b42050cc103066caad8",
+    "execution": "eb985db3b3c5f8b962841fa4a43dccaa5fb6fa670d702529ec2848384bb052a9"
+  },
+  "hash": "6e64fba36bd3106a6be3ac8a7489db0485516d7d0ed2e74f0a6fc833a4ca88da"
+}
