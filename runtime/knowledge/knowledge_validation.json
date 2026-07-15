@@ -1,0 +1,25 @@
+{
+  "module": "FORGE-KNOWLEDGE-0010",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T11:29:57.346971+00:00",
+  "validation_ready": true,
+  "checks": {
+    "knowledge_index_ready": true,
+    "semantic_graph_ready": true,
+    "concept_extraction_ready": true,
+    "cross_reference_ready": true,
+    "module_count_match": true,
+    "family_count_match": true,
+    "node_count_valid": true,
+    "edge_count_valid": true,
+    "concept_count_valid": true
+  },
+  "passed_checks": 9,
+  "total_checks": 9,
+  "knowledge_hash": "4041579232b99849e9f347ec242106487b9c228add072f826c1ffe144ca1f3d4",
+  "semantic_hash": "14b93977c8ba372bc148ac37953747c20cf2eb50d418edbe02768aa75c4cbaeb",
+  "concept_hash": "445783bbe72f4d1c1c6a884c969a51d5c9c18d711f2fa184d3d6ff9759389193",
+  "xref_hash": "bea5a8f2c53fd3df56a21fe56b15681c1a27f52c6ee851b35f687a8f03812cb8",
+  "hash": "2954ace983a251109630d7609d9433074c4241d4927ad18054cc3c30e63a78f2"
+}
