@@ -1,0 +1,102 @@
+{
+  "module": "FORGE-KAPI-0025",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "queue_size": 36,
+  "batch_size": 5,
+  "batch_count": 8,
+  "batches": [
+    {
+      "batch": 1,
+      "size": 5,
+      "modules": [
+        "module::agent_factory",
+        "module::agent",
+        "module::adb_data",
+        "module::_cli",
+        "module::active_management"
+      ],
+      "estimated_priority": 1
+    },
+    {
+      "batch": 2,
+      "size": 5,
+      "modules": [
+        "module::agent_config",
+        "module::agent_evaluation",
+        "module::agent_evolution",
+        "module::abs_data",
+        "module::acled_data"
+      ],
+      "estimated_priority": 6
+    },
+    {
+      "batch": 3,
+      "size": 5,
+      "modules": [
+        "module::adb_data_extended",
+        "module::afdb_data",
+        "module::DAT0001_DATA_CHARTER",
+        "module::DAT0002_DATA_REGISTRY",
+        "module::DAT0003_DATA_DEPENDENCY_GRAPH"
+      ],
+      "estimated_priority": 11
+    },
+    {
+      "batch": 4,
+      "size": 5,
+      "modules": [
+        "module::DAT0004_DATA_VALIDATION",
+        "module::DAT0005_DATA_INTEGRITY_AUDIT",
+        "module::DAT0006_DATA_CERTIFICATION",
+        "module::DAT0007_DATA_LOCK",
+        "module::DAT0008_DATA_MANIFEST"
+      ],
+      "estimated_priority": 16
+    },
+    {
+      "batch": 5,
+      "size": 5,
+      "modules": [
+        "module::DAT0009_DATA_RELEASE",
+        "module::DAT0010_DATA_FINALIZATION",
+        "module::ENG0001_ENGINE_CHARTER",
+        "module::ENG0002_ENGINE_REGISTRY",
+        "module::ENG0003_ENGINE_DEPENDENCY_GRAPH"
+      ],
+      "estimated_priority": 21
+    },
+    {
+      "batch": 6,
+      "size": 5,
+      "modules": [
+        "module::ENG0004_ENGINE_VALIDATION",
+        "module::ENG0005_ENGINE_INTEGRITY_AUDIT",
+        "module::ENG0006_ENGINE_CERTIFICATION",
+        "module::ENG0007_ENGINE_SEAL",
+        "module::ENG0008_ENGINE_LOCK"
+      ],
+      "estimated_priority": 26
+    },
+    {
+      "batch": 7,
+      "size": 5,
+      "modules": [
+        "module::ENG0009_ENGINE_RELEASE",
+        "module::ENG0010_ENGINE_FINALIZATION",
+        "module::advanced",
+        "module::__main__",
+        "module::advanced_cv"
+      ],
+      "estimated_priority": 31
+    },
+    {
+      "batch": 8,
+      "size": 1,
+      "modules": [
+        "module::advanced_models"
+      ],
+      "estimated_priority": 36
+    }
+  ]
+}
