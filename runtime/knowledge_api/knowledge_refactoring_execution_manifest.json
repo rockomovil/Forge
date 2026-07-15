@@ -1,0 +1,206 @@
+{
+  "module": "FORGE-KAPI-0056",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "parallel_execution": true,
+  "group_count": 8,
+  "patch_count": 36,
+  "execution_manifest": {
+    "1": [
+      {
+        "candidate_id": 1,
+        "priority": 1,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 2,
+        "priority": 2,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 3,
+        "priority": 3,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 4,
+        "priority": 4,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 5,
+        "priority": 5,
+        "execution_state": "PENDING"
+      }
+    ],
+    "2": [
+      {
+        "candidate_id": 6,
+        "priority": 6,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 7,
+        "priority": 7,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 8,
+        "priority": 8,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 9,
+        "priority": 9,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 10,
+        "priority": 10,
+        "execution_state": "PENDING"
+      }
+    ],
+    "3": [
+      {
+        "candidate_id": 11,
+        "priority": 11,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 12,
+        "priority": 12,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 13,
+        "priority": 13,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 14,
+        "priority": 14,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 15,
+        "priority": 15,
+        "execution_state": "PENDING"
+      }
+    ],
+    "4": [
+      {
+        "candidate_id": 16,
+        "priority": 16,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 17,
+        "priority": 17,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 18,
+        "priority": 18,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 19,
+        "priority": 19,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 20,
+        "priority": 20,
+        "execution_state": "PENDING"
+      }
+    ],
+    "5": [
+      {
+        "candidate_id": 21,
+        "priority": 21,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 22,
+        "priority": 22,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 23,
+        "priority": 23,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 24,
+        "priority": 24,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 25,
+        "priority": 25,
+        "execution_state": "PENDING"
+      }
+    ],
+    "6": [
+      {
+        "candidate_id": 26,
+        "priority": 26,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 27,
+        "priority": 27,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 28,
+        "priority": 28,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 29,
+        "priority": 29,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 30,
+        "priority": 30,
+        "execution_state": "PENDING"
+      }
+    ],
+    "7": [
+      {
+        "candidate_id": 31,
+        "priority": 31,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 32,
+        "priority": 32,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 33,
+        "priority": 33,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 34,
+        "priority": 34,
+        "execution_state": "PENDING"
+      },
+      {
+        "candidate_id": 35,
+        "priority": 35,
+        "execution_state": "PENDING"
+      }
+    ],
+    "8": [
+      {
+        "candidate_id": 36,
+        "priority": 36,
+        "execution_state": "PENDING"
+      }
+    ]
+  }
+}
