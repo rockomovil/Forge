@@ -1,17 +1,17 @@
 {
-  "module": "FORGE-KAPI-0032",
+  "module": "FORGE-KAPI-0061",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "execution_gateway_verified": true,
-  "master_controller_verified": true,
-  "parallel_execution": true,
+  "checks_passed": 5,
+  "checks_total": 5,
+  "all_checks_passed": true,
   "worker_count": 8,
-  "execution_mode": "PARALLEL_BATCH_EXECUTION",
-  "safety": {
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
+  "checks": {
+    "gateway_ready": true,
+    "authorized": true,
     "shadow_only": true,
-    "code_mutation": false,
-    "automatic_commit": false,
-    "automatic_push": false
-  },
-  "audit_result": "EXECUTION_READY"
+    "parallel_execution": true,
+    "workers_available": true
+  }
 }
