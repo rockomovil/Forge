@@ -1,0 +1,11 @@
+{
+  "module": "FORGE-KAPI-0028",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "refactoring_ready": true,
+  "governance_state": "HEALTHY",
+  "audit_passed": true,
+  "pending_refactorings": 36,
+  "queue_size": 36,
+  "execution_mode": "PARALLEL_BATCH_EXECUTION"
+}
