@@ -1,0 +1,14 @@
+{
+  "module": "FORGE-KAPI-0071",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "governance_state": "EXECUTION_HEALTHY",
+  "terminal": true,
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
+  "worker_count": 8,
+  "immutable": true,
+  "parallel_execution": true,
+  "shadow_only": true,
+  "safe_mode": true,
+  "live_mutation": false
+}
