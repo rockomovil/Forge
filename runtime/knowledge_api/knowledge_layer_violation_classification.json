@@ -1,0 +1,148 @@
+{
+  "module": "FORGE-KAPI-0022",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "policy_pass": false,
+  "total_violations": 3975,
+  "transition_types": 17,
+  "top_transitions": [
+    {
+      "transition": "0->12",
+      "violations": 44
+    },
+    {
+      "transition": "0->13",
+      "violations": 27
+    },
+    {
+      "transition": "6->7",
+      "violations": 4
+    },
+    {
+      "transition": "8->12",
+      "violations": 4
+    },
+    {
+      "transition": "0->1",
+      "violations": 3
+    },
+    {
+      "transition": "1->12",
+      "violations": 3
+    },
+    {
+      "transition": "0->2",
+      "violations": 2
+    },
+    {
+      "transition": "0->6",
+      "violations": 2
+    },
+    {
+      "transition": "1->2",
+      "violations": 2
+    },
+    {
+      "transition": "6->12",
+      "violations": 2
+    },
+    {
+      "transition": "0->10",
+      "violations": 1
+    },
+    {
+      "transition": "0->7",
+      "violations": 1
+    },
+    {
+      "transition": "2->13",
+      "violations": 1
+    },
+    {
+      "transition": "2->3",
+      "violations": 1
+    },
+    {
+      "transition": "6->10",
+      "violations": 1
+    },
+    {
+      "transition": "8->13",
+      "violations": 1
+    },
+    {
+      "transition": "8->9",
+      "violations": 1
+    }
+  ],
+  "classification": [
+    {
+      "transition": "0->12",
+      "violations": 44
+    },
+    {
+      "transition": "0->13",
+      "violations": 27
+    },
+    {
+      "transition": "6->7",
+      "violations": 4
+    },
+    {
+      "transition": "8->12",
+      "violations": 4
+    },
+    {
+      "transition": "0->1",
+      "violations": 3
+    },
+    {
+      "transition": "1->12",
+      "violations": 3
+    },
+    {
+      "transition": "0->2",
+      "violations": 2
+    },
+    {
+      "transition": "0->6",
+      "violations": 2
+    },
+    {
+      "transition": "1->2",
+      "violations": 2
+    },
+    {
+      "transition": "6->12",
+      "violations": 2
+    },
+    {
+      "transition": "0->10",
+      "violations": 1
+    },
+    {
+      "transition": "0->7",
+      "violations": 1
+    },
+    {
+      "transition": "2->13",
+      "violations": 1
+    },
+    {
+      "transition": "2->3",
+      "violations": 1
+    },
+    {
+      "transition": "6->10",
+      "violations": 1
+    },
+    {
+      "transition": "8->13",
+      "violations": 1
+    },
+    {
+      "transition": "8->9",
+      "violations": 1
+    }
+  ]
+}
