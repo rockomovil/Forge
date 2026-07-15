@@ -1,0 +1,112 @@
+{
+  "module": "FORGE-KAPI-0027",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "total_refactorings": 36,
+  "completed_refactorings": 0,
+  "pending_refactorings": 36,
+  "progress_percent": 0.0,
+  "remaining_batches": 8,
+  "execution_schedule": [
+    {
+      "batch": 1,
+      "execution_order": 1,
+      "modules": [
+        "module::agent_factory",
+        "module::agent",
+        "module::adb_data",
+        "module::_cli",
+        "module::active_management"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 2,
+      "execution_order": 2,
+      "modules": [
+        "module::agent_config",
+        "module::agent_evaluation",
+        "module::agent_evolution",
+        "module::abs_data",
+        "module::acled_data"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 3,
+      "execution_order": 3,
+      "modules": [
+        "module::adb_data_extended",
+        "module::afdb_data",
+        "module::DAT0001_DATA_CHARTER",
+        "module::DAT0002_DATA_REGISTRY",
+        "module::DAT0003_DATA_DEPENDENCY_GRAPH"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 4,
+      "execution_order": 4,
+      "modules": [
+        "module::DAT0004_DATA_VALIDATION",
+        "module::DAT0005_DATA_INTEGRITY_AUDIT",
+        "module::DAT0006_DATA_CERTIFICATION",
+        "module::DAT0007_DATA_LOCK",
+        "module::DAT0008_DATA_MANIFEST"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 5,
+      "execution_order": 5,
+      "modules": [
+        "module::DAT0009_DATA_RELEASE",
+        "module::DAT0010_DATA_FINALIZATION",
+        "module::ENG0001_ENGINE_CHARTER",
+        "module::ENG0002_ENGINE_REGISTRY",
+        "module::ENG0003_ENGINE_DEPENDENCY_GRAPH"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 6,
+      "execution_order": 6,
+      "modules": [
+        "module::ENG0004_ENGINE_VALIDATION",
+        "module::ENG0005_ENGINE_INTEGRITY_AUDIT",
+        "module::ENG0006_ENGINE_CERTIFICATION",
+        "module::ENG0007_ENGINE_SEAL",
+        "module::ENG0008_ENGINE_LOCK"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 7,
+      "execution_order": 7,
+      "modules": [
+        "module::ENG0009_ENGINE_RELEASE",
+        "module::ENG0010_ENGINE_FINALIZATION",
+        "module::advanced",
+        "module::__main__",
+        "module::advanced_cv"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 5
+    },
+    {
+      "batch": 8,
+      "execution_order": 8,
+      "modules": [
+        "module::advanced_models"
+      ],
+      "parallelizable": true,
+      "estimated_complexity": 1
+    }
+  ]
+}
