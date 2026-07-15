@@ -1,0 +1,14 @@
+{
+  "module": "FORGE-BUILD-0005",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T00:21:26.911542+00:00",
+  "target_module": "architecture_registry",
+  "rebuild_required": [
+    "core",
+    "codebase-memory-mcp"
+  ],
+  "rebuild_count": 2,
+  "incremental_build": true,
+  "hash": "feb8c86b1e614cb2fe47d595087f54add7add42446c19b42050cc103066caad8"
+}
