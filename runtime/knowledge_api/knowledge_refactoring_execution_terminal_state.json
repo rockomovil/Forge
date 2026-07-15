@@ -1,15 +1,15 @@
 {
-  "module": "FORGE-KAPI-0040",
+  "module": "FORGE-KAPI-0069",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "checks_passed": 5,
-  "checks_total": 5,
-  "certified": true,
-  "sealed": true,
-  "locked": true,
+  "checks_passed": 6,
+  "checks_total": 6,
+  "terminal_certified": true,
+  "terminal_sealed": true,
+  "terminal_locked": true,
   "immutable": true,
   "worker_count": 8,
-  "execution_mode": "PARALLEL_BATCH_EXECUTION",
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
   "terminal_state": true,
-  "terminal_status": "READY_FOR_SAFE_REFACTORING_EXECUTION"
+  "terminal_status": "EXECUTION_TERMINALLY_READY"
 }
