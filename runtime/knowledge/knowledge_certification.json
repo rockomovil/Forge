@@ -1,0 +1,18 @@
+{
+  "module": "FORGE-KNOWLEDGE-0011",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "generated_at": "2026-07-15T11:30:20.390183+00:00",
+  "knowledge_certified": true,
+  "certification_level": "FOUNDATION",
+  "modules": 1418,
+  "families": 46,
+  "concepts": 1467,
+  "semantic_nodes": 1464,
+  "semantic_edges": 1418,
+  "validation_hash": "2954ace983a251109630d7609d9433074c4241d4927ad18054cc3c30e63a78f2",
+  "knowledge_hash": "4041579232b99849e9f347ec242106487b9c228add072f826c1ffe144ca1f3d4",
+  "semantic_hash": "14b93977c8ba372bc148ac37953747c20cf2eb50d418edbe02768aa75c4cbaeb",
+  "concept_hash": "445783bbe72f4d1c1c6a884c969a51d5c9c18d711f2fa184d3d6ff9759389193",
+  "hash": "970f47a65da2f3c50462f821af8d20500a8d3a94a25e36a0aa860871dda3255b"
+}
