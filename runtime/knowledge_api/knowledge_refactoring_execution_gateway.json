@@ -1,16 +1,12 @@
 {
-  "module": "FORGE-KAPI-0031",
+  "module": "FORGE-KAPI-0060",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "execution_authorized": true,
-  "execution_mode": "PARALLEL_BATCH_EXECUTION",
-  "worker_count": 8,
-  "pending_operations": 36,
+  "gateway_ready": true,
+  "controller_state": "READY_FOR_PARALLEL_SIMULATION",
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
   "parallel_execution": true,
-  "safety": {
-    "shadow_only": true,
-    "code_mutation": false,
-    "automatic_commit": false,
-    "automatic_push": false
-  }
+  "worker_count": 8,
+  "authorized": true,
+  "shadow_only": true
 }
