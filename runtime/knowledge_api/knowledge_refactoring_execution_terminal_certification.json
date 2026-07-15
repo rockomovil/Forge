@@ -1,0 +1,11 @@
+{
+  "module": "FORGE-KAPI-0066",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "checks_passed": 6,
+  "checks_total": 6,
+  "all_checks_passed": true,
+  "terminal_certified": true,
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
+  "worker_count": 8
+}
