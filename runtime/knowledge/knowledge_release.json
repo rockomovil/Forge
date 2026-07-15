@@ -1,0 +1,34 @@
+{
+  "module": "FORGE-KNOWLEDGE-0012",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "released_at": "2026-07-15T11:30:44.995256+00:00",
+  "knowledge_release_ready": true,
+  "release_level": "FOUNDATION",
+  "knowledge": {
+    "modules": 1418,
+    "families": 46,
+    "concepts": 1467,
+    "semantic_nodes": 1464,
+    "semantic_edges": 1418
+  },
+  "certification": {
+    "certified": true,
+    "level": "FOUNDATION"
+  },
+  "artifacts": {
+    "registry": "runtime/knowledge/knowledge_object_registry.json",
+    "index": "runtime/knowledge/knowledge_index.json",
+    "concepts": "runtime/knowledge/knowledge_concepts.json",
+    "semantic_graph": "runtime/knowledge/knowledge_semantic_graph.json",
+    "validation": "runtime/knowledge/knowledge_validation.json",
+    "certification": "runtime/knowledge/knowledge_certification.json"
+  },
+  "source_hashes": {
+    "knowledge": "4041579232b99849e9f347ec242106487b9c228add072f826c1ffe144ca1f3d4",
+    "semantic": "14b93977c8ba372bc148ac37953747c20cf2eb50d418edbe02768aa75c4cbaeb",
+    "concepts": "445783bbe72f4d1c1c6a884c969a51d5c9c18d711f2fa184d3d6ff9759389193",
+    "certification": "970f47a65da2f3c50462f821af8d20500a8d3a94a25e36a0aa860871dda3255b"
+  },
+  "hash": "05a750f1b75f18f12f253422d140c403cad4cdcbd0998c3103ccd5df4b04cc4e"
+}
