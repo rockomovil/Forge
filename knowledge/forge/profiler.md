@@ -1,0 +1,33 @@
+---
+id: profiler
+family: forge
+runtime: SHADOW_ONLY_READ_ONLY
+status: READY
+generated_at: 2026-07-15T11:21:01.000578+00:00
+---
+
+# profiler
+
+## Purpose
+
+TODO
+
+## Inputs
+
+TODO
+
+## Outputs
+
+TODO
+
+## Dependencies
+
+TODO
+
+## Runtime
+
+SHADOW_ONLY_READ_ONLY
+
+## Source
+
+None
