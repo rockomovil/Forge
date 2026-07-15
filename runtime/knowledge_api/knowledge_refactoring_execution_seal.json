@@ -1,11 +1,11 @@
 {
-  "module": "FORGE-KAPI-0034",
+  "module": "FORGE-KAPI-0063",
   "status": "PASS",
   "runtime_mode": "SHADOW_ONLY_READ_ONLY",
-  "execution_ready": true,
+  "checks_passed": 5,
+  "checks_total": 5,
   "certified": true,
   "sealed": true,
-  "execution_mode": "PARALLEL_BATCH_EXECUTION",
-  "worker_count": 8,
-  "parallel_execution": true
+  "execution_mode": "PARALLEL_PATCH_SIMULATION",
+  "worker_count": 8
 }
