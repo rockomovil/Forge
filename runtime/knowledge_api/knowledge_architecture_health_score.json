@@ -1,0 +1,13 @@
+{
+  "module": "FORGE-KAPI-0014",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "components": 1330,
+  "layers": 14,
+  "cyclic_components": 8,
+  "largest_scc": 22,
+  "layer_score": 0.7,
+  "scc_score": 0.9835,
+  "cycle_score": 0.994,
+  "architecture_health_score": 90.21
+}
