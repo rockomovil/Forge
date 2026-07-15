@@ -3,7 +3,7 @@ id: news_nlp
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.993600+00:00
+generated_at: 2026-07-15T11:21:21.850412+00:00
 ---
 
 # news_nlp

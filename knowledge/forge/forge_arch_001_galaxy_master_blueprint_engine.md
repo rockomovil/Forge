@@ -3,7 +3,7 @@ id: forge_arch_001_galaxy_master_blueprint_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.938095+00:00
+generated_at: 2026-07-15T11:21:21.781564+00:00
 ---
 
 # forge_arch_001_galaxy_master_blueprint_engine

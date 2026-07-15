@@ -3,7 +3,7 @@ id: equity_indexed_annuities
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.929042+00:00
+generated_at: 2026-07-15T11:21:21.771490+00:00
 ---
 
 # equity_indexed_annuities

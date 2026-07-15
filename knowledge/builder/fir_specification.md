@@ -3,7 +3,7 @@ id: fir_specification
 family: builder
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.936704+00:00
+generated_at: 2026-07-15T11:21:21.779993+00:00
 ---
 
 # fir_specification

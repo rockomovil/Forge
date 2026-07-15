@@ -3,7 +3,7 @@ id: zl_pipeline
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.024769+00:00
+generated_at: 2026-07-15T11:21:21.887275+00:00
 ---
 
 # zl_pipeline

@@ -3,7 +3,7 @@ id: python_backend
 family: builder
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.001075+00:00
+generated_at: 2026-07-15T11:21:21.859826+00:00
 ---
 
 # python_backend

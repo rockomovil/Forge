@@ -3,7 +3,7 @@ id: forge_knowledge_044_atlas_source_reasoning_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.954960+00:00
+generated_at: 2026-07-15T11:21:21.804970+00:00
 ---
 
 # forge_knowledge_044_atlas_source_reasoning_engine

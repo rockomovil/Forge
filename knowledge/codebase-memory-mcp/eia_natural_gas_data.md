@@ -3,7 +3,7 @@ id: eia_natural_gas_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.927718+00:00
+generated_at: 2026-07-15T11:21:21.769706+00:00
 ---
 
 # eia_natural_gas_data

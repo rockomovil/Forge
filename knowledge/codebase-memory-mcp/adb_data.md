@@ -3,7 +3,7 @@ id: adb_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.898114+00:00
+generated_at: 2026-07-15T11:21:21.736389+00:00
 ---
 
 # adb_data

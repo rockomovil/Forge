@@ -3,7 +3,7 @@ id: forge_knowledge_211_atlas_self_evaluation_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.969451+00:00
+generated_at: 2026-07-15T11:21:21.822722+00:00
 ---
 
 # forge_knowledge_211_atlas_self_evaluation_engine

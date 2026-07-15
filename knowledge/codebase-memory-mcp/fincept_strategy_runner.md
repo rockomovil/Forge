@@ -3,7 +3,7 @@ id: fincept_strategy_runner
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.935636+00:00
+generated_at: 2026-07-15T11:21:21.778767+00:00
 ---
 
 # fincept_strategy_runner

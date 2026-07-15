@@ -3,7 +3,7 @@ id: forge_auto_040_artifact_archive_ultimate_terminal_sovereign_certification_en
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.941616+00:00
+generated_at: 2026-07-15T11:21:21.785896+00:00
 ---
 
 # forge_auto_040_artifact_archive_ultimate_terminal_sovereign_certification_engine

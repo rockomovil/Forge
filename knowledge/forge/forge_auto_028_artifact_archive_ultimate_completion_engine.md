@@ -3,7 +3,7 @@ id: forge_auto_028_artifact_archive_ultimate_completion_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.940563+00:00
+generated_at: 2026-07-15T11:21:21.784534+00:00
 ---
 
 # forge_auto_028_artifact_archive_ultimate_completion_engine

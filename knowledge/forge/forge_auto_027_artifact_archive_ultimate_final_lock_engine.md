@@ -3,7 +3,7 @@ id: forge_auto_027_artifact_archive_ultimate_final_lock_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.940474+00:00
+generated_at: 2026-07-15T11:21:21.784433+00:00
 ---
 
 # forge_auto_027_artifact_archive_ultimate_final_lock_engine

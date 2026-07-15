@@ -3,7 +3,7 @@ id: database_schema
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.923453+00:00
+generated_at: 2026-07-15T11:21:21.764676+00:00
 ---
 
 # database_schema

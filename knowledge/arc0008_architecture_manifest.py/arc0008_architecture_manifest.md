@@ -3,7 +3,7 @@ id: arc0008_architecture_manifest
 family: arc0008_architecture_manifest.py
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.907816+00:00
+generated_at: 2026-07-15T11:21:21.746403+00:00
 ---
 
 # arc0008_architecture_manifest

@@ -3,7 +3,7 @@ id: arbitrage
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.907129+00:00
+generated_at: 2026-07-15T11:21:21.745177+00:00
 ---
 
 # arbitrage

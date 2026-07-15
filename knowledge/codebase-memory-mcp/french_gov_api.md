@@ -3,7 +3,7 @@ id: french_gov_api
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.980101+00:00
+generated_at: 2026-07-15T11:21:21.834524+00:00
 ---
 
 # french_gov_api

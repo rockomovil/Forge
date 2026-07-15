@@ -3,7 +3,7 @@ id: forge_knowledge_076_atlas_source_governance_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.957839+00:00
+generated_at: 2026-07-15T11:21:21.809135+00:00
 ---
 
 # forge_knowledge_076_atlas_source_governance_engine

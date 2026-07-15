@@ -3,7 +3,7 @@ id: profiler
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.000578+00:00
+generated_at: 2026-07-15T11:21:21.859235+00:00
 ---
 
 # profiler

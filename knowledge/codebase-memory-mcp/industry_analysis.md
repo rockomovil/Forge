@@ -3,7 +3,7 @@ id: industry_analysis
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.986229+00:00
+generated_at: 2026-07-15T11:21:21.841691+00:00
 ---
 
 # industry_analysis

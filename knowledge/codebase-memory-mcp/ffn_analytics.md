@@ -3,7 +3,7 @@ id: ffn_analytics
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.934266+00:00
+generated_at: 2026-07-15T11:21:21.777142+00:00
 ---
 
 # ffn_analytics

@@ -3,7 +3,7 @@ id: data_gov_hk_api
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.922613+00:00
+generated_at: 2026-07-15T11:21:21.763725+00:00
 ---
 
 # data_gov_hk_api

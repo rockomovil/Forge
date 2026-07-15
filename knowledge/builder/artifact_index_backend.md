@@ -3,7 +3,7 @@ id: artifact_index_backend
 family: builder
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.908624+00:00
+generated_at: 2026-07-15T11:21:21.747272+00:00
 ---
 
 # artifact_index_backend

@@ -3,7 +3,7 @@ id: forge_knowledge_196_atlas_plan_execution_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.968143+00:00
+generated_at: 2026-07-15T11:21:21.821215+00:00
 ---
 
 # forge_knowledge_196_atlas_plan_execution_engine

@@ -3,7 +3,7 @@ id: kernel_bootstrap
 family: core
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.987762+00:00
+generated_at: 2026-07-15T11:21:21.843479+00:00
 ---
 
 # kernel_bootstrap

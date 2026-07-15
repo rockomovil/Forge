@@ -3,7 +3,7 @@ id: nominatim_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.993851+00:00
+generated_at: 2026-07-15T11:21:21.850806+00:00
 ---
 
 # nominatim_data

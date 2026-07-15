@@ -3,7 +3,7 @@ id: portfolio_optimization
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.998982+00:00
+generated_at: 2026-07-15T11:21:21.857355+00:00
 ---
 
 # portfolio_optimization

@@ -3,7 +3,7 @@ id: runtime_json_writer
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.007024+00:00
+generated_at: 2026-07-15T11:21:21.866688+00:00
 ---
 
 # runtime_json_writer

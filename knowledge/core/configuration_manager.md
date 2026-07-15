@@ -3,7 +3,7 @@ id: configuration_manager
 family: core
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.920686+00:00
+generated_at: 2026-07-15T11:21:21.761698+00:00
 ---
 
 # configuration_manager

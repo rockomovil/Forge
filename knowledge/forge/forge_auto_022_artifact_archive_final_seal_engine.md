@@ -3,7 +3,7 @@ id: forge_auto_022_artifact_archive_final_seal_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.940047+00:00
+generated_at: 2026-07-15T11:21:21.783917+00:00
 ---
 
 # forge_auto_022_artifact_archive_final_seal_engine

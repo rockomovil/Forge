@@ -3,7 +3,7 @@ id: forge_knowledge_144_atlas_merkle_integrity_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.963734+00:00
+generated_at: 2026-07-15T11:21:21.816035+00:00
 ---
 
 # forge_knowledge_144_atlas_merkle_integrity_engine

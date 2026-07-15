@@ -3,7 +3,7 @@ id: apply_translations
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.907037+00:00
+generated_at: 2026-07-15T11:21:21.745073+00:00
 ---
 
 # apply_translations

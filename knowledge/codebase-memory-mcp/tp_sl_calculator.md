@@ -3,7 +3,7 @@ id: tp_sl_calculator
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.015943+00:00
+generated_at: 2026-07-15T11:21:21.877171+00:00
 ---
 
 # tp_sl_calculator

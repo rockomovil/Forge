@@ -3,7 +3,7 @@ id: quant_analytics_cli
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.002650+00:00
+generated_at: 2026-07-15T11:21:21.861783+00:00
 ---
 
 # quant_analytics_cli

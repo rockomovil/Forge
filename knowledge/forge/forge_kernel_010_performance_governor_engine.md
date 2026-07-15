@@ -3,7 +3,7 @@ id: forge_kernel_010_performance_governor_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.951068+00:00
+generated_at: 2026-07-15T11:21:21.798967+00:00
 ---
 
 # forge_kernel_010_performance_governor_engine

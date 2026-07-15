@@ -3,7 +3,7 @@ id: forge_auto_004_self_repair_loop_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.938520+00:00
+generated_at: 2026-07-15T11:21:21.782081+00:00
 ---
 
 # forge_auto_004_self_repair_loop_engine

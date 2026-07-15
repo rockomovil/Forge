@@ -3,7 +3,7 @@ id: forge_knowledge_152_atlas_strongly_connected_components_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.964405+00:00
+generated_at: 2026-07-15T11:21:21.816827+00:00
 ---
 
 # forge_knowledge_152_atlas_strongly_connected_components_engine

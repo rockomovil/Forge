@@ -3,7 +3,7 @@ id: ft_strategies
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.980796+00:00
+generated_at: 2026-07-15T11:21:21.835313+00:00
 ---
 
 # ft_strategies

@@ -3,7 +3,7 @@ id: __init__
 family: generated
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.896851+00:00
+generated_at: 2026-07-15T11:21:21.734862+00:00
 ---
 
 # __init__

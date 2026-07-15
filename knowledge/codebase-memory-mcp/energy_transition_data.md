@@ -3,7 +3,7 @@ id: energy_transition_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.928567+00:00
+generated_at: 2026-07-15T11:21:21.770939+00:00
 ---
 
 # energy_transition_data

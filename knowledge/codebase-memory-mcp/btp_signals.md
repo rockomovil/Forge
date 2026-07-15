@@ -3,7 +3,7 @@ id: btp_signals
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.914443+00:00
+generated_at: 2026-07-15T11:21:21.754903+00:00
 ---
 
 # btp_signals

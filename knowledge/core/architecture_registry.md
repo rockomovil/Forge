@@ -3,7 +3,7 @@ id: architecture_registry
 family: core
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.908264+00:00
+generated_at: 2026-07-15T11:21:21.746842+00:00
 ---
 
 # architecture_registry

@@ -3,7 +3,7 @@ id: eurostat_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.929521+00:00
+generated_at: 2026-07-15T11:21:21.772002+00:00
 ---
 
 # eurostat_data

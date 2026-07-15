@@ -3,7 +3,7 @@ id: eia_petroleum_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.927811+00:00
+generated_at: 2026-07-15T11:21:21.769834+00:00
 ---
 
 # eia_petroleum_data

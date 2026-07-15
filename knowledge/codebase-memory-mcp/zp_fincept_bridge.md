@@ -3,7 +3,7 @@ id: zp_fincept_bridge
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.024940+00:00
+generated_at: 2026-07-15T11:21:21.887509+00:00
 ---
 
 # zp_fincept_bridge

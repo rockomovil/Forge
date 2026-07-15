@@ -3,7 +3,7 @@ id: models
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.992182+00:00
+generated_at: 2026-07-15T11:21:21.848629+00:00
 ---
 
 # models

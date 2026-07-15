@@ -3,7 +3,7 @@ id: worldbank_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.023593+00:00
+generated_at: 2026-07-15T11:21:21.885809+00:00
 ---
 
 # worldbank_data

@@ -3,7 +3,7 @@ id: subagents
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.012613+00:00
+generated_at: 2026-07-15T11:21:21.873306+00:00
 ---
 
 # subagents

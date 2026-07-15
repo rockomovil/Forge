@@ -3,7 +3,7 @@ id: forge_knowledge_267_atlas_self_healing_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.974686+00:00
+generated_at: 2026-07-15T11:21:21.828285+00:00
 ---
 
 # forge_knowledge_267_atlas_self_healing_engine

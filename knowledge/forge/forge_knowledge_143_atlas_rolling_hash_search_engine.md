@@ -3,7 +3,7 @@ id: forge_knowledge_143_atlas_rolling_hash_search_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.963652+00:00
+generated_at: 2026-07-15T11:21:21.815937+00:00
 ---
 
 # forge_knowledge_143_atlas_rolling_hash_search_engine

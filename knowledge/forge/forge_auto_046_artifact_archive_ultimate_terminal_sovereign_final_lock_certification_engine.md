@@ -3,7 +3,7 @@ id: forge_auto_046_artifact_archive_ultimate_terminal_sovereign_final_lock_certi
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.942138+00:00
+generated_at: 2026-07-15T11:21:21.786526+00:00
 ---
 
 # forge_auto_046_artifact_archive_ultimate_terminal_sovereign_final_lock_certification_engine

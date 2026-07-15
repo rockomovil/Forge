@@ -3,7 +3,7 @@ id: eval_harness
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.929716+00:00
+generated_at: 2026-07-15T11:21:21.772210+00:00
 ---
 
 # eval_harness

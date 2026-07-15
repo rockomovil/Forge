@@ -3,7 +3,7 @@ id: nasa_gibs_api
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.993008+00:00
+generated_at: 2026-07-15T11:21:21.849631+00:00
 ---
 
 # nasa_gibs_api

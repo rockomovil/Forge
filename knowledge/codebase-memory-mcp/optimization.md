@@ -3,7 +3,7 @@ id: optimization
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.995837+00:00
+generated_at: 2026-07-15T11:21:21.853900+00:00
 ---
 
 # optimization

@@ -3,7 +3,7 @@ id: cfg0008_configuration_manifest
 family: cfg0008_configuration_manifest.py
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.917021+00:00
+generated_at: 2026-07-15T11:21:21.757696+00:00
 ---
 
 # cfg0008_configuration_manifest

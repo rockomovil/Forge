@@ -3,7 +3,7 @@ id: forge_compiler_008_artifact_cache_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.945104+00:00
+generated_at: 2026-07-15T11:21:21.790130+00:00
 ---
 
 # forge_compiler_008_artifact_cache_engine

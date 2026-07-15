@@ -3,7 +3,7 @@ id: forge_knowledge_169_atlas_decision_trace_engine
 family: forge
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.965862+00:00
+generated_at: 2026-07-15T11:21:21.818540+00:00
 ---
 
 # forge_knowledge_169_atlas_decision_trace_engine

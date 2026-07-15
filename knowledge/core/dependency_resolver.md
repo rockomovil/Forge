@@ -3,7 +3,7 @@ id: dependency_resolver
 family: core
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.925941+00:00
+generated_at: 2026-07-15T11:21:21.767043+00:00
 ---
 
 # dependency_resolver

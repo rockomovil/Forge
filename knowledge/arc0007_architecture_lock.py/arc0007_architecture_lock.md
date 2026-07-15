@@ -3,7 +3,7 @@ id: arc0007_architecture_lock
 family: arc0007_architecture_lock.py
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.907701+00:00
+generated_at: 2026-07-15T11:21:21.746294+00:00
 ---
 
 # arc0007_architecture_lock

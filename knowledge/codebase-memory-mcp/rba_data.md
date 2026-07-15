@@ -3,7 +3,7 @@ id: rba_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.003339+00:00
+generated_at: 2026-07-15T11:21:21.862578+00:00
 ---
 
 # rba_data

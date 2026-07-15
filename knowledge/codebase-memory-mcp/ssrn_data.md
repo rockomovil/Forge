@@ -3,7 +3,7 @@ id: ssrn_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.011318+00:00
+generated_at: 2026-07-15T11:21:21.871742+00:00
 ---
 
 # ssrn_data

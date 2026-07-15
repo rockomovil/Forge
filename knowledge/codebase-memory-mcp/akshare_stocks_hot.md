@@ -3,7 +3,7 @@ id: akshare_stocks_hot
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.905007+00:00
+generated_at: 2026-07-15T11:21:21.742817+00:00
 ---
 
 # akshare_stocks_hot

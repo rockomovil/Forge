@@ -3,7 +3,7 @@ id: tools_registry
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:01.015778+00:00
+generated_at: 2026-07-15T11:21:21.876983+00:00
 ---
 
 # tools_registry

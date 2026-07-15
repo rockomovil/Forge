@@ -3,7 +3,7 @@ id: bis_stats_data
 family: codebase-memory-mcp
 runtime: SHADOW_ONLY_READ_ONLY
 status: READY
-generated_at: 2026-07-15T11:21:00.911889+00:00
+generated_at: 2026-07-15T11:21:21.751078+00:00
 ---
 
 # bis_stats_data
