@@ -1,0 +1,10 @@
+{
+  "module": "FORGE-KAPI-0057",
+  "status": "PASS",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "parallel_execution": true,
+  "group_count": 8,
+  "patch_count": 36,
+  "execution_ready": true,
+  "execution_mode": "PARALLEL_PATCH_SIMULATION"
+}
