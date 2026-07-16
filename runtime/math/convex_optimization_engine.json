@@ -1,0 +1,39 @@
+{
+  "module": "FORGE-MATH-OPT-001",
+  "concept": "Convex Optimization Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "constraint_optimization": true,
+    "portfolio_allocation_analysis": true,
+    "risk_return_optimization": true,
+    "efficient_frontier_analysis": true,
+    "resource_allocation": true
+  },
+  "mathematical_model": {
+    "optimization_type": "convex_optimization",
+    "objective": "minimize_loss_or_maximize_utility",
+    "constraints": [
+      "risk_limit",
+      "capital_limit",
+      "exposure_limit",
+      "allocation_rules"
+    ]
+  },
+  "optimization_targets": [
+    "capital_distribution",
+    "portfolio_weights",
+    "risk_adjusted_return",
+    "decision_constraints"
+  ],
+  "integration": {
+    "bayesian_decision_optimization_engine": true,
+    "risk_engine": true,
+    "athena_financial_intelligence": true,
+    "simulation_engine": true,
+    "decision_intelligence": true
+  },
+  "source_module": "FORGE-MATH-STAT-004",
+  "state": "READY",
+  "hash": "7c511e0f5e20fbeda0a697b05d8500e63a42325ad346fe10ec2377d3658deefb"
+}
