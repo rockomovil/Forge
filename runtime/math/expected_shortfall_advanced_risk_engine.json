@@ -1,0 +1,51 @@
+{
+  "module": "FORGE-MATH-STAT-011",
+  "concept": "Expected Shortfall Advanced Risk Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "expected_shortfall_calculation": true,
+    "tail_loss_measurement": true,
+    "extreme_risk_analysis": true,
+    "conditional_loss_estimation": true,
+    "crisis_scenario_evaluation": true
+  },
+  "mathematical_model": {
+    "model_type": "conditional_tail_risk_measure",
+    "metrics": [
+      "Expected_Shortfall",
+      "Conditional_VaR",
+      "Average_Tail_Loss"
+    ],
+    "calculation_methods": [
+      "historical_tail_analysis",
+      "monte_carlo_tail_sampling",
+      "distribution_based_estimation"
+    ]
+  },
+  "risk_analysis": {
+    "tail_probability_analysis": true,
+    "extreme_loss_distribution": true,
+    "crisis_event_modeling": true,
+    "capital_protection_analysis": true,
+    "drawdown_severity_analysis": true
+  },
+  "market_applications": [
+    "portfolio_stress_testing",
+    "risk_limit_definition",
+    "capital_allocation_control",
+    "extreme_market_analysis",
+    "robust_strategy_evaluation"
+  ],
+  "integration": {
+    "value_at_risk_risk_engine": true,
+    "monte_carlo_simulation_engine": true,
+    "garch_volatility_forecasting_engine": true,
+    "robust_portfolio_optimization_engine": true,
+    "athena_financial_intelligence": true,
+    "risk_engine": true
+  },
+  "source_module": "FORGE-MATH-STAT-010",
+  "state": "READY",
+  "hash": "442fe5d9a7eca556685f90478b0a4520ed3c8cc69386ddac360e4cba3a8ba791"
+}
