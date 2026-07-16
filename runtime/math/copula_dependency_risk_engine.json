@@ -1,0 +1,51 @@
+{
+  "module": "FORGE-MATH-STAT-012",
+  "concept": "Copula Dependency Risk Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "dependency_modeling": true,
+    "non_linear_correlation_analysis": true,
+    "tail_dependency_analysis": true,
+    "multi_asset_risk_analysis": true,
+    "contagion_scenario_simulation": true
+  },
+  "mathematical_model": {
+    "model_type": "copula_dependency_model",
+    "components": [
+      "marginal_distribution_analysis",
+      "joint_dependency_structure",
+      "tail_dependence_estimation"
+    ],
+    "dependency_models": [
+      "gaussian_copula",
+      "t_copula",
+      "empirical_copula"
+    ]
+  },
+  "risk_analysis": {
+    "correlation_breakdown_detection": true,
+    "extreme_co_movement_analysis": true,
+    "portfolio_diversification_analysis": true,
+    "cross_asset_stress_testing": true,
+    "dependency_regime_detection": true
+  },
+  "market_applications": [
+    "multi_asset_portfolio_risk",
+    "correlation_risk_management",
+    "market_contagion_analysis",
+    "hedging_effectiveness_analysis",
+    "portfolio_resilience_testing"
+  ],
+  "integration": {
+    "expected_shortfall_advanced_risk_engine": true,
+    "value_at_risk_risk_engine": true,
+    "monte_carlo_simulation_engine": true,
+    "robust_portfolio_optimization_engine": true,
+    "athena_financial_intelligence": true,
+    "risk_engine": true
+  },
+  "source_module": "FORGE-MATH-STAT-011",
+  "state": "READY",
+  "hash": "dd0fac6a695b1dd0038dcda7be1a9fb7eb0e72d1f4018c6b461ded6a27913128"
+}
