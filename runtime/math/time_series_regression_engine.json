@@ -1,0 +1,54 @@
+{
+  "module": "FORGE-MATH-STAT-006",
+  "concept": "Time Series Regression Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "temporal_regression_analysis": true,
+    "rolling_window_prediction": true,
+    "trend_detection": true,
+    "seasonality_analysis": true,
+    "autocorrelation_analysis": true,
+    "financial_time_series_modeling": true
+  },
+  "mathematical_model": {
+    "model_type": "time_series_regression",
+    "extensions": [
+      "lag_features",
+      "rolling_statistics",
+      "trend_components",
+      "seasonal_components"
+    ],
+    "dependent_variable": "future_return_or_price_change",
+    "independent_variables": [
+      "historical_prices",
+      "volume_series",
+      "volatility_series",
+      "market_factors",
+      "external_variables"
+    ]
+  },
+  "validation": {
+    "residual_analysis": true,
+    "temporal_consistency": true,
+    "forecast_error_analysis": true,
+    "regime_change_detection": true
+  },
+  "market_applications": [
+    "return_forecasting",
+    "trend_identification",
+    "signal_generation",
+    "market_regime_analysis",
+    "volatility_prediction"
+  ],
+  "integration": {
+    "multiple_linear_regression_engine": true,
+    "bayesian_probability_update_engine": true,
+    "robust_portfolio_optimization_engine": true,
+    "simulation_engine": true,
+    "athena_financial_intelligence": true
+  },
+  "source_module": "FORGE-MATH-STAT-005",
+  "state": "READY",
+  "hash": "4d11b961eac10adb75d06c06c953a023938014c6cfaff50b75fbab4993defbbd"
+}
