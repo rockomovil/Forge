@@ -1,0 +1,43 @@
+{
+  "module": "FORGE-MATH-OPT-002",
+  "concept": "Quadratic Portfolio Optimization Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "mean_variance_optimization": true,
+    "portfolio_weight_optimization": true,
+    "efficient_frontier_generation": true,
+    "volatility_minimization": true,
+    "return_target_optimization": true
+  },
+  "mathematical_model": {
+    "optimization_type": "quadratic_programming",
+    "objective": "minimize_portfolio_variance",
+    "model": "Markowitz_mean_variance",
+    "formula": "minimize(1/2*xTQx-cTx)"
+  },
+  "constraints": [
+    "capital_budget",
+    "asset_weight_limits",
+    "risk_constraints",
+    "exposure_limits",
+    "allocation_rules"
+  ],
+  "portfolio_targets": [
+    "optimal_weights",
+    "risk_adjusted_return",
+    "efficient_frontier",
+    "minimum_variance_portfolio"
+  ],
+  "integration": {
+    "convex_optimization_engine": true,
+    "bayesian_decision_optimization_engine": true,
+    "risk_engine": true,
+    "athena_financial_intelligence": true,
+    "simulation_engine": true,
+    "portfolio_engine": true
+  },
+  "source_module": "FORGE-MATH-OPT-001",
+  "state": "READY",
+  "hash": "2ba49155d984783d986b3de9af617ccd7cab79892cce4a678b37ca8453498383"
+}
