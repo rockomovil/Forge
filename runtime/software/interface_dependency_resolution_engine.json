@@ -1,0 +1,52 @@
+{
+  "module": "FORGE-SOFTWARE-002",
+  "concept": "Interface Dependency Resolution Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "interface_mapping": true,
+    "dependency_resolution": true,
+    "producer_consumer_analysis": true,
+    "missing_dependency_detection": true,
+    "pipeline_compatibility_analysis": true
+  },
+  "software_model": {
+    "architecture": "dependency_aware_modular_composition",
+    "resolution_targets": [
+      "module_interfaces",
+      "worker_connections",
+      "artifact_dependencies",
+      "data_contracts"
+    ],
+    "analysis_modes": [
+      "static_dependency_analysis",
+      "interface_matching",
+      "compatibility_validation"
+    ]
+  },
+  "resolution_process": {
+    "discover_interfaces": true,
+    "map_inputs_outputs": true,
+    "validate_contracts": true,
+    "detect_missing_links": true,
+    "generate_dependency_map": true
+  },
+  "forge_applications": [
+    "automatic_pipeline_construction",
+    "worker_orchestration",
+    "module_composition",
+    "dependency_graph_enrichment",
+    "artifact_flow_management"
+  ],
+  "integration": {
+    "function_contract_validation_engine": true,
+    "dependency_graph_engine": true,
+    "knowledge_engine": true,
+    "worker_pool": true,
+    "task_executor": true,
+    "galaxy_orchestrator": true
+  },
+  "source_module": "FORGE-SOFTWARE-001",
+  "state": "READY",
+  "hash": "c55dda4e1764cf32b01714a7d9e6aa4e50f7f5457f72f26c6a65d26300123895"
+}
