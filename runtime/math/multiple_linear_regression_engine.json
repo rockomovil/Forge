@@ -1,0 +1,49 @@
+{
+  "module": "FORGE-MATH-STAT-005",
+  "concept": "Multiple Linear Regression Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "multivariable_prediction": true,
+    "factor_relationship_analysis": true,
+    "coefficient_estimation": true,
+    "regression_validation": true,
+    "market_factor_modeling": true
+  },
+  "mathematical_model": {
+    "model_type": "multiple_linear_regression",
+    "equation": "Y = beta0 + beta1X1 + beta2X2 + ... + betakXk + epsilon",
+    "dependent_variable": "target_prediction",
+    "independent_variables": [
+      "price_features",
+      "volume_features",
+      "volatility_features",
+      "market_indicators",
+      "sentiment_features"
+    ]
+  },
+  "validation": {
+    "r_squared_analysis": true,
+    "adjusted_r_squared": true,
+    "residual_analysis": true,
+    "multicollinearity_detection": true,
+    "statistical_significance_testing": true
+  },
+  "market_applications": [
+    "asset_return_prediction",
+    "factor_analysis",
+    "signal_generation",
+    "market_driver_identification",
+    "risk_factor_analysis"
+  ],
+  "integration": {
+    "bayesian_probability_update_engine": true,
+    "confidence_interval_engine": true,
+    "robust_portfolio_optimization_engine": true,
+    "athena_financial_intelligence": true,
+    "simulation_engine": true
+  },
+  "source_module": "FORGE-MATH-STAT-004",
+  "state": "READY",
+  "hash": "48aee4363dd4931c3077a79ac756a381079345892689dc7f01f2c2616548653e"
+}
