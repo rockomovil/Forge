@@ -1,0 +1,46 @@
+{
+  "module": "FORGE-MATH-OPT-003",
+  "concept": "Robust Portfolio Optimization Engine",
+  "runtime_mode": "SHADOW_ONLY_READ_ONLY",
+  "mutation_allowed": false,
+  "capabilities": {
+    "uncertainty_aware_optimization": true,
+    "robust_weight_allocation": true,
+    "worst_case_analysis": true,
+    "scenario_stress_testing": true,
+    "model_error_reduction": true
+  },
+  "mathematical_model": {
+    "optimization_type": "robust_optimization",
+    "objective": "maximize_risk_adjusted_utility_under_uncertainty",
+    "uncertainty_model": [
+      "return_estimation_error",
+      "volatility_uncertainty",
+      "correlation_uncertainty"
+    ]
+  },
+  "robustness_constraints": [
+    "worst_case_return",
+    "maximum_drawdown_control",
+    "risk_exposure_limit",
+    "scenario_resilience",
+    "allocation_stability"
+  ],
+  "portfolio_targets": [
+    "stable_weights",
+    "resilient_allocation",
+    "risk_adjusted_performance",
+    "regime_adaptation"
+  ],
+  "integration": {
+    "quadratic_portfolio_optimization_engine": true,
+    "convex_optimization_engine": true,
+    "bayesian_probability_update_engine": true,
+    "risk_engine": true,
+    "simulation_engine": true,
+    "athena_financial_intelligence": true
+  },
+  "source_module": "FORGE-MATH-OPT-002",
+  "state": "READY",
+  "hash": "205047cd1335a4c5a32fd91c4edf10a07a7cc90c0cc6628df1733138e27396f5"
+}
